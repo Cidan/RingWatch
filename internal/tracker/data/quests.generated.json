@@ -7,9 +7,6 @@
   "dlc": false,
   "summary": "Enter Ranni's service and recover the Fingerslayer Blade, slay the Baleful Shadow, and place the Dark Moon Ring on her doll to gain the Dark Moon Greatsword and unlock the Age of the Stars ending.",
   "reward": "Dark Moon Greatsword, Carian Inverted Statue, Discarded Palace Key, Age of the Stars ending",
-  "complete": {
-   "flag": 400393
-  },
   "steps": [
    {
     "title": "Meet 'Renna' at the Church of Elleh",
@@ -142,10 +139,6 @@
   "dlc": false,
   "summary": "Aid Ranni's half-wolf shadow Blaidd from the Darriwil bounty through the Radahn Festival until he turns hostile at Ranni's Rise, where defeating him yields the Royal Greatsword and his armor set.",
   "reward": "Royal Greatsword, Blaidd's Armor, Blaidd's Gauntlets, Blaidd's Greaves",
-  "complete": {
-   "item": 4060000,
-   "item_kind": "weapon"
-  },
   "steps": [
    {
     "title": "Learn the Finger Snap from Kalé",
@@ -224,9 +217,6 @@
   "dlc": false,
   "summary": "Serve the sorcerer Seluvis by administering his potion and gathering Amber Starlight, earning puppet spirit ashes, sorceries, and the Magic Scorpion Charm before he is found dead when Ranni's quest completes.",
   "reward": "Magic Scorpion Charm, puppet Spirit Ashes (Finger Maiden Therolina Puppet / Jarwight Puppet), Seluvis's sorceries",
-  "complete": {
-   "flag": 400149
-  },
   "steps": [
    {
     "title": "Meet Seluvis's spectre at Ranni's Rise",
@@ -285,9 +275,6 @@
   "dlc": false,
   "summary": "Befriend Ranni's troll war counselor and blacksmith Iji, who unlocks the Carian Filigreed Crest and guides Ranni's quest, until grief over Blaidd's death leaves him dead and dropping his bell bearing and helm.",
   "reward": "Carian Filigreed Crest, Iji's Bell Bearing, Iji's Mirrorhelm",
-  "complete": {
-   "flag": 400240
-  },
   "steps": [
    {
     "title": "Meet Smithing Master Iji in Liurnia",
@@ -339,9 +326,6 @@
   "dlc": false,
   "summary": "Heal the Scarlet Rot-afflicted Millicent with the Unalloyed Gold Needle and aid her against her sisters, culminating in her acceptance of her fate and access to Miquella's Needle at Malenia's arena.",
   "reward": "Prosthesis-Wearer Heirloom, Rotten Winged Sword Insignia, Unalloyed Gold Needle (enables Miquella's Needle + Somber Ancient Dragon Smithing Stone)",
-  "complete": {
-   "flag": 400480
-  },
   "steps": [
    {
     "title": "Start at Gowry's Shack",
@@ -420,9 +404,6 @@
   "dlc": false,
   "summary": "Aid the sorcerer Gowry in healing and guiding Millicent through the Unalloyed Gold Needle, unlocking his sorceries and ultimately his bell bearing after Millicent's fate is decided.",
   "reward": "Glintstone Stars, Night Shard, Night Maiden's Mist, Pest Threads, Desperate Prayer gesture, Flock's Canvas Talisman, Gowry's Bell Bearing",
-  "complete": {
-   "flag": 400312
-  },
   "steps": [
    {
     "title": "Speak with Gowry",
@@ -472,9 +453,6 @@
   "dlc": false,
   "summary": "Become Sellen's apprentice and help the exiled sorceress restore her body and confront Witch-Hunter Jerren, choosing to aid or betray her to decide her fate.",
   "reward": "Glintstone Kris, Shard Spiral, Eccentric Set (assist) or Witch's Glintstone Crown, Sellen's Bell Bearing (challenge)",
-  "complete": {
-   "flag": 100560
-  },
   "steps": [
    {
     "title": "Become Sellen's apprentice",
@@ -557,9 +535,6 @@
   "dlc": false,
   "summary": "Help the sorcery student Thops return to Raya Lucaria Academy by giving him a spare Academy Glintstone Key, only to later find his body and inherit his sorcery and staff.",
   "reward": "Erudition gesture, Thops's Barrier, Academy Glintstone Staff, Thops's Bell Bearing",
-  "complete": {
-   "flag": 400362
-  },
   "steps": [
    {
     "title": "Meet Thops at the Church of Irith",
@@ -598,9 +573,6 @@
   "dlc": false,
   "summary": "Help the lady-in-waiting Rya recover her stolen necklace, which leads to a Volcano Manor invitation and the unraveling of her true identity as the serpent Zorayas.",
   "reward": "Volcano Manor Invitation, Serpent's Amnion, Daedicar's Woe",
-  "complete": {
-   "flag": 400091
-  },
   "steps": [
    {
     "title": "Meet Rya in Liurnia",
@@ -737,9 +709,6 @@
   "dlc": false,
   "summary": "The warrior Bernahl sells Ashes of War at the Warmaster's Shack before joining Volcano Manor as Recusant Bernahl, eventually turning hostile and invading in Crumbling Farum Azula.",
   "reward": "Eruption, Assassin's Gambit, Gelmir's Fury, Devourer's Scepter, Beast Champion Set",
-  "complete": {
-   "flag": 400293
-  },
   "steps": [
    {
     "title": "Meet Bernahl at the Warmaster's Shack",
@@ -789,10 +758,6 @@
   "dlc": false,
   "summary": "Diallos Hoslow seeks vengeance for his lost servant Lanya, infiltrates the Volcano Manor assassins, and finds redemption defending the villagers of Jarburg.",
   "reward": "Diallos's Mask, Hoslow's Petal Whip, Numen's Rune",
-  "complete": {
-   "item": 651000,
-   "item_kind": "armor"
-  },
   "steps": [
    {
     "title": "Meet Diallos at the Roundtable Hold",
@@ -1049,9 +1014,6 @@
   "dlc": false,
   "summary": "The All-Knowing host of the Roundtable Hold who rewards the player with incantations for locating hidden demigods before becoming a mandatory late-game boss.",
   "reward": "Fevor's Cookbook [3], Black Flame's Protection, Law of Causality, Lord's Divine Fortification (and his boss drops)",
-  "complete": {
-   "flag": 510060
-  },
   "steps": [
    {
     "title": "Meet Gideon at the Roundtable Hold",
@@ -1099,9 +1061,6 @@
   "dlc": false,
   "summary": "A cleric who leaves the Roundtable Hold to follow the scholar Goldmask, only to lose his faith as Goldmask's heretical conclusions unravel the Golden Order.",
   "reward": "Prayer gesture, Immutable Shield incantation, Corhyn's Bell Bearing, Corhyn's Robe",
-  "complete": {
-   "flag": 400370
-  },
   "steps": [
    {
     "title": "Meet Corhyn at the Roundtable Hold",
@@ -1151,9 +1110,6 @@
   "dlc": false,
   "summary": "A silent scholar who studies the Golden Order's flaws and, with the player's help, devises the Mending Rune that enables the Age of Order ending.",
   "reward": "Golden Order Totality gesture, Goldmask's Set, Mending Rune of Perfect Order (Age of Order / Goldmask's Fellowship ending)",
-  "complete": {
-   "flag": 9500
-  },
   "steps": [
    {
     "title": "Find Goldmask on the Altus Plateau",
@@ -1236,9 +1192,6 @@
   "dlc": false,
   "summary": "Fia, the Deathbed Companion, sends you to gather the marks of Death so she can unleash the Mending Rune of the Death-Prince and the Age of the Duskborn ending.",
   "reward": "Mending Rune of the Death-Prince; Radiant Baldachin's Blessing",
-  "complete": {
-   "flag": 9502
-  },
   "steps": [
    {
     "title": "Receive Fia's embrace",
@@ -1302,9 +1255,6 @@
   "dlc": false,
   "summary": "D, a hunter of Those Who Live in Death, points you toward Gurranq and the slaying of Deathroot-bearing foes before his quest fatally collides with Fia's.",
   "reward": "Order's Blade and Litany of Proper Death incantations; Twinned Set; D's Bell Bearing; Inner Order gesture",
-  "complete": {
-   "flag": 400348
-  },
   "steps": [
    {
     "title": "Meet D in Stormhill",
@@ -1369,9 +1319,6 @@
   "dlc": false,
   "summary": "The imprisoned Dung Eater has you gather Seedbed Curses so he can curse all of the Lands Between, yielding the Mending Rune of the Fell Curse and the Blessing of Despair ending.",
   "reward": "Mending Rune of the Fell Curse; Omen Set; Sword of Milos",
-  "complete": {
-   "flag": 9504
-  },
   "steps": [
    {
     "title": "Meet the Dung Eater at Roundtable Hold",
@@ -1429,9 +1376,6 @@
   "dlc": false,
   "summary": "The blind maiden Hyetta seeks the Frenzied Flame, asking you for Shabriri Grapes as you guide her toward Leyndell to become your Finger Maiden of the Three Fingers.",
   "reward": "Frenzied Flame Seal; five Frenzyflame Stones",
-  "complete": {
-   "flag": 400089
-  },
   "steps": [
    {
     "title": "Receive Irina's letter",
@@ -1477,10 +1421,6 @@
   "dlc": false,
   "summary": "The Bloody Finger hunter Yura aids you against invading Bloody Fingers across the Lands Between until his hunt for Eleonora ends in his death and his body is later claimed by Shabriri.",
   "reward": "Nagakiba; Eleonora's Poleblade; Ash of War: Raptor of the Mists; Purifying Crystal Tear",
-  "complete": {
-   "item": 10050000,
-   "item_kind": "weapon"
-  },
   "steps": [
    {
     "title": "Meet Yura near the Seaside Ruins",
@@ -1614,9 +1554,6 @@
   "dlc": false,
   "summary": "Guide a blind Albinauric markswoman toward her sister at the Haligtree by carrying her spirit and uniting the two halves of the Haligtree Secret Medallion.",
   "reward": "Latenna the Albinauric (Spirit Ashes), Somber Ancient Dragon Smithing Stone",
-  "complete": {
-   "flag": 400411
-  },
   "steps": [
    {
     "title": "Obtain the Right Medallion from Albus",
@@ -1746,9 +1683,6 @@
   "dlc": false,
   "summary": "A living jar warrior who repeatedly gets stuck on his journey to become a champion, ending in a final duel that yields his power.",
   "reward": "Shard of Alexander, Alexander's Innards",
-  "complete": {
-   "flag": 400174
-  },
   "steps": [
    {
     "title": "Free Alexander in Stormhill",

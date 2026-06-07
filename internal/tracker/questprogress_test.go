@@ -48,22 +48,15 @@ func TestComputeQuestsCoarse(t *testing.T) {
 	if complete != 0 {
 		t.Errorf("with no flags/items set, no quest should be complete, got %d", complete)
 	}
-	if trackable < 15 || trackable >= total {
-		t.Errorf("expected a substantial trackable subset (< total), got %d/%d", trackable, total)
+	// Auto-detection is intentionally OFF for now: every quest is a reference guide
+	// (no completion signal). If signals are re-added, update this expectation.
+	if trackable != 0 {
+		t.Errorf("expected all quests to be guides (0 trackable), got %d/%d", trackable, total)
 	}
-
-	// Guides (no completion signal) must never be Trackable, and there must be some.
-	guides := 0
 	for _, q := range p.Quests {
-		if q.CompleteWhen == nil && q.Trackable {
-			t.Errorf("quest %q has no signal but is marked Trackable", q.Giver)
+		if q.Trackable || q.CompleteWhen != nil {
+			t.Errorf("quest %q should be an untracked guide", q.Giver)
 		}
-		if !q.Trackable {
-			guides++
-		}
-	}
-	if guides == 0 {
-		t.Error("expected some reference-guide quests")
 	}
 
 	// Progression order: base quests precede the first DLC quest.

@@ -74,8 +74,13 @@ func (m Model) headerView() string {
 	case sectionItems:
 		right = subtleStyle.Render(fmt.Sprintf("%s · %s   ", m.groupBy.Label(), m.filterLabel())) + right
 	case sectionQuests:
-		_, _, total := m.questProg.Counts()
-		right = subtleStyle.Render(fmt.Sprintf("%d quests · %d tracked   ", total, tot)) + right
+		_, trackable, total := m.questProg.Counts()
+		if trackable == 0 {
+			// No completion auto-detection right now — quests are reference guides.
+			right = subtleStyle.Render(fmt.Sprintf("%d questlines · reference guides   ", total))
+		} else {
+			right = subtleStyle.Render(fmt.Sprintf("%d quests · %d tracked   ", total, trackable)) + right
+		}
 	}
 	line2 := lineLR("  "+who, right+"  ", w)
 
