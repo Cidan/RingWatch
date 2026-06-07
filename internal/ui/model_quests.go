@@ -4,13 +4,11 @@ import (
 	"strings"
 
 	"github.com/Cidan/RingWatch/internal/locations"
-	"github.com/Cidan/RingWatch/internal/save"
 	"github.com/Cidan/RingWatch/internal/tracker"
 )
 
-// recomputeQuests rebuilds quest progress from the current character. Steps resolve
-// against two save-derived anchors: event flags (read like boss-defeat flags) and
-// owned items (read from the inventory, as the items view does).
+// recomputeQuests rebuilds quest progress from the current character's NPC
+// quest-progression event flags (read like boss-defeat flags).
 func (m *Model) recomputeQuests() {
 	slot := m.slot
 	flagReader := func(id uint32) (bool, bool) {
@@ -19,11 +17,7 @@ func (m *Model) recomputeQuests() {
 		}
 		return m.saveFile.IsDefeated(slot, id)
 	}
-	var owned *save.OwnedItems
-	if m.saveFile != nil {
-		owned, _ = m.saveFile.OwnedItems(slot)
-	}
-	m.questProg = tracker.ComputeQuests(flagReader, ownerFor(owned))
+	m.questProg = tracker.ComputeQuests(flagReader)
 }
 
 // onSteps reports whether navigation currently targets the steps (right) pane. The

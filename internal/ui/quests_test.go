@@ -67,10 +67,9 @@ func TestQuestProgressLiveSave(t *testing.T) {
 		t.Skip("no active characters")
 	}
 	slot := act[0].Slot
-	owned, _ := s.OwnedItems(slot)
 	flagReader := func(id uint32) (bool, bool) { return s.IsDefeated(slot, id) }
 
-	p := tracker.ComputeQuests(flagReader, ownerFor(owned))
+	p := tracker.ComputeQuests(flagReader)
 	started := 0
 	for _, q := range p.Quests {
 		if q.Started() {

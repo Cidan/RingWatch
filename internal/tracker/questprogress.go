@@ -100,32 +100,31 @@ func (p QuestProgress) QuestsComplete() (complete, total int) {
 	return
 }
 
-// ComputeQuests builds quest progress for every quest from two save-derived
-// resolvers: flagReader reports whether an event flag is set (same reader the boss
-// view uses); owner reports whether a reward item is in the player's inventory (the
-// reader the items view uses). A step is anchored by an event flag, an owned item,
-// or both — owner carries the DLC questlines, whose flags are not in the base data.
+// ComputeQuests builds quest progress for every quest from flagReader, which reports
+// whether an NPC quest-progression event flag is set (the same reader the boss view
+// uses for defeat flags).
 //
-// Completion rolls up monotonically: a step counts as done if its own anchor is
-// satisfied OR any later step's anchor is — so the first incomplete required step is
-// always an accurate "what to do next", even where an intermediate beat has no
-// dedicated anchor. This is the hybrid model: full authored step text, save-derived
-// position anchored to the best-available signal per step.
-func ComputeQuests(flagReader Defeater, owner Owner) QuestProgress {
+// Completion rolls up monotonically: a step counts as done if its own flag is set OR
+// any later step's flag is — so the first incomplete required step is always an
+// accurate "what to do next", even where an intermediate beat has no dedicated flag.
+// Because the flags are validated to be durable and monotonic, the roll-up never
+// over-claims: the deepest flag sits on the final step, so a quest only reads as
+// complete when it truly is.
+func ComputeQuests(flagReader Defeater) QuestProgress {
 	var out []QuestStatus
 	for _, m := range orderQuests(allQuests) {
-		qs := computeQuest(m.Quest, flagReader, owner)
+		qs := computeQuest(m.Quest, flagReader)
 		qs.Phase = m.Phase
 		out = append(out, qs)
 	}
 	return QuestProgress{Quests: out}
 }
 
-func computeQuest(q Quest, flagReader Defeater, owner Owner) QuestStatus {
+func computeQuest(q Quest, flagReader Defeater) QuestStatus {
 	n := len(q.Steps)
 	steps := make([]QuestStepStatus, n)
 
-	// First pass: resolve each step's own anchor (event flag and/or owned item).
+	// First pass: resolve each step's own flag.
 	ownDone := make([]bool, n)
 	ownKnown := make([]bool, n)
 	for i, s := range q.Steps {
@@ -133,14 +132,8 @@ func computeQuest(q Quest, flagReader Defeater, owner Owner) QuestStatus {
 		if s.Flag != 0 && flagReader != nil {
 			if set, ok := flagReader(s.Flag); ok {
 				ownKnown[i] = true
-				ownDone[i] = ownDone[i] || set
+				ownDone[i] = set
 			}
-		}
-		if s.Item != 0 && owner != nil {
-			// Inventory is always readable for an active slot, so an item anchor is
-			// always "known"; ownership decides done.
-			ownKnown[i] = true
-			ownDone[i] = ownDone[i] || owner(Item{ID: s.Item, Kind: s.ItemKind})
 		}
 	}
 

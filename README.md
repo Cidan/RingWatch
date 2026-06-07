@@ -29,12 +29,14 @@ Pure Go, Linux-first. Built with [Bubble Tea v2](https://charm.land) and
 - **Every NPC questline** — the **Quests** tab breaks each quest down by quest-giver
   on the left and ordered steps on the right, each step with concrete *what to do /
   where to go* instructions and missable-step warnings. Your position in each quest
-  is read **from the save**: steps are anchored to event flags (quest-item receipts,
-  quest-exclusive boss defeats) and to inventory ownership of the reward, then rolled
-  up so the first incomplete step is always your accurate next objective. 43
+  is read **from the save**: steps are anchored to the game's own NPC
+  quest-progression event flags, rolled up so the first incomplete step is always
+  your accurate next objective. The flags are validated against real saves so a
+  quest only reads as far as you've actually gotten — no false completions. 43
   questlines spanning the base game and *Shadow of the Erdtree* (Ranni, Millicent,
   the Volcano Manor assassins, Fia, the Frenzied Flame, Leda's band, Count Ymir, and
-  more).
+  more); base-game questlines track per step, the DLC questlines render as reference
+  guides for now (see *How it works*).
 - **Live updates** — watches the save file and shows a toast the moment a boss
   falls; no need to restart.
 - **Multiple characters** — pick any of your save slots.
@@ -97,17 +99,23 @@ box) from the same slot, resolving owned weapons/armor/talismans/spells/ashes vi
 the in-save GaItem table, and matches them against an embedded item dataset
 generated from the game's `regulation.bin` (see *Regenerating the item dataset*).
 
-For **quests**, each questline is an ordered list of steps in an embedded dataset.
-Every step is anchored to one or both of two save-derived signals: an **event flag**
-(the same id space as boss flags — quest-item receipts and quest-exclusive boss
-defeats) and **inventory ownership** of the step's reward item (the mechanism the
-Items view already uses, which is what gives the DLC questlines real progress, since
-their flags aren't in the base data). Completion **rolls up monotonically** — a step
-counts as done if its own anchor *or* any later step's anchor is satisfied — so the
-first incomplete step is always an accurate "what to do next", even where an
-intermediate beat ("talk to X") has no dedicated flag. A questline with no resolvable
-anchor at all is shown as a reference guide (marked `◇`) rather than faked as
-unstarted.
+For **quests**, each questline is an ordered list of steps in an embedded dataset,
+and each step is anchored to a single **NPC quest-progression event flag** (same id
+space as boss-defeat flags) that the game sets when you reach that beat. Completion
+**rolls up monotonically** — a step counts as done if its own flag *or* any later
+step's flag is set — so the first incomplete step is always an accurate "what to do
+next", even where an intermediate beat ("talk to X") has no dedicated flag.
+
+The hard part is that the game's flags are noisy: many are *transient* (set then
+cleared as you progress) or generic (shared/incidental). RingWatch picks reliable
+flags by **validating every candidate against a spread of real save files** — a flag
+is only trusted if it stays set on a character who has completed the quest and its
+set/unset pattern narrows monotonically with progress. This is why a quest only ever
+reads as far as you've actually gotten. Base-game flags come from empirical
+save-diffs ([oisis/EldenRing-SaveForge](https://github.com/oisis/EldenRing-SaveForge));
+the *Shadow of the Erdtree* questlines have no such dataset yet, so they're shown as
+reference guides (marked `◇`) — steps and links, but no save-derived progress —
+rather than faked as unstarted.
 
 ## Layout
 
@@ -153,16 +161,22 @@ dataset. Re-run it after a game patch to refresh the items.
   [Mjolniar build planner](https://github.com/Mjolniar/elden-ring-index-build-planner)
   dataset plus curated wiki research.
 - Quest step text is sourced from the [Elden Ring Fextralife wiki](https://eldenring.wiki.fextralife.com);
-  quest-step event flags were harvested from the reverse-engineered EMEVD data in
-  [thefifthmatt/SoulsRandomizers](https://github.com/thefifthmatt/SoulsRandomizers)
-  (`itemevents.txt`) and verified against the embedded item/boss datasets.
+  per-step quest-progression event flags come from the empirical save-diffs in
+  [oisis/EldenRing-SaveForge](https://github.com/oisis/EldenRing-SaveForge), cross-checked
+  against decompiled EMEVD/TALK scripts and the item-event data in
+  [thefifthmatt/SoulsRandomizers](https://github.com/thefifthmatt/SoulsRandomizers),
+  then validated against real save files.
 - Boss, item, and quest links to the [Elden Ring Fextralife wiki](https://eldenring.wiki.fextralife.com).
 
 ## Roadmap
 
 - Deeper location coverage for the long tail (generic armor pieces, spirit-ash variants).
 - Location overrides for any mismatched wiki links.
-- Finer per-step quest flags (from decompiled TALK scripts) for the handful of
-  questlines currently shown as reference guides (`◇`) for lack of a save signal.
+- **DLC questline tracking.** The base-game questlines track per step from real
+  progression flags; the *Shadow of the Erdtree* questlines currently render as
+  reference guides (`◇`) because no save-diffed DLC flag dataset exists yet. Getting
+  there needs either our own DLC save-diff (from a DLC-completed character) or mining
+  the decompiled DLC TALK scripts — and the branchy Leda-band quests will need
+  per-branch handling.
 
 Not affiliated with FromSoftware or Bandai Namco.

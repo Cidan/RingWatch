@@ -33,27 +33,23 @@ type Quest struct {
 
 // QuestStep is one ordered beat of a questline.
 //
-// Completion is detected from the save by two complementary anchors, either of which
-// marks the step done:
-//   - Flag: an event flag set when the step completes (quest-item receipts, quest-
-//     exclusive boss defeats, known progression flags) — monotonic and the primary
-//     signal, in the same id space as boss-defeat flags.
-//   - Item/ItemKind: the param id + kind of a gear reward granted by the step; the
-//     step counts done when that item is owned (reusing the inventory tracking that
-//     backs the Items view). This is what gives the DLC questlines — whose flags are
-//     not in the base event-flag data — real save-derived progress.
+// Completion is detected from the save by Flag: an NPC quest-progression event flag
+// that the game sets when the step is reached/completed, in the same id space as
+// boss-defeat flags. These are sourced from empirical save-diffs and validated so
+// that they are durable (stay set) and monotonic across known progress — see
+// questprogress.go. Flag == 0 means the step has no dedicated reliable signal and is
+// resolved by roll-up from a later anchored step.
 //
-// A step with neither anchor (Flag == 0 && Item == 0) has no dedicated signal and is
-// resolved by roll-up from a later anchored step (see questprogress.go).
+// (Earlier versions also anchored on inventory ownership of a reward item and on
+// boss defeats; both were dropped because owning an item or killing a boss is not
+// gated by the quest — e.g. a world-pickup reward would falsely complete the quest.)
 type QuestStep struct {
-	Flag     uint32   `json:"flag,omitempty"`
-	Item     uint32   `json:"item,omitempty"`      // reward item param id (inventory anchor)
-	ItemKind ItemKind `json:"item_kind,omitempty"` // reward item kind (selects the inventory set)
-	Title    string   `json:"title"`
-	Detail   string   `json:"detail,omitempty"`   // what to do / where to go
-	Location string   `json:"location,omitempty"` // place name (annotation + link)
-	Optional bool     `json:"optional,omitempty"`
-	Warning  string   `json:"warning,omitempty"` // missable / point-of-no-return note
+	Flag     uint32 `json:"flag,omitempty"`
+	Title    string `json:"title"`
+	Detail   string `json:"detail,omitempty"`   // what to do / where to go
+	Location string `json:"location,omitempty"` // place name (annotation + link)
+	Optional bool   `json:"optional,omitempty"`
+	Warning  string `json:"warning,omitempty"` // missable / point-of-no-return note
 }
 
 // PageTitle is the Fextralife page title for the quest-giver (Wiki override, else
