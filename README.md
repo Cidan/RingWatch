@@ -13,6 +13,8 @@ Pure Go, Linux-first. Built with [Bubble Tea v2](https://charm.land) and
 > RingWatch is an independent Go reimagining focused on a fast Linux TUI for boss
 > and item tracking — no external tools, no OBS/overlay.
 
+![RingWatch — the Items view, grouped by location](img/screenshot.png)
+
 ## Features
 
 - **Reads your real save** — parses the `ER0000.sl2` BND4 container directly (no
