@@ -1,0 +1,12 @@
+# Build output
+/ringwatch
+/dist/
+
+# Upstream reference clone (kept locally for reference, not part of this module)
+/repo/
+
+# Go
+*.test
+*.out
+*.prof
+.claude/worktrees/

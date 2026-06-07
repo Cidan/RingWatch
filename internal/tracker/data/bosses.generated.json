@@ -1,0 +1,1487 @@
+[
+  {
+    "event_id": 28000800,
+    "name": "Midra Lord of Frenzied Flame",
+    "region": "Abyssal Woods",
+    "dlc": true,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 2052430800,
+    "name": "Jori, the Elder Inquisitor",
+    "region": "Abyssal Woods",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 14000800,
+    "name": "Rennala, Queen of the Full Moon",
+    "region": "Academy of Raya Lucaria",
+    "dlc": false,
+    "optional": false,
+    "notes": "great rune boss"
+  },
+  {
+    "event_id": 14000850,
+    "name": "Red Wolf of Radagon",
+    "region": "Academy of Raya Lucaria",
+    "dlc": false,
+    "optional": false
+  },
+  {
+    "event_id": 12010800,
+    "name": "Dragonkin Soldier of Nokstella",
+    "region": "Ainsel River",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30070800,
+    "name": "Erdtree Burial Watchdog",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30080800,
+    "name": "Ancient Hero of Zamor",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30120800,
+    "name": "Perfumer Tricia & Misbegotten Warrior",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31180800,
+    "name": "Omenkiller & Miranda",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31190800,
+    "name": "Black Knife Assassin",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31190850,
+    "name": "Necromancer Garris",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 32040800,
+    "name": "Stonedigger Troll",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 32050800,
+    "name": "Crystalian - Ringblade/Spear",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1038510800,
+    "name": "Demi-Human Queen Gilika",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1038520800,
+    "name": "Tibia Mariner",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1039500800,
+    "name": "Godefroy the Grafted",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1039510800,
+    "name": "Night's Cavalry",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1039540800,
+    "name": "Elemer of the Briar",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true,
+    "notes": "Elemer of the Briar / Bell Bearing Hunter at Shaded Castle; alt global defeat flag 9182 (TTC blob used 9182)"
+  },
+  {
+    "event_id": 1040520800,
+    "name": "Black Knife Assassin",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1040530800,
+    "name": "Sanguine Noble",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1041500800,
+    "name": "Fallingstar Beast",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1041510800,
+    "name": "Tree Sentinels",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1041520800,
+    "name": "Ancient Dragon Lansseax",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1041530800,
+    "name": "Wormface",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1042550800,
+    "name": "Godskin Apostle",
+    "region": "Altus Plateau",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 2044450800,
+    "name": "Romina, Saint of the Bud",
+    "region": "Ancient Ruins of Rauh",
+    "dlc": true,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 2046460800,
+    "name": "Divine Beast Dancing Lion",
+    "region": "Ancient Ruins of Rauh",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 30140800,
+    "name": "Erdtree Burial Watchdog Duo",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30150800,
+    "name": "Cemetery Shade",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31210800,
+    "name": "Frenzied Duelist",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 32070800,
+    "name": "Magma Wyrm",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 32080800,
+    "name": "Fallingstar Beast",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1047400800,
+    "name": "Putrid Avatar",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1048370800,
+    "name": "Decaying Ekzykes",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1048400800,
+    "name": "Mad Pumpkin Head Duo",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1049370800,
+    "name": "Night's Cavalry",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1049370850,
+    "name": "Death Rite Bird",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1049380800,
+    "name": "Commander O'Neil",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1049390800,
+    "name": "Nox Swordstress and Nox Priest",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1051360800,
+    "name": "Misbegotten Warrior and Crucible Knight",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1252380800,
+    "name": "Starscourge Radahn",
+    "region": "Caelid",
+    "dlc": false,
+    "optional": false,
+    "notes": "great rune boss"
+  },
+  {
+    "event_id": 30100800,
+    "name": "Crucible Knight & Crucible Knight Ordovis",
+    "region": "Capital Outskirts",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30130800,
+    "name": "Grave Warden Duelist",
+    "region": "Capital Outskirts",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 34120800,
+    "name": "Onyx Lord",
+    "region": "Capital Outskirts",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 34140850,
+    "name": "Fell Twins",
+    "region": "Capital Outskirts",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1043530800,
+    "name": "Bell Bearing Hunter",
+    "region": "Capital Outskirts",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1044530800,
+    "name": "Deathbird",
+    "region": "Capital Outskirts",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1045520800,
+    "name": "Draconic Tree Sentinel",
+    "region": "Capital Outskirts",
+    "dlc": false,
+    "optional": false
+  },
+  {
+    "event_id": 22000800,
+    "name": "Putrescent Knight",
+    "region": "Cerulean Coast",
+    "dlc": true,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 2046380800,
+    "name": "Dancer of Ranah",
+    "region": "Cerulean Coast",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2046400800,
+    "name": "Demi-Human Queen Marigga",
+    "region": "Cerulean Coast",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2048380850,
+    "name": "Ghostflame Dragon",
+    "region": "Cerulean Coast",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2047390800,
+    "name": "Death Rite Bird",
+    "region": "Charo's Hidden Grave",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 30190800,
+    "name": "Putrid Grave Warden Duelist",
+    "region": "Consecrated Snowfield",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30200800,
+    "name": "Stray Mimic Tear",
+    "region": "Consecrated Snowfield",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31120800,
+    "name": "Misbegotten Crusader",
+    "region": "Consecrated Snowfield",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 32110800,
+    "name": "Astel, Stars of Darkness",
+    "region": "Consecrated Snowfield",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1048570800,
+    "name": "Death Rite Bird",
+    "region": "Consecrated Snowfield",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1050560800,
+    "name": "Great Wyrm Theodorix",
+    "region": "Consecrated Snowfield",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1050570850,
+    "name": "Putrid Avatar",
+    "region": "Consecrated Snowfield",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1248550800,
+    "name": "Night's Cavalry Duo",
+    "region": "Consecrated Snowfield",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 13000800,
+    "name": "Maliketh, the Black Blade",
+    "region": "Crumbling Farum Azula",
+    "dlc": false,
+    "optional": false,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 13000830,
+    "name": "Dragonlord Placidusax",
+    "region": "Crumbling Farum Azula",
+    "dlc": false,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 13000850,
+    "name": "Godskin Duo",
+    "region": "Crumbling Farum Azula",
+    "dlc": false,
+    "optional": false
+  },
+  {
+    "event_id": 12030390,
+    "name": "Crucible Knight Siluria",
+    "region": "Deeproot Depths",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 12030800,
+    "name": "Fia's Champions",
+    "region": "Deeproot Depths",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 12030850,
+    "name": "Lichdragon Fortissax",
+    "region": "Deeproot Depths",
+    "dlc": false,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 30160800,
+    "name": "Putrid Tree Spirit",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31100800,
+    "name": "Beastman of Farum Azula",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31110800,
+    "name": "Putrid Crystalians",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31200800,
+    "name": "Cleanrot Knights",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 34130800,
+    "name": "Godskin Apostle",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1048410800,
+    "name": "Bell Bearing Hunter",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1049390850,
+    "name": "Battlemage Hugues",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1051400800,
+    "name": "Putrid Avatar",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1051430800,
+    "name": "Black Blade Kindred",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1052410800,
+    "name": "Flying Dragon Greyll",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1052410850,
+    "name": "Night's Cavalry",
+    "region": "Dragonbarrow",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 19000800,
+    "name": "Radagon of the Golden Order & Elden Beast",
+    "region": "Elden Throne",
+    "dlc": false,
+    "optional": false,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 20010800,
+    "name": "Promised Consort Radahn",
+    "region": "Enir-Ilim",
+    "dlc": true,
+    "optional": false,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 1048510800,
+    "name": "Night's Cavalry",
+    "region": "Forbidden Lands",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1049520800,
+    "name": "Black Blade Kindred",
+    "region": "Forbidden Lands",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 20000800,
+    "name": "Divine Beast Dancing Lion",
+    "region": "Gravesite Plain",
+    "dlc": true,
+    "optional": false,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 41000800,
+    "name": "Demi-Human Swordmaster Onze",
+    "region": "Gravesite Plain",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 41020800,
+    "name": "Lamenter",
+    "region": "Gravesite Plain",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 43000800,
+    "name": "Chief Bloodfiend",
+    "region": "Gravesite Plain",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2045440800,
+    "name": "Ghostflame Dragon",
+    "region": "Gravesite Plain",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2046410800,
+    "name": "Blackgaol Knight",
+    "region": "Gravesite Plain",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2048440800,
+    "name": "Rellana, Twin Moon Knight",
+    "region": "Gravesite Plain",
+    "dlc": true,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 43010800,
+    "name": "Ancient Dragon-man",
+    "region": "Jagged Peak",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2049410800,
+    "name": "Jagged Peak Drake",
+    "region": "Jagged Peak",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2052400800,
+    "name": "Jagged Peak Drake",
+    "region": "Jagged Peak",
+    "dlc": true,
+    "optional": true,
+    "notes": "second Jagged Peak Drake; TTC blob had erroneous 2048429205 — corrected per Paramdex/origin/BuLEEto"
+  },
+  {
+    "event_id": 2054390800,
+    "name": "Bayle the Dread",
+    "region": "Jagged Peak",
+    "dlc": true,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 2054390850,
+    "name": "Ancient Dragon Senessax",
+    "region": "Jagged Peak",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 12010850,
+    "name": "Dragonkin Soldier",
+    "region": "Lake of Rot",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 12040800,
+    "name": "Astel, Naturalborn of the Void",
+    "region": "Lake of Rot",
+    "dlc": false,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 11050800,
+    "name": "Godfrey, First Elden Lord (Hoarah Loux)",
+    "region": "Leyndell, Ashen Capital",
+    "dlc": false,
+    "optional": false,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 11050850,
+    "name": "Sir Gideon Ofnir, the All-Knowing",
+    "region": "Leyndell, Ashen Capital",
+    "dlc": false,
+    "optional": false
+  },
+  {
+    "event_id": 11000800,
+    "name": "Morgott, the Omen King",
+    "region": "Leyndell, Royal Capital",
+    "dlc": false,
+    "optional": false,
+    "notes": "great rune boss"
+  },
+  {
+    "event_id": 11000850,
+    "name": "Godfrey, First Elden Lord",
+    "region": "Leyndell, Royal Capital",
+    "dlc": false,
+    "optional": false
+  },
+  {
+    "event_id": 35000800,
+    "name": "Mohg, The Omen",
+    "region": "Leyndell, Royal Capital",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 35000850,
+    "name": "Esgar, Priest of Blood",
+    "region": "Leyndell, Royal Capital",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 10010800,
+    "name": "Grafted Scion",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 18000800,
+    "name": "Ulcerated Tree Spirit",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 18000850,
+    "name": "Soldier of Godrick",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30020800,
+    "name": "Erdtree Burial Watchdog",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30040800,
+    "name": "Grave Warden Duelist",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30110800,
+    "name": "Black Knife Assassin",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31000800,
+    "name": "Patches",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31030800,
+    "name": "Beastman of Farum Azula",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31150800,
+    "name": "Demi-Human Chief",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31170800,
+    "name": "Guardian Golem",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 32010800,
+    "name": "Stonedigger Troll",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1042360800,
+    "name": "Tree Sentinel",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1042370800,
+    "name": "Crucible Knight",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1042380800,
+    "name": "DeathBird",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1042380850,
+    "name": "Bell Bearing Hunter",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1043360800,
+    "name": "Flying Dragon Agheel",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1043370800,
+    "name": "Night's Cavalry",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1044350800,
+    "name": "Bloodhound Knight Darriwil",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1044360800,
+    "name": "Mad Pumpkin Head",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1045390800,
+    "name": "Tibia Mariner",
+    "region": "Limgrave",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30030800,
+    "name": "Spiritcaller Snail",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30050800,
+    "name": "Cemetery Shade",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30050850,
+    "name": "Black Knife Assassin",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30060800,
+    "name": "Erdtree Burial Watchdog",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31040800,
+    "name": "Cleanrot Knight",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31050800,
+    "name": "Bloodhound Knight",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31060800,
+    "name": "Crystalian Duo",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 32020800,
+    "name": "Crystalian",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 39200800,
+    "name": "Magma Wyrm Makar",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1033430800,
+    "name": "Erdtree Avatar",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1033450800,
+    "name": "Bols, Carian Knight",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1034450800,
+    "name": "Glintstone Dragon Smarag",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1034480800,
+    "name": "Royal Revenant",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1034500800,
+    "name": "Glintstone Dragon Adula (Ranni's Rise)",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true,
+    "notes": "from Paramdex GameAreaParam only (not in TTC/origin/BuLEEto); Three Sisters encounter — UNCERTAIN if separately trackable"
+  },
+  {
+    "event_id": 1035420800,
+    "name": "Omenkiller",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1035500800,
+    "name": "Royal Knight Loretta",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1036450800,
+    "name": "Death Rite Bird",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1036480800,
+    "name": "Night's Cavalry",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1036500800,
+    "name": "Onyx Lord",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1037420800,
+    "name": "Deathbird",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1037460800,
+    "name": "Bell Bearing Hunter",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1038410800,
+    "name": "Adan, Thief of Fire",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1038480800,
+    "name": "Erdtree Avatar",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1039430800,
+    "name": "Night's Cavalry",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1039440800,
+    "name": "Tibia Mariner",
+    "region": "Liurnia of the Lakes",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 15000800,
+    "name": "Malenia, Blade of Miquella",
+    "region": "Miquella's Haligtree",
+    "dlc": false,
+    "optional": false,
+    "notes": "great rune boss"
+  },
+  {
+    "event_id": 15000850,
+    "name": "Loretta, Knight of the Haligtree",
+    "region": "Miquella's Haligtree",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 12050800,
+    "name": "Mohg, Lord of Blood",
+    "region": "Mohgwyn Dynasty Mausoleum",
+    "dlc": false,
+    "optional": false,
+    "notes": "great rune boss"
+  },
+  {
+    "event_id": 1033420800,
+    "name": "Alecto, Black Knife Ringleader",
+    "region": "Moonlight Altar",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1034420800,
+    "name": "Glintstone Dragon Adula",
+    "region": "Moonlight Altar",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30170800,
+    "name": "Ancient Hero of Zamor",
+    "region": "Mountaintops of the Giants",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30180800,
+    "name": "Ulcerated Tree Spirit",
+    "region": "Mountaintops of the Giants",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31220800,
+    "name": "Godskin Apostle & Godskin Noble & Spiritcaller Snail",
+    "region": "Mountaintops of the Giants",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1050570800,
+    "name": "Death Rite Bird",
+    "region": "Mountaintops of the Giants",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1051570800,
+    "name": "Commander Niall",
+    "region": "Mountaintops of the Giants",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1052520800,
+    "name": "Fire Giant",
+    "region": "Mountaintops of the Giants",
+    "dlc": false,
+    "optional": false,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 1052560800,
+    "name": "Erdtree Avatar",
+    "region": "Mountaintops of the Giants",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1053560800,
+    "name": "Vyke, Knight of the Roundtable",
+    "region": "Mountaintops of the Giants",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1254560800,
+    "name": "Borealis the Freezing Fog",
+    "region": "Mountaintops of the Giants",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 16000800,
+    "name": "Rykard, Lord of Blasphemy",
+    "region": "Mt. Gelmir",
+    "dlc": false,
+    "optional": false,
+    "notes": "great rune boss"
+  },
+  {
+    "event_id": 16000850,
+    "name": "Godskin Noble",
+    "region": "Mt. Gelmir",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 16000860,
+    "name": "Abductor Virgins (Duo)",
+    "region": "Mt. Gelmir",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30090800,
+    "name": "Red Wolf of the Champion",
+    "region": "Mt. Gelmir",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31070800,
+    "name": "Kindred of Rot",
+    "region": "Mt. Gelmir",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31090800,
+    "name": "Demi-Human Queen Margot",
+    "region": "Mt. Gelmir",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1035530800,
+    "name": "Magma Wyrm",
+    "region": "Mt. Gelmir",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1036540800,
+    "name": "Full-Grown Fallingstar Beast",
+    "region": "Mt. Gelmir",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1037530800,
+    "name": "Demi-Human Queen Maggie",
+    "region": "Mt. Gelmir",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1037540810,
+    "name": "Ulcerated Tree Spirit",
+    "region": "Mt. Gelmir",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 12020800,
+    "name": "Valiant Gargoyle Duo",
+    "region": "Nokron, Eternal City",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 12020850,
+    "name": "Mimic Tear",
+    "region": "Nokron, Eternal City",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 12090800,
+    "name": "Regal Ancestor Spirit",
+    "region": "Nokron, Eternal City",
+    "dlc": false,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 40010800,
+    "name": "Death Knight",
+    "region": "Rauh Base",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2044470800,
+    "name": "Rugalea the Great Red Bear",
+    "region": "Rauh Base",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 21000850,
+    "name": "Golden Hippopotamus",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 21010800,
+    "name": "Messmer the Impaler",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": false,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 25000800,
+    "name": "Metyr, Mother of Fingers",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 40000800,
+    "name": "Death Knight",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 41010800,
+    "name": "Curseblade Labirith",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2046450800,
+    "name": "Red Bear",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2047450800,
+    "name": "Black Knight Garrew",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2049430800,
+    "name": "Ghostflame Dragon",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2049430850,
+    "name": "Black Knight Edredd",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2049440800,
+    "name": "Dryleaf Dane",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2049450800,
+    "name": "Ralva the Great Red Bear",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2051440800,
+    "name": "Rakshasa",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2051450800,
+    "name": "Count Ymir, Mother of Fingers",
+    "region": "Scadu Altus",
+    "dlc": true,
+    "optional": true,
+    "notes": "great rune boss; TTC blob had typo 2051450701 — corrected per Paramdex/SoulSplitter/origin/BuLEEto"
+  },
+  {
+    "event_id": 2049480800,
+    "name": "Commander Gaius",
+    "region": "Scaduview",
+    "dlc": true,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 2050470800,
+    "name": "Tree Sentinel (1)",
+    "region": "Scaduview",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2050480800,
+    "name": "Scadutree Avatar",
+    "region": "Scaduview",
+    "dlc": true,
+    "optional": true,
+    "notes": "remembrance boss"
+  },
+  {
+    "event_id": 2050480860,
+    "name": "Tree Sentinel (2)",
+    "region": "Scaduview",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 2052480800,
+    "name": "Fallingstar Beast",
+    "region": "Scaduview",
+    "dlc": true,
+    "optional": true
+  },
+  {
+    "event_id": 12020830,
+    "name": "Dragonkin Soldier",
+    "region": "Siofra River",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 12080800,
+    "name": "Ancestor Spirit",
+    "region": "Siofra River",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 10000800,
+    "name": "Godrick the Grafted",
+    "region": "Stormveil Castle",
+    "dlc": false,
+    "optional": false,
+    "notes": "great rune boss"
+  },
+  {
+    "event_id": 10000850,
+    "name": "Margit, the Fell Omen",
+    "region": "Stormveil Castle",
+    "dlc": false,
+    "optional": false
+  },
+  {
+    "event_id": 30000800,
+    "name": "Cemetery Shade",
+    "region": "Weeping Peninsula",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 30010800,
+    "name": "Erdtree Burial Watchdog",
+    "region": "Weeping Peninsula",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31010800,
+    "name": "Runebear",
+    "region": "Weeping Peninsula",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 31020800,
+    "name": "Miranda the Blighted Bloom",
+    "region": "Weeping Peninsula",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 32000800,
+    "name": "Scaly Misbegotten",
+    "region": "Weeping Peninsula",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1042330800,
+    "name": "Ancient Hero of Zamor",
+    "region": "Weeping Peninsula",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1043300800,
+    "name": "Leonine Misbegotten",
+    "region": "Weeping Peninsula",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1043330800,
+    "name": "Erdtree Avatar",
+    "region": "Weeping Peninsula",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1044320800,
+    "name": "Deathbird",
+    "region": "Weeping Peninsula",
+    "dlc": false,
+    "optional": true
+  },
+  {
+    "event_id": 1044320850,
+    "name": "Night's Cavalry",
+    "region": "Weeping Peninsula",
+    "dlc": false,
+    "optional": true
+  }
+]
