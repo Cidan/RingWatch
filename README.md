@@ -11,22 +11,6 @@ Pure Go, Linux-first. Built with [Bubble Tea v2](https://charm.land) and
 > RingWatch is an independent Go reimagining focused on a fast Linux TUI for boss
 > tracking — no external tools, no OBS/overlay.
 
-```
-  ✦  RINGWATCH  ✦                                                    ● watching
-  Davosso  ·  Lv 201  ·  71h 46m                  ██████░░░░░░░░░░  61/208  29%
- ──────────────────────────────────────────────────────────────────────────────
- ╭──────────────────────────────────╮╭──────────────────────────────────────────╮
- │ EARLY GAME · LEVELS 1–40 ─────────││ Limgrave                          7/20    │
- │  • Limgrave                  7/20 ││ ─────────────────────────────────────────│
- │  • Weeping Peninsula         1/10 ││  ✓ Grafted Scion                          │
- │  ✓ Stormveil Castle           2/2 ││  ○ Soldier of Godrick           ↗ (wiki)  │
- │ MID GAME · LEVELS 40–90 ──────────││  ✓ Tree Sentinel                          │
- │  • Liurnia of the Lakes      7/25 ││  ✓ Night's Cavalry                        │
- │  • Caelid                   2/14  ││  ○ Crucible Knight                        │
- ╰──────────────────────────────────╯╰──────────────────────────────────────────╯
-  ↑↓ move · tab switch pane · / search · enter open wiki · c character · d dlc · q quit
-```
-
 ## Features
 
 - **Reads your real save** — parses the `ER0000.sl2` BND4 container directly (no
