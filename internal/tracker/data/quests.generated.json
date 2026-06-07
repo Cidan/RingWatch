@@ -1,0 +1,2558 @@
+[
+ {
+  "id": "ranni-the-witch",
+  "giver": "Ranni the Witch",
+  "wiki": "Ranni the Witch",
+  "region": "Liurnia of the Lakes",
+  "dlc": false,
+  "summary": "Enter Ranni's service and recover the Fingerslayer Blade, slay the Baleful Shadow, and place the Dark Moon Ring on her doll to gain the Dark Moon Greatsword and unlock the Age of the Stars ending.",
+  "reward": "Dark Moon Greatsword, Carian Inverted Statue, Discarded Palace Key, Age of the Stars ending",
+  "steps": [
+   {
+    "title": "Meet 'Renna' at the Church of Elleh",
+    "detail": "After meeting Melina and acquiring Torrent, rest at the Church of Elleh and speak with the woman calling herself Renna, who gifts you a means of summoning spirits.",
+    "location": "Church of Elleh",
+    "flag": 60110
+   },
+   {
+    "title": "Reach the top of Ranni's Rise",
+    "detail": "Defeat Royal Knight Loretta at Caria Manor to open the way, then travel through the Three Sisters to the top of Ranni's Rise.",
+    "location": "Ranni's Rise",
+    "warning": "Do not activate the Grand Lift of Dectus or rest at Altus Plateau graces first, as that triggers the Radahn Festival and temporarily locks the questline."
+   },
+   {
+    "title": "Agree to serve Ranni",
+    "detail": "Speak with Ranni atop her tower and answer affirmatively to enter her service.",
+    "location": "Ranni's Rise",
+    "warning": "If she dismisses you, return to Rogier at Roundtable Hold and have him suggest you join her service, then come back."
+   },
+   {
+    "title": "Speak with her three servants",
+    "detail": "Inside the tower, exhaust all dialogue with the spectral projections of War Counselor Iji, Blaidd, and Preceptor Seluvis; a fog wall blocks exit until all three are addressed.",
+    "location": "Ranni's Rise",
+    "warning": "You cannot leave or fast-travel until all three servants are spoken to."
+   },
+   {
+    "title": "Meet Blaidd at Siofra River",
+    "detail": "Travel to Siofra River Bank and head east to find Blaidd near a Spirit Spring; speak with him to be directed onward to Seluvis.",
+    "location": "Siofra River Bank"
+   },
+   {
+    "title": "Consult Preceptor Seluvis",
+    "detail": "Visit Seluvis at Seluvis's Rise; he gives you an introduction to take to Sorceress Sellen.",
+    "location": "Seluvis's Rise",
+    "warning": "Do not kill Seluvis before finishing his branch, or Ranni's questline becomes inaccessible."
+   },
+   {
+    "title": "Show Seluvis's Introduction to Sorceress Sellen",
+    "detail": "Travel to Waypoint Ruins and present Seluvis's Introduction to Sorceress Sellen, who reveals that Starscourge Radahn is holding the stars in place.",
+    "location": "Waypoint Ruins",
+    "warning": "Telling Blaidd of Sellen's findings can trigger the Radahn Festival."
+   },
+   {
+    "title": "Defeat Starscourge Radahn at the Festival",
+    "detail": "Travel to Redmane Castle in Caelid and join the Radahn Festival to battle Starscourge Radahn in the Wailing Dunes.",
+    "location": "Redmane Castle",
+    "warning": "The festival is triggered by reaching the Altus Plateau, using the Grand Lift of Dectus, or informing Blaidd about Radahn."
+   },
+   {
+    "title": "Find the Nokron entrance south of Mistwood",
+    "detail": "Return to War Counselor Iji, who explains a fallen star struck Limgrave; travel south of Mistwood to the impact site with the suspended rocks.",
+    "location": "Mistwood"
+   },
+   {
+    "title": "Retrieve the Fingerslayer Blade in Nokron",
+    "detail": "Descend through Nokron, Eternal City via the falling-star debris, pass the Ancestral Woods, and loot the Fingerslayer Blade from a chest in the city.",
+    "location": "Nokron, Eternal City",
+    "flag": 12027080
+   },
+   {
+    "title": "Give the Fingerslayer Blade to Ranni",
+    "detail": "Return to Ranni's Rise and hand Ranni the Fingerslayer Blade; she rewards you and departs on her journey.",
+    "location": "Ranni's Rise",
+    "warning": "Giving the blade locks you out of Seluvis's quest if unfinished; do not give Seluvis's Amber Draught to Ranni after this point."
+   },
+   {
+    "title": "Invert the Divine Tower of Liurnia",
+    "detail": "Use the Carian Inverted Statue at the Carian Study Hall entrance to flip the tower, climb to the top, and loot the Cursemark of Death from Ranni's burnt body.",
+    "location": "Divine Tower of Liurnia"
+   },
+   {
+    "title": "Loot the Snow Witch Set at Renna's Rise",
+    "detail": "With the seal gone, enter Renna's Rise, take the Snow Witch Set from the chest at the top, and use the waygate to travel to Ainsel River Main.",
+    "location": "Renna's Rise"
+   },
+   {
+    "title": "Pick up the Miniature Ranni",
+    "detail": "At Ainsel River Main, collect the Miniature Ranni doll from the ground and rest at the Site of Grace.",
+    "location": "Ainsel River Main",
+    "flag": 400394
+   },
+   {
+    "title": "Talk to the Miniature Ranni three times",
+    "detail": "At the Ainsel River Main grace, select 'Talk to miniature Ranni' three separate times until she tasks you with slaying the Baleful Shadow.",
+    "location": "Ainsel River Main",
+    "warning": "She only responds fully after the third time talking to her."
+   },
+   {
+    "title": "Defeat the Baleful Shadow",
+    "detail": "Travel to Nokstella, Eternal City, go beyond the Nokstella Waterfall Basin grace, and defeat the Baleful Shadow that ambushes you.",
+    "location": "Nokstella, Eternal City",
+    "flag": 400159
+   },
+   {
+    "title": "Open the chest for the Dark Moon Ring",
+    "detail": "Use the Discarded Palace Key on the chest beside Rennala in Raya Lucaria Academy's Grand Library to obtain the Dark Moon Ring.",
+    "location": "Raya Lucaria Academy",
+    "flag": 114
+   },
+   {
+    "title": "Reach the Grand Cloister via the Lake of Rot",
+    "detail": "Travel through the Lake of Rot into the Grand Cloister and interact with the stone coffin from a distance to begin the boss encounter.",
+    "location": "Grand Cloister",
+    "warning": "Avoid standing in the Scarlet Rot water of the Lake of Rot."
+   },
+   {
+    "title": "Defeat Astel, Naturalborn of the Void",
+    "detail": "After entering the coffin, battle and defeat Astel, Naturalborn of the Void in the arena beyond the Grand Cloister.",
+    "location": "Grand Cloister",
+    "flag": 12040800
+   },
+   {
+    "title": "Reach the Cathedral of Manus Celes",
+    "detail": "Proceed from the defeated Astel up to the Moonlight Altar in southern Liurnia and enter the Cathedral of Manus Celes, then drop through the hole near the grace to find Ranni's doll body.",
+    "location": "Cathedral of Manus Celes",
+    "warning": "Glintstone Dragon Adula appears near the cathedral regardless of prior encounters."
+   },
+   {
+    "title": "Place the Dark Moon Ring on Ranni",
+    "detail": "Interact with Ranni's doll body in the lower chamber and place the Dark Moon Ring on her finger; she awakens and rewards you with her greatsword.",
+    "location": "Cathedral of Manus Celes",
+    "flag": 400393,
+    "item": 3090000,
+    "item_kind": "weapon"
+   },
+   {
+    "title": "Choose the Age of the Stars ending",
+    "detail": "After defeating the Elden Beast at the game's finale, interact with the blue summon sign near Marika's remains instead of Marika's body to trigger the Age of the Stars ending.",
+    "location": "Elden Throne",
+    "warning": "Choosing this sign locks you into the Age of the Stars ending for this playthrough."
+   }
+  ]
+ },
+ {
+  "id": "blaidd",
+  "giver": "Blaidd",
+  "wiki": "Blaidd",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "Aid Ranni's half-wolf shadow Blaidd from the Darriwil bounty through the Radahn Festival until he turns hostile at Ranni's Rise, where defeating him yields the Royal Greatsword and his armor set.",
+  "reward": "Royal Greatsword, Blaidd's Armor, Blaidd's Gauntlets, Blaidd's Greaves",
+  "steps": [
+   {
+    "title": "Learn the Finger Snap from Kalé",
+    "detail": "Hearing wolf howls in Mistwood, ask Merchant Kalé about the howling at the Church of Elleh to receive the Finger Snap gesture.",
+    "location": "Church of Elleh"
+   },
+   {
+    "title": "Summon Blaidd at Mistwood Ruins",
+    "detail": "Stand below the tallest point of the Mistwood Ruins where Blaidd rests and perform the Finger Snap gesture to bring him down to talk.",
+    "location": "Mistwood Ruins"
+   },
+   {
+    "title": "Defeat Bloodhound Knight Darriwil",
+    "detail": "Travel to the Forlorn Hound Evergaol and fight Bloodhound Knight Darriwil; Blaidd is available as a summon for the bounty.",
+    "location": "Forlorn Hound Evergaol"
+   },
+   {
+    "title": "Speak with Blaidd after the bounty",
+    "detail": "Talk to Blaidd twice after the fight; the first conversation rewards a smithing stone and the second points you to the blacksmith Iji.",
+    "location": "Forlorn Hound Evergaol",
+    "warning": "Talk to him before progressing Ranni's questline further or the smithing stone is forfeit."
+   },
+   {
+    "title": "Tell Iji that Blaidd sent you",
+    "detail": "Travel to the Road to the Manor in Liurnia and tell War Counselor Iji that Blaidd sent you, unlocking the Carian Filigreed Crest in his shop.",
+    "location": "Road to the Manor",
+    "optional": true,
+    "warning": "Missable if you never mention Blaidd to Iji."
+   },
+   {
+    "title": "Meet Blaidd at Siofra River",
+    "detail": "While following Ranni's quest, reach Siofra River Bank and speak with Blaidd east of the grace; he directs you to Preceptor Seluvis.",
+    "location": "Siofra River Bank"
+   },
+   {
+    "title": "Report back to Blaidd about Radahn",
+    "detail": "After consulting Seluvis and Sorceress Sellen, return to Blaidd at Siofra River; he tells you of the Radahn Festival at Redmane Castle.",
+    "location": "Siofra River Bank"
+   },
+   {
+    "title": "Fight Starscourge Radahn with Blaidd",
+    "detail": "Travel to Redmane Castle, join the Radahn Festival, and summon Blaidd to help defeat Starscourge Radahn in the Wailing Dunes.",
+    "location": "Redmane Castle"
+   },
+   {
+    "title": "Speak with Blaidd after Radahn",
+    "detail": "Talk to Blaidd next to the Starscourge Radahn Site of Grace in the Wailing Dunes for post-fight dialogue.",
+    "location": "Starscourge Radahn (Wailing Dunes)",
+    "optional": true
+   },
+   {
+    "title": "Defeat Astel to advance the quest",
+    "detail": "Continue Ranni's questline through the Lake of Rot and defeat Astel, Naturalborn of the Void, which sets up Blaidd's final state.",
+    "location": "Lake of Rot",
+    "flag": 12040800
+   },
+   {
+    "title": "Defeat the hostile Blaidd at Ranni's Rise",
+    "detail": "Return to Ranni's Rise after defeating Astel to find Blaidd turned hostile outside the tower; defeat him to claim his weapon, armor, and runes.",
+    "location": "Ranni's Rise",
+    "item": 4060000,
+    "item_kind": "weapon",
+    "warning": "This fight is unavoidable to complete the quest; the Black Wolf Mask is collected separately near Seluvis's Rise rather than dropped here."
+   },
+   {
+    "title": "Collect the Black Wolf Mask near Seluvis's Rise",
+    "detail": "After defeating Blaidd, travel to Seluvis's Rise to pick up the Black Wolf Mask lying near the tower, completing his armor set.",
+    "location": "Seluvis's Rise",
+    "item": 170000,
+    "item_kind": "armor",
+    "optional": true,
+    "warning": "The mask is found as an item near the rise, not dropped from Blaidd's body."
+   }
+  ]
+ },
+ {
+  "id": "seluvis",
+  "giver": "Preceptor Seluvis",
+  "wiki": "Preceptor Seluvis",
+  "region": "Liurnia of the Lakes",
+  "dlc": false,
+  "summary": "Serve the sorcerer Seluvis by administering his potion and gathering Amber Starlight, earning puppet spirit ashes, sorceries, and the Magic Scorpion Charm before he is found dead when Ranni's quest completes.",
+  "reward": "Magic Scorpion Charm, puppet Spirit Ashes (Finger Maiden Therolina Puppet / Jarwight Puppet), Seluvis's sorceries",
+  "steps": [
+   {
+    "title": "Meet Seluvis's spectre at Ranni's Rise",
+    "detail": "After speaking with Ranni for the first time, talk to Seluvis in spectral form inside Ranni's Rise; he asks you to visit him in person.",
+    "location": "Ranni's Rise"
+   },
+   {
+    "title": "Visit Seluvis's Rise for the potion",
+    "detail": "Travel to Seluvis's Rise in the Three Sisters and speak with Seluvis in person; he hands you a potion to administer to someone.",
+    "location": "Seluvis's Rise",
+    "warning": "Attacking Seluvis permanently locks Ranni's questline; it can only be undone with Celestial Dew at the Church of Vows."
+   },
+   {
+    "title": "Administer Seluvis's Potion to Nepheli Loux",
+    "detail": "Give Seluvis's Potion to Nepheli Loux to turn her into a puppet (or let Gideon Ofnir dispose of it, or give it to the Dung Eater); her puppet then appears in Seluvis's laboratory.",
+    "location": "Seluvis's Rise",
+    "warning": "Only one of the Nepheli or Dung Eater puppets can be obtained per playthrough; letting Gideon discard the potion forfeits both."
+   },
+   {
+    "title": "Find the hidden puppet laboratory",
+    "detail": "Strike the illusory floor in the ruins between Renna's Rise and Ranni's Rise to reveal Seluvis's secret chamber, guarded by an invisible Noble Sorcerer.",
+    "location": "Seluvis's Rise",
+    "warning": "Do this before giving the Fingerslayer Blade to Ranni."
+   },
+   {
+    "title": "Receive a free puppet from Seluvis",
+    "detail": "Return to Seluvis and ask about his chambers to choose one free puppet Spirit Ashes after the potion has been administered.",
+    "location": "Seluvis's Rise",
+    "flag": 130000,
+    "item": 261000,
+    "item_kind": "spirit"
+   },
+   {
+    "title": "Trade Amber Starlight for the Magic Scorpion Charm",
+    "detail": "Find the Amber Starlight on the Altus Plateau (located via Pidia's Weathered Map) and give it to Seluvis at his rise to receive the Magic Scorpion Charm.",
+    "location": "Seluvis's Rise",
+    "item": 2000,
+    "item_kind": "talisman",
+    "optional": true,
+    "warning": "Must be done before giving the Fingerslayer Blade to Ranni."
+   },
+   {
+    "title": "Obtain the Amber Draught (betrayal branch)",
+    "detail": "Reload the area and speak to Seluvis again to receive the Amber Draught, which he wants you to give to Ranni.",
+    "location": "Seluvis's Rise",
+    "optional": true,
+    "warning": "Holding it is safe, but giving the Amber Draught to Ranni makes Ranni, Iji, and Blaidd vanish for no reward; undo only with Celestial Dew at the Church of Vows."
+   },
+   {
+    "title": "Find Seluvis dead after Ranni's quest",
+    "detail": "Once you give the Fingerslayer Blade to Ranni and progress her quest, Seluvis is found dead in his tower; nearby Pidia is also slain by his puppets.",
+    "location": "Seluvis's Rise",
+    "flag": 400149
+   }
+  ]
+ },
+ {
+  "id": "war-counselor-iji",
+  "giver": "War Counselor Iji",
+  "wiki": "War Counselor Iji",
+  "region": "Liurnia of the Lakes",
+  "dlc": false,
+  "summary": "Befriend Ranni's troll war counselor and blacksmith Iji, who unlocks the Carian Filigreed Crest and guides Ranni's quest, until grief over Blaidd's death leaves him dead and dropping his bell bearing and helm.",
+  "reward": "Carian Filigreed Crest, Iji's Bell Bearing, Iji's Mirrorhelm",
+  "steps": [
+   {
+    "title": "Meet Smithing Master Iji in Liurnia",
+    "detail": "Find Iji at his smithing station on the slopes of western Liurnia, past the Northern Liurnia Lake Shore near the Kingsrealm Ruins, where he offers smithing services.",
+    "location": "Kingsrealm Ruins"
+   },
+   {
+    "title": "Unlock the Carian Filigreed Crest",
+    "detail": "Tell Iji that Blaidd sent you to add the Carian Filigreed Crest talisman to his shop, then purchase it for 5,000 Runes.",
+    "location": "Kingsrealm Ruins",
+    "item": 6020,
+    "item_kind": "talisman",
+    "optional": true,
+    "warning": "The crest is only unlocked by mentioning Blaidd during his questline."
+   },
+   {
+    "title": "Speak with Iji's spectre at Ranni's Rise",
+    "detail": "After agreeing to serve Ranni, speak with Iji in spectral form on the first floor of Ranni's Rise as one of her three servants.",
+    "location": "Ranni's Rise"
+   },
+   {
+    "title": "Defeat Starscourge Radahn",
+    "detail": "Progress Ranni's quest by defeating Starscourge Radahn at the Redmane Castle festival, which Iji discusses in his dialogue.",
+    "location": "Redmane Castle"
+   },
+   {
+    "title": "Hear about the path to Nokron",
+    "detail": "After Radahn's defeat, return to Iji, who explains that a fallen star opened the way to Nokron, the Eternal City.",
+    "location": "Kingsrealm Ruins"
+   },
+   {
+    "title": "Tell Iji of Blaidd's death",
+    "detail": "After defeating the hostile Blaidd, speak to Iji and select the 'Blaidd's Death' dialogue option; he mourns and says he will follow Blaidd soon.",
+    "location": "Kingsrealm Ruins",
+    "optional": true,
+    "warning": "Selecting the 'Blaidd's Death' option triggers his death event."
+   },
+   {
+    "title": "Collect Iji's items after his death",
+    "detail": "Leave the area and return to find Iji dead and covered in black flame; loot his corpse for his bell bearing and helm.",
+    "location": "Kingsrealm Ruins",
+    "flag": 400240,
+    "warning": "His death is scripted after the 'Blaidd's Death' dialogue."
+   }
+  ]
+ },
+ {
+  "id": "millicent",
+  "giver": "Millicent",
+  "wiki": "Millicent",
+  "region": "Caelid",
+  "dlc": false,
+  "summary": "Heal the Scarlet Rot-afflicted Millicent with the Unalloyed Gold Needle and aid her against her sisters, culminating in her acceptance of her fate and access to Miquella's Needle at Malenia's arena.",
+  "reward": "Prosthesis-Wearer Heirloom, Rotten Winged Sword Insignia, Unalloyed Gold Needle (enables Miquella's Needle + Somber Ancient Dragon Smithing Stone)",
+  "steps": [
+   {
+    "title": "Start at Gowry's Shack",
+    "detail": "Speak with Gowry in his shack in eastern Caelid; he asks you to retrieve a broken Unalloyed Gold Needle to heal a girl named Millicent.",
+    "location": "Gowry's Shack, Caelid"
+   },
+   {
+    "title": "Defeat Commander O'Neil for the needle",
+    "detail": "Travel into the Swamp of Aeonia and defeat Commander O'Neil, who drops the broken Unalloyed Gold Needle.",
+    "location": "Swamp of Aeonia, Caelid",
+    "flag": 400321
+   },
+   {
+    "title": "Return the needle to Gowry",
+    "detail": "Give the broken Unalloyed Gold Needle to Gowry and rest at a Site of Grace so he can repair it; he gives you Sellia's Secret.",
+    "location": "Gowry's Shack, Caelid",
+    "warning": "Reload the area or rest at another grace to trigger the repair."
+   },
+   {
+    "title": "Give the repaired needle to Millicent",
+    "detail": "Travel to the Church of the Plague atop the cliff beyond Sellia and give the repaired Unalloyed Gold Needle to Millicent; rest nearby and exhaust her dialogue to receive the Prosthesis-Wearer Heirloom.",
+    "location": "Church of the Plague, Caelid",
+    "item": 1070,
+    "item_kind": "talisman",
+    "warning": "Reach the church via the Sellia puzzle or a Spirit Spring jump from Dragonbarrow."
+   },
+   {
+    "title": "Meet Millicent on the Altus Plateau",
+    "detail": "After she relocates and you reload, find Millicent near the cliff edge north-northeast of the Erdtree-Gazing Hill grace; she asks you to retrieve the Valkyrie's Prosthesis.",
+    "location": "Erdtree-Gazing Hill, Altus Plateau"
+   },
+   {
+    "title": "Retrieve the Valkyrie's Prosthesis",
+    "detail": "Enter the Shaded Castle and take the Valkyrie's Prosthesis from the chest guarded by a Cleanrot Knight, then return and give it to Millicent.",
+    "location": "The Shaded Castle, Altus Plateau",
+    "warning": "Revisit Gowry right after delivering the prosthesis to keep his questline (Desperate Prayer gesture) on track."
+   },
+   {
+    "title": "Defeat the Godskin Apostle at Windmill Village",
+    "detail": "Defeat the Godskin Apostle at Dominula, Windmill Village; Millicent's summon sign is available before the fight. Rest at the Windmill Heights grace afterward and exhaust her dialogue.",
+    "location": "Dominula, Windmill Village, Altus Plateau"
+   },
+   {
+    "title": "Follow her to the Mountaintops of the Giants",
+    "detail": "Find Millicent at the Ancient Snow Valley Ruins grace and exhaust her dialogue; she then departs for Elphael, Brace of the Haligtree.",
+    "location": "Ancient Snow Valley Ruins, Mountaintops of the Giants"
+   },
+   {
+    "title": "Defeat the Putrid Tree Spirit in Elphael",
+    "detail": "In Elphael, Brace of the Haligtree, defeat the Putrid Tree Spirit near the lake; Millicent's summoning sign then appears on the northwest hill.",
+    "location": "Elphael, Brace of the Haligtree",
+    "warning": "Millicent will not progress at Elphael until the Putrid Tree Spirit is defeated."
+   },
+   {
+    "title": "Be summoned to help Millicent fight her sisters",
+    "detail": "Use her summon sign to enter her world and defeat the four invading sisters - Mary, Maureen, Amy, and Polyanna - to receive the Rotten Winged Sword Insignia.",
+    "location": "Elphael, Brace of the Haligtree",
+    "flag": 400480,
+    "item": 2081,
+    "item_kind": "talisman",
+    "warning": "Choosing instead to invade and kill Millicent yields only Millicent's Prosthesis and locks you out of the Unalloyed Gold Needle conclusion."
+   },
+   {
+    "title": "Recover the Unalloyed Gold Needle",
+    "detail": "Find Millicent sitting by the rotten pool near her summoning sign, exhaust her dialogue, then reload the area to find the Unalloyed Gold Needle on the ground.",
+    "location": "Elphael, Brace of the Haligtree",
+    "flag": 400321
+   },
+   {
+    "title": "Use the needle on the Scarlet Aeonia for Miquella's Needle",
+    "detail": "After defeating Malenia, Blade of Miquella, use the Unalloyed Gold Needle on the Scarlet Aeonia flower left in her arena to receive Miquella's Needle and a Somber Ancient Dragon Smithing Stone.",
+    "location": "Elphael, Brace of the Haligtree (Malenia's arena)",
+    "flag": 400324,
+    "optional": true,
+    "warning": "Requires the Unalloyed Gold Needle from the help-Millicent ending; missed entirely if you challenged her instead."
+   }
+  ]
+ },
+ {
+  "id": "gowry",
+  "giver": "Gowry",
+  "wiki": "Gowry",
+  "region": "Caelid",
+  "dlc": false,
+  "summary": "Aid the sorcerer Gowry in healing and guiding Millicent through the Unalloyed Gold Needle, unlocking his sorceries and ultimately his bell bearing after Millicent's fate is decided.",
+  "reward": "Glintstone Stars, Night Shard, Night Maiden's Mist, Pest Threads, Desperate Prayer gesture, Flock's Canvas Talisman, Gowry's Bell Bearing",
+  "steps": [
+   {
+    "title": "Speak with Gowry",
+    "detail": "Talk to Gowry in his shack in eastern Caelid (before Sellia); he asks for help healing a girl named Millicent and sends you for the Unalloyed Gold Needle.",
+    "location": "Gowry's Shack, Caelid",
+    "warning": "A patrolling Giant Dog near the shack can kill Gowry if aggroed before you speak with him."
+   },
+   {
+    "title": "Defeat Commander O'Neil and return the needle",
+    "detail": "Defeat Commander O'Neil in the Swamp of Aeonia for the broken Unalloyed Gold Needle, then bring it back to Gowry, who gives you Sellia's Secret.",
+    "location": "Swamp of Aeonia, Caelid"
+   },
+   {
+    "title": "Let Gowry repair the needle",
+    "detail": "Rest at a Site of Grace so Gowry repairs the needle; his shop now stocks Glintstone Stars, Night Shard, and Night Maiden's Mist.",
+    "location": "Gowry's Shack, Caelid",
+    "flag": 400321
+   },
+   {
+    "title": "Deliver the needle to Millicent",
+    "detail": "Give the repaired Unalloyed Gold Needle to Millicent at the Church of the Plague; afterward Gowry reveals Millicent is his daughter.",
+    "location": "Church of the Plague, Caelid"
+   },
+   {
+    "title": "Progress Millicent until she visits the shack",
+    "detail": "Continue Millicent's quest until she visits Gowry's Shack and departs; Gowry acknowledges her journey onward.",
+    "location": "Gowry's Shack, Caelid"
+   },
+   {
+    "title": "Revisit Gowry after delivering the Prosthesis",
+    "detail": "After giving Millicent the Valkyrie's Prosthesis, return to Gowry; Pest Threads becomes purchasable and exhausting his dialogue grants the Desperate Prayer gesture.",
+    "location": "Gowry's Shack, Caelid",
+    "warning": "Progressing Millicent's quest past the prosthesis stage before revisiting Gowry can lock out the Desperate Prayer gesture."
+   },
+   {
+    "title": "Return to the shack after the sisters' battle",
+    "detail": "Once Millicent's quest concludes at Elphael, return to Gowry's Shack to find Gowry dead, leaving behind the Flock's Canvas Talisman and Gowry's Bell Bearing.",
+    "location": "Gowry's Shack, Caelid",
+    "flag": 400312,
+    "item": 3050,
+    "item_kind": "talisman",
+    "warning": "The bell bearing's stock depends on when Gowry dies; kill him too early and Pest Threads will be missing from it."
+   }
+  ]
+ },
+ {
+  "id": "sorceress-sellen",
+  "giver": "Sorceress Sellen",
+  "wiki": "Sorceress Sellen",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "Become Sellen's apprentice and help the exiled sorceress restore her body and confront Witch-Hunter Jerren, choosing to aid or betray her to decide her fate.",
+  "reward": "Glintstone Kris, Shard Spiral, Eccentric Set (assist) or Witch's Glintstone Crown, Sellen's Bell Bearing (challenge)",
+  "steps": [
+   {
+    "title": "Become Sellen's apprentice",
+    "detail": "Reach Sellen in the hidden Waypoint Ruins Cellar (open by defeating the Mad Pumpkin Head) and choose to learn sorcery to unlock her shop and dialogue.",
+    "location": "Waypoint Ruins, Limgrave"
+   },
+   {
+    "title": "Purchase sorceries to unlock dialogue",
+    "detail": "Buy at least some sorceries from Sellen to unlock further dialogue about her story.",
+    "location": "Waypoint Ruins Cellar, Limgrave"
+   },
+   {
+    "title": "Find Primeval Sorcerer Azur",
+    "detail": "Travel around Mt. Gelmir to find Primeval Sorcerer Azur north of the Hermit Village and speak with him to learn Comet Azur, then report back to Sellen.",
+    "location": "Hermit Village, Mt. Gelmir",
+    "flag": 400440,
+    "item": 4200,
+    "item_kind": "sorcery"
+   },
+   {
+    "title": "Receive the glintstone key from Sellen",
+    "detail": "Report to Sellen, who explains Radahn must be defeated to free the stars and gives you a glintstone key to reach Master Lusat in Sellia Hideaway.",
+    "location": "Waypoint Ruins Cellar, Limgrave"
+   },
+   {
+    "title": "Defeat Starscourge Radahn",
+    "detail": "Take part in the Radahn Festival and defeat Starscourge Radahn at Redmane Castle to allow the stars to move again.",
+    "location": "Redmane Castle, Caelid"
+   },
+   {
+    "title": "Find Master Lusat",
+    "detail": "Use Sellen's glintstone key on the barrier in the Sellia Hideaway chasm to reach Master Lusat and learn Stars of Ruin, then report to Sellen for the Starlight Shard.",
+    "location": "Sellia Hideaway, Caelid",
+    "flag": 400430,
+    "item": 4220,
+    "item_kind": "sorcery",
+    "optional": true,
+    "warning": "Can be done now or left until the end of the questline."
+   },
+   {
+    "title": "Meet Sellen at Witchbane Ruins",
+    "detail": "After defeating Radahn, find the imprisoned Sellen at Witchbane Ruins; she gives you Sellen's Primal Glintstone and explains her body is sealed there.",
+    "location": "Witchbane Ruins, Weeping Peninsula",
+    "warning": "Attacking Sellen here disables her merchant services until you seek absolution at the Church of Vows."
+   },
+   {
+    "title": "Reset Redmane Castle via Jerren",
+    "detail": "Speak with Witch-Hunter Jerren in the Redmane Castle throne room and exhaust his dialogue, then rest at a grace to respawn the castle's enemies.",
+    "location": "Redmane Castle, Caelid"
+   },
+   {
+    "title": "Find Jerren over Sellen's body",
+    "detail": "Return to Witchbane Ruins to find Jerren standing over Sellen's body and exhaust his dialogue to advance toward the doll resurrection.",
+    "location": "Witchbane Ruins, Weeping Peninsula"
+   },
+   {
+    "title": "Resurrect Sellen in the Three Sisters doll",
+    "detail": "In the Three Sisters near Ranni's Rise, strike the illusory floor and then the hidden wall to reach the Sellen doll, and insert Sellen's Primal Glintstone to revive her.",
+    "location": "Three Sisters, Liurnia of the Lakes"
+   },
+   {
+    "title": "Defeat Rennala, Queen of the Full Moon",
+    "detail": "Defeat Rennala, Queen of the Full Moon in the Raya Lucaria Grand Library to set up the final confrontation with Jerren.",
+    "location": "Raya Lucaria Academy, Liurnia of the Lakes"
+   },
+   {
+    "title": "Assist Sellen against Witch-Hunter Jerren",
+    "detail": "Use the gold summon sign at the Grand Library entrance to help Sellen defeat Witch-Hunter Jerren; she rewards you with the Glintstone Kris and the Shard Spiral sorcery, and Jerren drops the Eccentric Set.",
+    "location": "Raya Lucaria Academy, Liurnia of the Lakes",
+    "item": 1070000,
+    "item_kind": "weapon",
+    "warning": "Using the red sign to side with Jerren instead kills Sellen permanently, yielding the Witch's Glintstone Crown and Sellen's Bell Bearing but locking her merchant and Lusat's/Azur's sets."
+   },
+   {
+    "title": "Collect post-quest sets",
+    "detail": "After Sellen transforms into the School of Graven Mages, the Witch's Glintstone Crown lies beside her, and Azur's Glintstone Set and Lusat's Set can be collected from Azur's and Lusat's original locations.",
+    "location": "Raya Lucaria Grand Library, Liurnia of the Lakes",
+    "optional": true,
+    "warning": "Lusat's Set can only be acquired after Sellen transforms (the assist-Sellen path)."
+   }
+  ]
+ },
+ {
+  "id": "thops",
+  "giver": "Thops",
+  "wiki": "Thops",
+  "region": "Liurnia of the Lakes",
+  "dlc": false,
+  "summary": "Help the sorcery student Thops return to Raya Lucaria Academy by giving him a spare Academy Glintstone Key, only to later find his body and inherit his sorcery and staff.",
+  "reward": "Erudition gesture, Thops's Barrier, Academy Glintstone Staff, Thops's Bell Bearing",
+  "steps": [
+   {
+    "title": "Meet Thops at the Church of Irith",
+    "detail": "Speak with Thops at the Church of Irith; he asks for a 10-rune donation, which unlocks his shop selling Glintstone Pebble, Glintstone Arc, and Starlight.",
+    "location": "Church of Irith, Liurnia of the Lakes"
+   },
+   {
+    "title": "Hear his wish to return to the Academy",
+    "detail": "Continue speaking with Thops; he explains he wants to return to Raya Lucaria Academy but needs an Academy Glintstone Key, acknowledging you need your first one yourself.",
+    "location": "Church of Irith, Liurnia of the Lakes"
+   },
+   {
+    "title": "Find the second Academy Glintstone Key",
+    "detail": "Progress through Raya Lucaria Academy and pick up the second Academy Glintstone Key found within the building.",
+    "location": "Raya Lucaria Academy, Liurnia of the Lakes",
+    "warning": "Only the second key found inside the Academy can be given to Thops; the first one used to enter cannot."
+   },
+   {
+    "title": "Give the key to Thops",
+    "detail": "Return to the Church of Irith and give Thops the Academy Glintstone Key to receive the Erudition gesture; he then leaves for Raya Lucaria Academy.",
+    "location": "Church of Irith, Liurnia of the Lakes",
+    "warning": "If Thops dies before receiving the key, the Erudition gesture is unavailable until New Game+."
+   },
+   {
+    "title": "Find Thops's body in the Academy",
+    "detail": "Progress through Raya Lucaria Academy to find Thops's corpse seated at a desk near the Schoolhouse Classroom Site of Grace, holding his bequeathed items.",
+    "location": "Schoolhouse Classroom, Raya Lucaria Academy",
+    "flag": 400362,
+    "item": 4630,
+    "item_kind": "sorcery"
+   }
+  ]
+ },
+ {
+  "id": "rya",
+  "giver": "Rya",
+  "wiki": "Rya",
+  "region": "Liurnia of the Lakes",
+  "dlc": false,
+  "summary": "Help the lady-in-waiting Rya recover her stolen necklace, which leads to a Volcano Manor invitation and the unraveling of her true identity as the serpent Zorayas.",
+  "reward": "Volcano Manor Invitation, Serpent's Amnion, Daedicar's Woe",
+  "steps": [
+   {
+    "title": "Meet Rya in Liurnia",
+    "detail": "Speak with Rya at the pavilion near the Birdseye Telescope, north of Laskyar Ruins, and exhaust her dialogue; she asks you to retrieve her stolen necklace.",
+    "location": "Pavilion near Birdseye Telescope, north of Laskyar Ruins"
+   },
+   {
+    "title": "Recover the necklace from the thief",
+    "detail": "Go northwest to the Boilprawn Shack and find Blackguard Big Boggart; either buy Rya's Necklace for 1000 runes or kill him (killing locks out his questline).",
+    "location": "Boilprawn Shack",
+    "flag": 400300,
+    "warning": "Defeating Blackguard Big Boggart locks out his questline."
+   },
+   {
+    "title": "Return the necklace",
+    "detail": "Bring Rya's Necklace back to her at the pavilion; she rewards you and reveals two routes to the Altus Plateau.",
+    "location": "Pavilion near Birdseye Telescope"
+   },
+   {
+    "title": "Meet Rya on the Altus Plateau",
+    "detail": "Find Rya again on the Altus Plateau (Lux Ruins lower section if you came via the Ruin-Strewn Precipice, or the top of the Grand Lift of Dectus if you took the lift); she teleports you to Volcano Manor.",
+    "location": "Lux Ruins / top of the Grand Lift of Dectus",
+    "warning": "She will not spawn at the Altus Plateau if you reached Leyndell via Fia's questline instead."
+   },
+   {
+    "title": "Speak to Rya at Volcano Manor",
+    "detail": "After joining Volcano Manor, speak with Rya in the manor's main hall.",
+    "location": "Volcano Manor main hall",
+    "warning": "Joining Volcano Manor without first speaking to Rya in Liurnia prevents access to Blackguard Big Boggart's questline."
+   },
+   {
+    "title": "Complete the first assassination",
+    "detail": "Carry out the first Volcano Manor contract against Old Knight Istvan; afterward Rya moves to a different room and transforms into her serpent form.",
+    "location": "Volcano Manor"
+   },
+   {
+    "title": "Speak to Rya in serpent form",
+    "detail": "Talk to her in her new room, where she reveals her true name is Zorayas and that she is a serpent.",
+    "location": "Volcano Manor (Rya's new room)"
+   },
+   {
+    "title": "Complete the second assassination",
+    "detail": "Carry out the second Volcano Manor contract against Rileigh the Idle; afterward Rya returns to human form in the same room.",
+    "location": "Altus Plateau (target) / Volcano Manor"
+   },
+   {
+    "title": "Investigate the secret passage",
+    "detail": "Enter the illusory wall in the adjacent room, pass through to the Prison Town Church grace, open the doors leaving the church, then return to Zorayas.",
+    "location": "Prison Town Church"
+   },
+   {
+    "title": "Ask Tanith about Zorayas' troubles",
+    "detail": "Speak with Lady Tanith and select the 'Zorayas' troubles' dialogue option, which later opens the path to obtain the Tonic of Forgetfulness.",
+    "location": "Volcano Manor (Tanith's chamber)",
+    "optional": true,
+    "warning": "Required to later receive the Tonic of Forgetfulness from Tanith."
+   },
+   {
+    "title": "Defeat the Godskin Noble for the Serpent's Amnion",
+    "detail": "Defeat the Godskin Noble at the Temple of Eiglay to obtain the Serpent's Amnion, then deliver it to Zorayas.",
+    "location": "Temple of Eiglay",
+    "flag": 16007710,
+    "warning": "Completing all assassination contracts before obtaining the Serpent's Amnion prevents Tanith from giving you the Tonic."
+   },
+   {
+    "title": "Obtain the Tonic of Forgetfulness",
+    "detail": "Having chosen the 'Zorayas' troubles' option, speak to Tanith again and she provides the Tonic of Forgetfulness.",
+    "location": "Volcano Manor (Tanith's chamber)",
+    "optional": true,
+    "warning": "Requires having selected the 'Zorayas' troubles' dialogue with Tanith earlier."
+   },
+   {
+    "title": "Final meeting in the dungeon alcove",
+    "detail": "Find Zorayas in the small caged room beside the lava pit before the rope ladder (reached via the wooden elevator near the Temple of Eiglay or by jumping from the temple balcony). Either kill her, leave her, or give the Tonic of Forgetfulness; she ultimately drops Daedicar's Woe.",
+    "location": "Dungeon alcove beside the lava pit, before the rope ladder",
+    "flag": 400091,
+    "item": 6060,
+    "item_kind": "talisman",
+    "warning": "Killing Rykard before speaking to Zorayas in this dungeon room locks you out completely."
+   }
+  ]
+ },
+ {
+  "id": "tanith",
+  "giver": "Tanith",
+  "wiki": "Tanith",
+  "region": "Mt. Gelmir",
+  "dlc": false,
+  "summary": "Pledge yourself to Lady Tanith at Volcano Manor and carry out her assassination contracts in service of her Lord, Rykard.",
+  "reward": "Magma Shot, Serpentbone Blade, Taker's Cameo, Consort's Set",
+  "steps": [
+   {
+    "title": "Join Volcano Manor",
+    "detail": "Speak with Tanith at the Volcano Manor entrance and accept her offer to join the family; she grants the Drawing-Room Key, unlocking the manor's interior chambers.",
+    "location": "Volcano Manor entrance",
+    "flag": 400072
+   },
+   {
+    "title": "First contract: Old Knight Istvan",
+    "detail": "Collect the first Letter from Volcano Manor in the Drawing Room (the room with Rya), invade and defeat Old Knight Istvan at Stormhill near the Divine Bridge, then report back to Tanith for the Magma Shot sorcery.",
+    "location": "Stormhill, near the Divine Bridge (Limgrave)",
+    "flag": 400076,
+    "item": 4800,
+    "item_kind": "sorcery"
+   },
+   {
+    "title": "Second contract: Rileigh the Idle",
+    "detail": "Reload and collect the next letter from Knight Bernahl's room, invade and defeat Rileigh the Idle on the Altus Plateau, then return to Tanith for the Serpentbone Blade.",
+    "location": "Altus Plateau",
+    "flag": 400077,
+    "item": 9080000,
+    "item_kind": "weapon",
+    "warning": "The second assignment letter will not spawn if Rykard is defeated beforehand."
+   },
+   {
+    "title": "Third contract: Juno Hoslow, Knight of Blood",
+    "detail": "Reload and collect the Red Letter from Bernahl's room, invade and defeat Juno Hoslow, Knight of Blood in the Mountaintops of the Giants, then return to Tanith for the Taker's Cameo talisman.",
+    "location": "Mountaintops of the Giants",
+    "flag": 400078,
+    "item": 5030,
+    "item_kind": "talisman",
+    "warning": "Must be completed before defeating Rykard, or the reward appears on the table instead."
+   },
+   {
+    "title": "Meet the Lord",
+    "detail": "Accept Tanith's invitation in her chamber to meet Lord Rykard; she transports you directly to the grace before his arena, where you fight Rykard, Lord of Blasphemy.",
+    "location": "Volcano Manor (Tanith's chamber)",
+    "warning": "Complete any unfinished Volcano Manor NPC quests before defeating Rykard, as those NPCs may disappear from the manor afterward."
+   },
+   {
+    "title": "Post-Rykard encounter",
+    "detail": "Return to Tanith in Volcano Manor; she acknowledges Rykard's defeat and announces her departure, after which she is found feasting on Rykard's corpse in his boss chamber.",
+    "location": "Volcano Manor, then Rykard's boss arena"
+   },
+   {
+    "title": "Optionally kill Tanith",
+    "detail": "At Rykard's corpse, Tanith can be killed to obtain the Consort's Set; doing so triggers an invasion by Tanith's Knight, who drops the Aspect of the Crucible: Breath incantation.",
+    "location": "Rykard's boss arena",
+    "optional": true,
+    "warning": "She remains at Rykard's corpse through the game's end; killing her is irreversible."
+   }
+  ]
+ },
+ {
+  "id": "knight-bernahl",
+  "giver": "Knight Bernahl",
+  "wiki": "Bernahl",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "The warrior Bernahl sells Ashes of War at the Warmaster's Shack before joining Volcano Manor as Recusant Bernahl, eventually turning hostile and invading in Crumbling Farum Azula.",
+  "reward": "Eruption, Assassin's Gambit, Gelmir's Fury, Devourer's Scepter, Beast Champion Set",
+  "steps": [
+   {
+    "title": "Meet Bernahl at the Warmaster's Shack",
+    "detail": "Speak with Knight Bernahl at the Warmaster's Shack in Stormhill, Limgrave, to access his Ashes of War shop (Kick, Endure, Parry, Quickstep).",
+    "location": "Warmaster's Shack, Stormhill"
+   },
+   {
+    "title": "Join Volcano Manor",
+    "detail": "Pledge allegiance to Volcano Manor; Bernahl relocates there as 'Recusant Bernahl' and his shop unlocks the Eruption and Assassin's Gambit Ashes of War.",
+    "location": "Volcano Manor (Mt. Gelmir)"
+   },
+   {
+    "title": "Complete the first assassination",
+    "detail": "Complete the first Volcano Manor assassination contract, then return to speak with Recusant Bernahl.",
+    "location": "Volcano Manor"
+   },
+   {
+    "title": "Complete the second assassination and receive his letter",
+    "detail": "Complete the second Volcano Manor contract and report back; Bernahl gives the Letter to Bernahl, naming two targets for a co-op invasion in Leyndell, Royal Capital.",
+    "location": "Volcano Manor",
+    "flag": 400290
+   },
+   {
+    "title": "Co-op invasion in Leyndell",
+    "detail": "Travel to Leyndell, Royal Capital and defeat Vargram the Raging Wolf and Errant Sorcerer Wilhelm for the Raging Wolf Set; returning to Volcano Manor, Bernahl rewards Gelmir's Fury sorcery.",
+    "location": "Leyndell, Royal Capital",
+    "optional": true,
+    "warning": "Becomes unavailable if you defeat Rykard before completing it or if Crumbling Farum Azula is already cleared."
+   },
+   {
+    "title": "Speak to Bernahl after Rykard",
+    "detail": "After defeating Rykard, Lord of Blasphemy, speak with Bernahl at Volcano Manor; he warns that the recusant path leads to a miserable death.",
+    "location": "Volcano Manor"
+   },
+   {
+    "title": "Final invasion in Crumbling Farum Azula",
+    "detail": "After Rykard's defeat and emptying the manor, Recusant Bernahl invades on the path to the Old Lord's Talisman chest past the 'Beside the Great Bridge' grace; defeating him drops the Blasphemous Claw, Devourer's Scepter, the Beast Champion Set, and Bernahl's Bell Bearing.",
+    "location": "Crumbling Farum Azula, past Beside the Great Bridge",
+    "flag": 400293,
+    "item": 12200000,
+    "item_kind": "weapon",
+    "warning": "Until this invasion occurs you may still summon Bernahl for the Godskin Duo fight."
+   }
+  ]
+ },
+ {
+  "id": "diallos",
+  "giver": "Diallos",
+  "wiki": "Diallos",
+  "region": "Roundtable Hold",
+  "dlc": false,
+  "summary": "Diallos Hoslow seeks vengeance for his lost servant Lanya, infiltrates the Volcano Manor assassins, and finds redemption defending the villagers of Jarburg.",
+  "reward": "Diallos's Mask, Hoslow's Petal Whip, Numen's Rune",
+  "steps": [
+   {
+    "title": "Meet Diallos at the Roundtable Hold",
+    "detail": "Speak with Diallos at the Roundtable Hold, where he mentions searching for his servant Lanya, whom the Recusants captured.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Find Diallos at Academy Gate Town",
+    "detail": "Find Diallos atop a sunken roof north and slightly west of the Academy Gate Town Site of Grace in Liurnia, and exhaust his dialogue about avenging Lanya.",
+    "location": "Academy Gate Town, northern Liurnia",
+    "warning": "If you complete the Volcano Manor legacy dungeon before speaking to Diallos here, he will not appear and you cannot complete the quest."
+   },
+   {
+    "title": "Return to the Roundtable Hold",
+    "detail": "Rest at a Site of Grace, then return to the Roundtable Hold and exhaust all dialogue; he reveals he has found the Recusants' headquarters on Mt. Gelmir.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Find Diallos at Volcano Manor",
+    "detail": "After joining the Manor, find Diallos in the drawing room; he has decided to infiltrate the organization and gains new dialogue for each assassination contract you complete.",
+    "location": "Volcano Manor drawing room"
+   },
+   {
+    "title": "Trigger his departure from the Manor",
+    "detail": "After accepting the second Letter from Volcano Manor or defeating Rykard, Lord of Blasphemy, exhaust his dialogue (reloading the area) until he mentions his brother, then reload again so he leaves.",
+    "location": "Volcano Manor drawing room",
+    "warning": "It is possible to skip the assassination missions and still have Diallos appear in Jarburg."
+   },
+   {
+    "title": "Find Diallos at Jarburg",
+    "detail": "After progressing Jar-Bairn's questline, repeatedly talk to Jar-Bairn and rest at the Jarburg Site of Grace until he mentions poachers; Diallos then appears in one of the shacks tending a small jar.",
+    "location": "Jarburg",
+    "warning": "Progress Jar-Bairn's questline first."
+   },
+   {
+    "title": "Exhaust dialogue at Jarburg",
+    "detail": "Talk to Diallos and Jar-Bairn multiple times, exhausting all dialogue, then rest at the Site of Grace to advance the quest.",
+    "location": "Jarburg"
+   },
+   {
+    "title": "The poacher attack",
+    "detail": "After defeating Radahn and speaking with Alexander in Radahn's arena, return to Jarburg; it comes under attack and Diallos fights to defend the jars, leaving him gravely wounded.",
+    "location": "Jarburg",
+    "warning": "One night cycle may be required; try resting at the Jarburg grace and 'Pass Time until nightfall'."
+   },
+   {
+    "title": "Diallos's final words",
+    "detail": "Exhaust dialogue with the wounded Diallos and tell him whether he successfully defended the jars; he dies shortly after either response.",
+    "location": "Jarburg"
+   },
+   {
+    "title": "Collect his rewards",
+    "detail": "Reload the area after his death and collect his belongings where his body lay: Diallos's Mask, Hoslow's Petal Whip, and a Numen's Rune (12,500 runes).",
+    "location": "Jarburg",
+    "item": 651000,
+    "item_kind": "armor"
+   }
+  ]
+ },
+ {
+  "id": "patches",
+  "giver": "Patches",
+  "wiki": "Patches",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "The treacherous merchant Patches ambushes you in Murkwater Cave and repeatedly betrays you across four regions before reforming as a friendly vendor.",
+  "reward": "Grovel for Mercy gesture, Magma Whip Candlestick, Dancer's Castanets",
+  "steps": [
+   {
+    "title": "Trigger the Murkwater Cave ambush",
+    "detail": "In Murkwater Cave, Limgrave, open the chest at the cave's end past the Highwayman bandits to trigger the Patches boss fight.",
+    "location": "Murkwater Cave, Limgrave"
+   },
+   {
+    "title": "Accept his surrender",
+    "detail": "Reduce Patches to about 50% health and stop attacking when he surrenders; he yields 2x Golden Rune [1] and the Grovel for Mercy gesture and becomes a merchant.",
+    "location": "Murkwater Cave",
+    "warning": "Killing Patches during this fight loses him as a merchant; his Bell Bearing can then be given to the Twin Maiden Husks."
+   },
+   {
+    "title": "Spring the chest trap",
+    "detail": "Open the chest in his Murkwater Cave shop; it teleports you away to the Mistwood Ruins, and on returning he gives the Calm Down gesture.",
+    "location": "Murkwater Cave (Patches' shop)",
+    "optional": true,
+    "warning": "The chest is a trap that transports you away."
+   },
+   {
+    "title": "Find Patches in Liurnia",
+    "detail": "Progress to Liurnia of the Lakes, where Patches relocates to Scenic Isle and begins selling Fan Daggers; he recommends using the Abductor Virgin at Raya Lucaria's waterwheel.",
+    "location": "Scenic Isle, Liurnia of the Lakes"
+   },
+   {
+    "title": "Take the Abductor Virgin",
+    "detail": "Let the Abductor Virgin at the bottom of the Raya Lucaria Academy waterwheel capture you; it transports you to Volcano Manor.",
+    "location": "Raya Lucaria Academy (waterwheel bottom)",
+    "optional": true,
+    "warning": "Patches misdirects you, claiming it leads to the Erdtree."
+   },
+   {
+    "title": "The Mt. Gelmir cliff kick",
+    "detail": "Follow the rainbow stone trail Patches marks west of the First Mt. Gelmir Campsite grace; a cutscene plays in which he kicks you off the cliff and tells you to stay away from Volcano Manor.",
+    "location": "Mt. Gelmir, west of the First Mt. Gelmir Campsite grace",
+    "warning": "His shop closes during this phase."
+   },
+   {
+    "title": "Reunite at Volcano Manor",
+    "detail": "Having joined Volcano Manor, speak to Patches in the entrance hall; his shop reopens and he becomes available for an assassination assignment.",
+    "location": "Volcano Manor entrance hall"
+   },
+   {
+    "title": "Patches' assassination contract",
+    "detail": "After completing one Tanith assassination request, speak to Patches to receive the Letter to Patches targeting Great Horned Tragoth; completing it earns the Magma Whip Candlestick.",
+    "location": "Volcano Manor",
+    "item": 20030000,
+    "item_kind": "weapon",
+    "warning": "Must complete the Tragoth assassination before Patches leaves Volcano Manor or the Magma Whip Candlestick is missed."
+   },
+   {
+    "title": "Find Patches at the Shaded Castle",
+    "detail": "After defeating the God-Devouring Serpent (Rykard's arena), find Patches incapacitated at the Shaded Castle before the Elemer of the Briar boss room; he gives the Dancer's Castanets to deliver to Tanith.",
+    "location": "The Shaded Castle, before the Elemer of the Briar boss room",
+    "flag": 400181,
+    "warning": "Do not attack him here or the quest ends prematurely."
+   },
+   {
+    "title": "Final Murkwater Cave rematch",
+    "detail": "Return to Murkwater Cave for a final fight; Patches surrenders almost immediately, gives the Patches' Crouch gesture, and becomes friendly again (reload the area for his shop to reopen).",
+    "location": "Murkwater Cave"
+   }
+  ]
+ },
+ {
+  "id": "roderika",
+  "giver": "Roderika",
+  "wiki": "Roderika",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "A traumatized refugee at the Stormhill Shack who, with the player's encouragement, overcomes her grief to become the Roundtable Hold's spirit tuner.",
+  "reward": "Spirit Jellyfish Ashes, Golden Seed, spirit tuning service (Spirit Ash upgrades), Crimson Hood",
+  "steps": [
+   {
+    "title": "Meet Roderika at Stormhill Shack",
+    "detail": "On the trail to Stormveil Castle, speak with Roderika and exhaust her dialogue. She gives you Spirit Jellyfish Ashes and the Sitting Sideways gesture.",
+    "location": "Stormhill Shack",
+    "item": 236000,
+    "item_kind": "spirit",
+    "warning": "If you skip her here, you can still get the Spirit Jellyfish Ashes later at the Roundtable Hold."
+   },
+   {
+    "title": "Retrieve the Chrysalids' Memento",
+    "detail": "Inside Stormveil Castle, take the Chrysalids' Memento from a corpse pile near the Rampart Tower area for Roderika.",
+    "location": "Stormveil Castle (Rampart Tower)",
+    "flag": 10007450
+   },
+   {
+    "title": "Find Roderika at the Roundtable Hold",
+    "detail": "After resting at a Liurnia of the Lakes Site of Grace, Roderika relocates to the Roundtable Hold by the fireplace. Speak with her and give her the Chrysalids' Memento; she gives a Golden Seed.",
+    "location": "Roundtable Hold",
+    "flag": 510280
+   },
+   {
+    "title": "Arrange her apprenticeship with Hewg",
+    "detail": "Speak to Smithing Master Hewg about Roderika, relay his words to her, then speak to Hewg again so he agrees to teach her spirit tuning.",
+    "location": "Roundtable Hold",
+    "warning": "Requires having given her the Chrysalids' Memento first."
+   },
+   {
+    "title": "Unlock spirit tuning",
+    "detail": "Leave and return; Roderika now sits beside Hewg's smithing area and offers Spirit Tuning, upgrading Spirit Ashes with Grave/Ghost Glovewort.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Become a certified spirit tuner",
+    "detail": "Upgrade any Spirit Ash to +4, then return to Roderika; she rewards you with the Curtsy gesture.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Collect the Crimson Hood",
+    "detail": "After completing her questline, return to the corpse pile in Stormveil Castle where you found the Chrysalids' Memento to claim her discarded Crimson Hood.",
+    "location": "Stormveil Castle (Rampart Tower)",
+    "flag": 10007452,
+    "item": 740000,
+    "item_kind": "armor",
+    "optional": true
+   }
+  ]
+ },
+ {
+  "id": "nepheli-loux",
+  "giver": "Nepheli Loux",
+  "wiki": "Nepheli Loux",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "A Tarnished warrior, ward of Gideon Ofnir, whom the player aids in claiming her place as ruler of Stormveil.",
+  "reward": "Arsenal Charm, Ancient Dragon Smithing Stone, summonable for the Godfrey, First Elden Lord fight",
+  "steps": [
+   {
+    "title": "Meet Nepheli in Stormveil Castle",
+    "detail": "Find Nepheli in a room before the Secluded Cell Site of Grace; exhaust her dialogue. You may summon her for the Godrick fight via her golden summon sign outside the boss fog.",
+    "location": "Stormveil Castle"
+   },
+   {
+    "title": "Speak with Gideon, then Nepheli at the Roundtable Hold",
+    "detail": "At the Roundtable Hold, speak with Gideon Ofnir, then find Nepheli in the room outside the library and exhaust her dialogue to receive the Arsenal Charm.",
+    "location": "Roundtable Hold",
+    "item": 1030,
+    "item_kind": "talisman",
+    "warning": "Speak to Gideon first or Nepheli will not appear."
+   },
+   {
+    "title": "Find Nepheli at the Village of the Albinaurics",
+    "detail": "Find Nepheli beneath the stone bridge at the Village of the Albinaurics in Liurnia and exhaust her dialogue; defeat the Omenkiller across the area.",
+    "location": "Village of the Albinaurics",
+    "warning": "Do not give her Seluvis's Potion if you want to complete her questline."
+   },
+   {
+    "title": "Give Nepheli The Stormhawk King",
+    "detail": "Obtain The Stormhawk King ashes from the Chapel of Anticipation and give them to Nepheli at the Roundtable Hold instead of Seluvis's Potion.",
+    "location": "Roundtable Hold",
+    "warning": "Give the ashes before defeating Maliketh, or she leaves permanently."
+   },
+   {
+    "title": "Reunite at the Stormveil throne room",
+    "detail": "After defeating Morgott, the Omen King, return to Stormveil Castle's throne room; rest at the Secluded Cell then Godrick graces to find Nepheli, Kenneth, and Gostoc. Nepheli gives an Ancient Dragon Smithing Stone and becomes ruler of Stormveil.",
+    "location": "Stormveil Castle (throne room)",
+    "warning": "Requires defeating Morgott; if Gideon Ofnir is killed, Nepheli dies and the quest fails."
+   }
+  ]
+ },
+ {
+  "id": "kenneth-haight",
+  "giver": "Kenneth Haight",
+  "wiki": "Kenneth Haight",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "A would-be lord of Limgrave who asks the player to reclaim Fort Haight and later seeks a worthy ruler for the land.",
+  "reward": "Erdsteel Dagger",
+  "steps": [
+   {
+    "title": "Meet Kenneth Haight",
+    "detail": "Speak with Kenneth atop a ruin in northeastern Limgrave, between the Mistwood Outskirts and Third Church of Marika Sites of Grace; he asks you to clear Fort Haight.",
+    "location": "Northeastern Limgrave ruins"
+   },
+   {
+    "title": "Clear Fort Haight",
+    "detail": "Travel to Fort Haight and defeat the Godrick Knight atop the battlements, who drops the Ash of War: Bloody Slash.",
+    "location": "Fort Haight",
+    "flag": 1046367700
+   },
+   {
+    "title": "Return to Kenneth for your reward",
+    "detail": "Return to Kenneth at the ruins; he takes up residence in the fort and rewards you with the Erdsteel Dagger.",
+    "location": "Fort Haight",
+    "item": 1150000,
+    "item_kind": "weapon"
+   },
+   {
+    "title": "Reunite with Kenneth at Stormveil",
+    "detail": "After defeating Morgott, the Omen King, Kenneth relocates to the Stormveil Castle throne room as part of Nepheli's questline; rest at the Godrick grace and speak with him.",
+    "location": "Stormveil Castle (throne room)",
+    "optional": true,
+    "warning": "He promises to knight you but never actually does."
+   }
+  ]
+ },
+ {
+  "id": "gideon-ofnir",
+  "giver": "Gideon Ofnir, the All-Knowing",
+  "wiki": "Gideon Ofnir",
+  "region": "Roundtable Hold",
+  "dlc": false,
+  "summary": "The All-Knowing host of the Roundtable Hold who rewards the player with incantations for locating hidden demigods before becoming a mandatory late-game boss.",
+  "reward": "Fevor's Cookbook [3], Black Flame's Protection, Law of Causality, Lord's Divine Fortification (and his boss drops)",
+  "steps": [
+   {
+    "title": "Meet Gideon at the Roundtable Hold",
+    "detail": "Upon first arriving at the Roundtable Hold, speak to Gideon in his study; he directs you to obtain a Great Rune and the Two Fingers' guidance.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Report the Mohgwyn Dynasty Mausoleum",
+    "detail": "After discovering the location of the Mohgwyn Dynasty Mausoleum, report it to Gideon to receive Fevor's Cookbook [3].",
+    "location": "Roundtable Hold",
+    "flag": 68210,
+    "optional": true
+   },
+   {
+    "title": "Report Miquella's Haligtree",
+    "detail": "After locating Miquella's Haligtree, report it to Gideon to receive the Black Flame's Protection incantation.",
+    "location": "Roundtable Hold",
+    "flag": 400282,
+    "item": 6260,
+    "item_kind": "incantation",
+    "optional": true
+   },
+   {
+    "title": "Report defeating Mohg, Lord of Blood",
+    "detail": "After defeating Mohg, Lord of Blood, tell Gideon to receive the Law of Causality incantation.",
+    "location": "Roundtable Hold",
+    "flag": 400285,
+    "item": 6760,
+    "item_kind": "incantation",
+    "optional": true
+   },
+   {
+    "title": "Report defeating Malenia, Blade of Miquella",
+    "detail": "After defeating Malenia, Blade of Miquella, tell Gideon to receive the Lord's Divine Fortification incantation.",
+    "location": "Roundtable Hold",
+    "flag": 400283,
+    "item": 6490,
+    "item_kind": "incantation",
+    "optional": true,
+    "warning": "Collect his incantation rewards before defeating Maliketh, the Black Blade, after which Gideon leaves the Roundtable Hold."
+   },
+   {
+    "title": "Defeat Sir Gideon Ofnir, the All-Knowing",
+    "detail": "After burning the Erdtree, return to the Roundtable Hold and fight Gideon as a boss; he drops the Scepter of the All-Knowing and the All-Knowing armor set.",
+    "location": "Roundtable Hold",
+    "flag": 510060,
+    "item": 11110000,
+    "item_kind": "weapon",
+    "warning": "Mandatory; triggers after major late-game story progression."
+   }
+  ]
+ },
+ {
+  "id": "brother-corhyn",
+  "giver": "Brother Corhyn",
+  "wiki": "Brother Corhyn",
+  "region": "Roundtable Hold",
+  "dlc": false,
+  "summary": "A cleric who leaves the Roundtable Hold to follow the scholar Goldmask, only to lose his faith as Goldmask's heretical conclusions unravel the Golden Order.",
+  "reward": "Prayer gesture, Immutable Shield incantation, Corhyn's Bell Bearing, Corhyn's Robe",
+  "steps": [
+   {
+    "title": "Meet Corhyn at the Roundtable Hold",
+    "detail": "Speak with Brother Corhyn in the main room of the Roundtable Hold; he teaches incantations and gives the Prayer gesture.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Find Corhyn on the Altus Plateau",
+    "detail": "After reaching the Altus Plateau and resting, Corhyn leaves to search for Goldmask; find him along the northern road from the Altus Highway Junction Site of Grace, where his shop expands.",
+    "location": "Altus Highway Junction"
+   },
+   {
+    "title": "Locate Goldmask and tell Corhyn",
+    "detail": "Find Goldmask on the Forest-Spanning Greatbridge in northern Altus, then return to Corhyn and inform him; after resting he moves to join Goldmask.",
+    "location": "Forest-Spanning Greatbridge"
+   },
+   {
+    "title": "Find Corhyn and Goldmask together",
+    "detail": "Find the pair together on the bridge above the Road of Iniquity Side Path; Corhyn becomes Goldmask's scribe and his shop expands further.",
+    "location": "Bridge above Road of Iniquity Side Path"
+   },
+   {
+    "title": "Solve the riddle at Leyndell",
+    "detail": "Find Corhyn and Goldmask on a cliff east of the colosseum in Leyndell, Royal Capital. Cast Law of Regression on the statue west of the Erdtree Sanctuary grace to reveal that Radagon is Marika, then report to Goldmask. Corhyn then sells the Immutable Shield incantation.",
+    "location": "Leyndell, Royal Capital",
+    "item": 6740,
+    "item_kind": "incantation",
+    "warning": "Must be done before burning the Erdtree; if missed, Corhyn vanishes and leaves only his Bell Bearing at the colosseum."
+   },
+   {
+    "title": "Find them at the Mountaintops of the Giants",
+    "detail": "Both Corhyn and Goldmask relocate to the bridge south of the Stargazers' Ruins, above the Ancient Snow Valley Ruins Site of Grace, where Corhyn voices his doubts.",
+    "location": "Stargazers' Ruins",
+    "warning": "Progress this stage before completing Crumbling Farum Azula, or Corhyn may not survive. Optionally giving the Tonic of Forgetfulness alters his ending."
+   },
+   {
+    "title": "Witness Corhyn's end in the Ashen Capital",
+    "detail": "After defeating Maliketh and progressing the story, find Corhyn near the base of the giant spiral spear in Leyndell, Ashen Capital, where he breaks down. After exhausting his dialogue, reload to loot his Flail, Corhyn's Bell Bearing, and Corhyn's Robe.",
+    "location": "Leyndell, Ashen Capital",
+    "flag": 400370,
+    "warning": "If you gave the Tonic of Forgetfulness, he instead remains at the Stargazers' Ruins bridge."
+   }
+  ]
+ },
+ {
+  "id": "goldmask",
+  "giver": "Goldmask",
+  "wiki": "Goldmask",
+  "region": "Altus Plateau",
+  "dlc": false,
+  "summary": "A silent scholar who studies the Golden Order's flaws and, with the player's help, devises the Mending Rune that enables the Age of Order ending.",
+  "reward": "Golden Order Totality gesture, Goldmask's Set, Mending Rune of Perfect Order (Age of Order / Goldmask's Fellowship ending)",
+  "steps": [
+   {
+    "title": "Find Goldmask on the Altus Plateau",
+    "detail": "Find Goldmask standing in contemplation on the Forest-Spanning Greatbridge in northern Altus Plateau; interacting with him advances the quest.",
+    "location": "Forest-Spanning Greatbridge"
+   },
+   {
+    "title": "Find Goldmask at Leyndell",
+    "detail": "After gaining access to Leyndell, Royal Capital, find Goldmask on a cliff by the colosseum.",
+    "location": "Leyndell, Royal Capital",
+    "warning": "Must reach Leyndell before burning the Erdtree."
+   },
+   {
+    "title": "Reveal the statue's secret",
+    "detail": "Cast the Law of Regression incantation (requires 37 Intelligence) on the hidden statue west of the Erdtree Sanctuary grace to reveal that Radagon is Marika.",
+    "location": "Leyndell, Royal Capital",
+    "warning": "Missable; must be done before progressing too far. Requires 37 Intelligence (respec with a Larval Tear if needed)."
+   },
+   {
+    "title": "Report back to Goldmask",
+    "detail": "Speak to Goldmask at the Leyndell colosseum after revealing the statue's secret; he gives the Golden Order Totality gesture.",
+    "location": "Leyndell, Royal Capital"
+   },
+   {
+    "title": "Follow Goldmask to the Mountaintops of the Giants",
+    "detail": "Goldmask and Corhyn relocate to a high vantage point in the Mountaintops of the Giants (the bridge south of the Stargazers' Ruins).",
+    "location": "Stargazers' Ruins",
+    "warning": "Must reach this stage before burning the Erdtree, or the Age of Order ending is locked."
+   },
+   {
+    "title": "Obtain the Mending Rune of Perfect Order",
+    "detail": "After defeating the Elden Beast, find Goldmask's corpse south-southwest of the Ashen Capital Site of Grace, across the log bridge and up the stairs, to receive the Mending Rune of Perfect Order, which enables the Age of Order ending.",
+    "location": "Leyndell, Ashen Capital",
+    "flag": 9500
+   },
+   {
+    "title": "Collect Goldmask's Set",
+    "detail": "Return to Goldmask's corpse after taking the Mending Rune to claim Goldmask's Set (the Radiant Gold Mask is found separately on the Altus Plateau).",
+    "location": "Leyndell, Ashen Capital",
+    "optional": true
+   }
+  ]
+ },
+ {
+  "id": "ensha",
+  "giver": "Ensha",
+  "wiki": "Ensha",
+  "region": "Roundtable Hold",
+  "dlc": false,
+  "summary": "Gideon Ofnir's silent attendant at the Roundtable Hold who invades the player as an NPC after a Haligtree Secret Medallion half is obtained.",
+  "reward": "Royal Remains Set, Clinging Bone",
+  "steps": [
+   {
+    "title": "Encounter Ensha at the Roundtable Hold",
+    "detail": "Find Ensha seated to the right of the entrance, outside Gideon Ofnir's room; interacting with him yields the \"What Do You Want?\" gesture.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Obtain a Haligtree Secret Medallion half",
+    "detail": "Acquire either the right or left half of the Haligtree Secret Medallion, which triggers Ensha's invasion.",
+    "location": "Liurnia of the Lakes / Castle Sol",
+    "warning": "If neither medallion half is obtained before killing the Fire Giant and resting at the Forge of the Giants grace, Ensha vanishes permanently."
+   },
+   {
+    "title": "Defeat Ensha's invasion",
+    "detail": "Return to the Roundtable Hold, where Ensha of the Royal Remains invades; defeat him. He wields the Clinging Bone and a Meteorite Staff.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Collect Ensha's drops",
+    "detail": "Return to where Ensha originally sat outside Gideon's room to pick up the Royal Remains Set and the Clinging Bone.",
+    "location": "Roundtable Hold"
+   }
+  ]
+ },
+ {
+  "id": "fia-deathbed-companion",
+  "giver": "Fia",
+  "wiki": "Fia",
+  "region": "Roundtable Hold",
+  "dlc": false,
+  "summary": "Fia, the Deathbed Companion, sends you to gather the marks of Death so she can unleash the Mending Rune of the Death-Prince and the Age of the Duskborn ending.",
+  "reward": "Mending Rune of the Death-Prince; Radiant Baldachin's Blessing",
+  "steps": [
+   {
+    "title": "Receive Fia's embrace",
+    "detail": "Find Fia in her small bedroom at the Roundtable Hold and let her embrace you to receive Baldachin's Blessing, which boosts poise at the cost of 5% max HP while held.",
+    "location": "Roundtable Hold",
+    "warning": "Holding Baldachin's Blessing reduces max HP by 5% until it is consumed."
+   },
+   {
+    "title": "Return after the Radahn Festival",
+    "detail": "After initiating the Radahn Festival at Redmane Castle, return to Fia at the Roundtable Hold; she gives you the Weathered Dagger to deliver to D, Hunter of the Dead.",
+    "location": "Roundtable Hold",
+    "warning": "This step cannot be completed after reaching Crumbling Farum Azula."
+   },
+   {
+    "title": "Get the Knifeprint Clue",
+    "detail": "Speak with Sorcerer Rogier about the Black Knives, then return to Fia, who gives you the Knifeprint Clue.",
+    "location": "Roundtable Hold",
+    "warning": "Rogier must still be alive; if he has died you cannot progress this way."
+   },
+   {
+    "title": "Fia relocates",
+    "detail": "Reload the area after receiving the Knifeprint Clue; Fia briefly appears in a newly opened room near the blacksmith, then disappears from the Roundtable Hold.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Defeat Fia's Champions in Deeproot Depths",
+    "detail": "Travel to Deeproot Depths and, from the Across the Roots Site of Grace, enter the arena to the north and defeat Fia's Champions; spirit ash summons are allowed.",
+    "location": "Deeproot Depths (Across the Roots)",
+    "flag": 12030800
+   },
+   {
+    "title": "Bring Fia the Cursemark of Death",
+    "detail": "Speak with Fia in the arena, accept her hug, then bring her the Cursemark of Death obtained from Ranni's questline; give it to her where she sits.",
+    "location": "Deeproot Depths",
+    "warning": "Requires the Cursemark of Death from Ranni's questline."
+   },
+   {
+    "title": "Enter the Deathbed Dream and defeat Lichdragon Fortissax",
+    "detail": "Exhaust her dialogue, reload so she falls asleep, then inspect sleeping Fia to enter her dream and defeat Lichdragon Fortissax.",
+    "location": "Deeproot Depths",
+    "flag": 12030850,
+    "warning": "This is the only opportunity to fight Lichdragon Fortissax; victory is required to progress."
+   },
+   {
+    "title": "Claim the Mending Rune of the Death-Prince",
+    "detail": "After defeating Lichdragon Fortissax, pick up the Mending Rune of the Death-Prince from Fia's body; use it at the Roundtable Hold's Elden Ring for the Age of the Duskborn ending.",
+    "location": "Deeproot Depths",
+    "flag": 9502
+   },
+   {
+    "title": "Resolve the Twinned Armor with D's brother",
+    "detail": "Give the unaltered Twinned Set to D's brother (seated past the Valiant Gargoyles grace); after reloading, Fia's Set appears by her body and he leaves the Twinned Set and Inseparable Sword. Alternatively, kill him directly for both sets and the sword.",
+    "location": "Deeproot Depths (Prince of Death's Throne)",
+    "flag": 400348,
+    "item": 2090000,
+    "item_kind": "weapon",
+    "optional": true,
+    "warning": "Giving him the armor causes him to desecrate Fia's corpse."
+   }
+  ]
+ },
+ {
+  "id": "d-hunter-of-the-dead",
+  "giver": "D, Hunter of the Dead",
+  "wiki": "D, Hunter of the Dead",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "D, a hunter of Those Who Live in Death, points you toward Gurranq and the slaying of Deathroot-bearing foes before his quest fatally collides with Fia's.",
+  "reward": "Order's Blade and Litany of Proper Death incantations; Twinned Set; D's Bell Bearing; Inner Order gesture",
+  "steps": [
+   {
+    "title": "Meet D in Stormhill",
+    "detail": "Speak with D standing over a corpse in Stormhill, east of the Stormhill Shack; he warns of Those Who Live in Death around Summonwater Village.",
+    "location": "Stormhill, Limgrave",
+    "warning": "This is the only time D can be fought; killing him here yields the full Twinned Set and D's Bell Bearing but ends his merchant role."
+   },
+   {
+    "title": "Defeat the Tibia Mariner",
+    "detail": "Travel to Summonwater Village and defeat the Tibia Mariner; D can be summoned to help.",
+    "location": "Summonwater Village, Limgrave"
+   },
+   {
+    "title": "Show D some Deathroot",
+    "detail": "Find D again at the southwestern entrance of Summonwater Village, then return to him with Deathroot and accept his offer to introduce you to Gurranq, which marks a Sending Gate on your map.",
+    "location": "Summonwater Village, Limgrave"
+   },
+   {
+    "title": "Visit Gurranq at the Bestial Sanctum",
+    "detail": "Take the Sending Gate to the Bestial Sanctum in Caelid and meet Gurranq, the Beast Clergyman.",
+    "location": "Bestial Sanctum, Caelid"
+   },
+   {
+    "title": "D becomes a merchant at Roundtable Hold",
+    "detail": "Return to D at the Roundtable Hold and exhaust dialogue to unlock the Golden Order incantations Litany of Proper Death and Order's Blade for purchase.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Deliver the Weathered Dagger to D",
+    "detail": "Obtain the Weathered Dagger from Fia (after starting the Radahn Festival) and give it to D at the Roundtable Hold; a hidden room opens at the back of the Hold.",
+    "location": "Roundtable Hold",
+    "warning": "This step cannot be completed after reaching Crumbling Farum Azula."
+   },
+   {
+    "title": "Loot the hidden room",
+    "detail": "Reload the area and enter the newly opened chamber at the back of the Roundtable Hold to take the Twinned Set and D's Bell Bearing.",
+    "location": "Roundtable Hold",
+    "flag": 400349
+   },
+   {
+    "title": "Meet D's twin brother in Nokron",
+    "detail": "Find D's twin brother on the balcony just before the Valiant Gargoyle arena in Nokron, Eternal City; interacting with him grants the Inner Order gesture.",
+    "location": "Nokron, Eternal City"
+   },
+   {
+    "title": "Give the Twinned Set to D's brother",
+    "detail": "Approach D's twin brother with the unaltered Twinned Set in your inventory; after reloading he becomes summonable as 'D, Beholder of Death' for the Valiant Gargoyle fight.",
+    "location": "Nokron, Eternal City",
+    "optional": true
+   },
+   {
+    "title": "D's death and the brother's revenge",
+    "detail": "When Fia's questline concludes in Deeproot Depths, D appears and kills her; reload to find his twin brother triumphant over her corpse, leaving behind the Twinned Set and Inseparable Sword.",
+    "location": "Deeproot Depths (Prince of Death's Throne)",
+    "flag": 400348,
+    "item": 2090000,
+    "item_kind": "weapon"
+   }
+  ]
+ },
+ {
+  "id": "dung-eater",
+  "giver": "Dung Eater",
+  "wiki": "Dung Eater",
+  "region": "Roundtable Hold",
+  "dlc": false,
+  "summary": "The imprisoned Dung Eater has you gather Seedbed Curses so he can curse all of the Lands Between, yielding the Mending Rune of the Fell Curse and the Blessing of Despair ending.",
+  "reward": "Mending Rune of the Fell Curse; Omen Set; Sword of Milos",
+  "steps": [
+   {
+    "title": "Meet the Dung Eater at Roundtable Hold",
+    "detail": "After reaching the Altus Plateau, speak with the Dung Eater in the locked room past the Twin Maiden Husks at the Roundtable Hold.",
+    "location": "Roundtable Hold",
+    "warning": "He will not engage unless you have a Seedbed Curse."
+   },
+   {
+    "title": "Obtain the Sewer-Gaol Key",
+    "detail": "Return to the Dung Eater while carrying at least one Seedbed Curse; he gives you the Sewer-Gaol Key without consuming the curse.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Release him from his cell",
+    "detail": "From the Underground Roadside grace in the Subterranean Shunning-Grounds, work northwest past the Giant Miranda Sprouts and use the Sewer-Gaol Key on his cell, then choose to release him.",
+    "location": "Subterranean Shunning-Grounds (Underground Roadside)",
+    "warning": "Attacking him before releasing him can break the quest."
+   },
+   {
+    "title": "Summon him for Mohg, the Omen (optional)",
+    "detail": "After release, the Dung Eater's cooperator summon sign appears outside the Mohg, the Omen boss fog in the Subterranean Shunning-Grounds.",
+    "location": "Subterranean Shunning-Grounds",
+    "optional": true,
+    "warning": "His summon sign disappears once you advance his quest past the Outer Moat invasion."
+   },
+   {
+    "title": "Defeat the Dung Eater at the Outer Moat",
+    "detail": "Travel to the Outer Moat northeast of Leyndell, exhaust Blackguard Big Boggart's dialogue, walk toward the moat, and defeat the invading Dung Eater for the Sword of Milos.",
+    "location": "Outer Moat, Leyndell Royal Capital",
+    "item": 3160000,
+    "item_kind": "weapon",
+    "warning": "Complete Blackguard Big Boggart's questline first or you may lose his Seedbed Curse drop."
+   },
+   {
+    "title": "Speak with him back at the Roundtable Hold",
+    "detail": "Return to the Dung Eater at the Roundtable Hold; he asks you to bring Seedbed Curses to his body back in the cell.",
+    "location": "Roundtable Hold"
+   },
+   {
+    "title": "Feed him five Seedbed Curses (true ending)",
+    "detail": "Return to his body tied to the chair in the Subterranean Shunning-Grounds and give him Seedbed Curses one at a time until he has received five total.",
+    "location": "Subterranean Shunning-Grounds (Dung Eater's cell)",
+    "flag": 9504,
+    "warning": "Giving him Seluvis's Potion instead turns him into a puppet and locks out the Blessing of Despair ending."
+   },
+   {
+    "title": "Collect the Omen Set",
+    "detail": "After receiving the Mending Rune of the Fell Curse, reload the area to find the Omen Set where he sat.",
+    "location": "Subterranean Shunning-Grounds (Dung Eater's cell)"
+   }
+  ]
+ },
+ {
+  "id": "hyetta",
+  "giver": "Hyetta",
+  "wiki": "Hyetta",
+  "region": "Liurnia of the Lakes",
+  "dlc": false,
+  "summary": "The blind maiden Hyetta seeks the Frenzied Flame, asking you for Shabriri Grapes as you guide her toward Leyndell to become your Finger Maiden of the Three Fingers.",
+  "reward": "Frenzied Flame Seal; five Frenzyflame Stones",
+  "steps": [
+   {
+    "title": "Receive Irina's letter",
+    "detail": "Speak with Irina in the Weeping Peninsula to receive her letter, which is required for Hyetta to appear.",
+    "location": "Weeping Peninsula",
+    "warning": "Killing Irina before speaking to her prevents Hyetta from spawning entirely."
+   },
+   {
+    "title": "Offer a Shabriri Grape at the Lake-Facing Cliffs",
+    "detail": "Meet Hyetta at the Lake-Facing Cliffs grace in Liurnia of the Lakes and give her a Shabriri Grape to receive the As You Wish gesture.",
+    "location": "Lake-Facing Cliffs, Liurnia of the Lakes",
+    "warning": "If she does not appear, rest at the grace rather than only teleporting in."
+   },
+   {
+    "title": "Feed her at the Purified Ruins",
+    "detail": "Find Hyetta on the western side of the Purified Ruins in Liurnia and give her another Shabriri Grape.",
+    "location": "Purified Ruins, Liurnia of the Lakes"
+   },
+   {
+    "title": "Tell her the truth at Gate Town Bridge",
+    "detail": "Give Hyetta a Shabriri Grape north of the Gate Town Bridge grace; when she asks what the grapes are, you must tell her they are human eyes.",
+    "location": "Gate Town Bridge, Liurnia of the Lakes",
+    "warning": "You must reload and exhaust all of her new dialogue before she will relocate."
+   },
+   {
+    "title": "Bring the Fingerprint Grape to Bellum Church",
+    "detail": "Meet Hyetta at Bellum Church in northeastern Liurnia and give her a Fingerprint Grape, dropped by Festering Fingerprint Vyke near the Church of Inhibition.",
+    "location": "Bellum Church, Liurnia of the Lakes"
+   },
+   {
+    "title": "Burn her into your Finger Maiden",
+    "detail": "After accepting the Three Fingers' mark at the Frenzied Flame Proscription beneath Leyndell, return to Hyetta and rest your hand upon her; she burns and becomes your Finger Maiden, leaving the Frenzied Flame Seal and five Frenzyflame Stones.",
+    "location": "Frenzied Flame Proscription, Subterranean Shunning-Grounds",
+    "flag": 400089,
+    "item": 34090000,
+    "item_kind": "weapon",
+    "warning": "Accepting the Three Fingers locks you into the Frenzied Flame ending unless reversed with Miquella's Needle at Dragonlord Placidusax's arena in Crumbling Farum Azula."
+   }
+  ]
+ },
+ {
+  "id": "yura-bloody-finger-hunter",
+  "giver": "Bloody Finger Hunter Yura",
+  "wiki": "Bloody Finger Hunter Yura",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "The Bloody Finger hunter Yura aids you against invading Bloody Fingers across the Lands Between until his hunt for Eleonora ends in his death and his body is later claimed by Shabriri.",
+  "reward": "Nagakiba; Eleonora's Poleblade; Ash of War: Raptor of the Mists; Purifying Crystal Tear",
+  "steps": [
+   {
+    "title": "Meet Yura near the Seaside Ruins",
+    "detail": "Speak with Yura under the overpass northeast of the Seaside Ruins grace in Limgrave; he warns about Flying Dragon Agheel in the lake.",
+    "location": "Seaside Ruins, Limgrave",
+    "warning": "You must speak to him at least once to progress."
+   },
+   {
+    "title": "Defeat Flying Dragon Agheel (optional)",
+    "detail": "Kill Flying Dragon Agheel at Agheel Lake, optionally summoning Yura, after which he congratulates you and mentions Dragon Communion.",
+    "location": "Agheel Lake, Limgrave",
+    "optional": true,
+    "warning": "Missable congratulatory dialogue, but skipping it does not block the quest."
+   },
+   {
+    "title": "Survive the Nerijus invasion at Murkwater Cave",
+    "detail": "Approaching Murkwater Cave triggers an invasion by Bloody Finger Nerijus; defeat him, with Yura available as a white summon.",
+    "location": "Murkwater Cave, Limgrave"
+   },
+   {
+    "title": "Talk to Yura after the Nerijus fight",
+    "detail": "Speak with Yura under the tunnel-like ruin north of Murkwater Cave, where he explains his mission of hunting Bloody Fingers.",
+    "location": "Murkwater Cave, Limgrave",
+    "warning": "You must speak to him here or he will not move on to Raya Lucaria."
+   },
+   {
+    "title": "Aid Yura against the Ravenmount Assassin",
+    "detail": "Use Yura's red summon sign north of the Main Academy Gate grace at Raya Lucaria and defeat the Bloody Finger Ravenmount Assassin; afterward speak to Yura for Ash of War: Raptor of the Mists.",
+    "location": "Main Academy Gate, Liurnia of the Lakes",
+    "flag": 1035467700
+   },
+   {
+    "title": "Meet Yura at the Second Church of Marika",
+    "detail": "Speak with the wounded Yura at the Second Church of Marika in the Altus Plateau, where he gives you the Nagakiba just before Eleonora invades.",
+    "location": "Second Church of Marika, Altus Plateau",
+    "item": 9010000,
+    "item_kind": "weapon"
+   },
+   {
+    "title": "Defeat Eleonora, Violet Bloody Finger",
+    "detail": "Defeat the invading Eleonora, Violet Bloody Finger at the Second Church of Marika; Yura dies of his wounds, leaving his body behind.",
+    "location": "Second Church of Marika, Altus Plateau",
+    "item": 10050000,
+    "item_kind": "weapon",
+    "warning": "Quest becomes inaccessible after passing through the Rold Lift."
+   }
+  ]
+ },
+ {
+  "id": "shabriri",
+  "giver": "Shabriri",
+  "wiki": "Shabriri",
+  "region": "Mountaintops of the Giants",
+  "dlc": false,
+  "summary": "Inhabiting the dead Yura's body, Shabriri urges you to embrace the Three Fingers and become the Lord of the Frenzied Flame.",
+  "reward": "Lord of the Frenzied Flame ending; Ronin's Set",
+  "steps": [
+   {
+    "title": "Meet Shabriri in Yura's body",
+    "detail": "Speak with Shabriri, who has taken over Yura's corpse, at the Zamor Ruins grace in the Mountaintops of the Giants; he describes the Frenzied Flame path.",
+    "location": "Zamor Ruins, Mountaintops of the Giants",
+    "warning": "If you meet the Three Fingers before reaching Shabriri he never appears, leaving only the Ronin's Set on the ground."
+   },
+   {
+    "title": "Travel to the Three Fingers",
+    "detail": "Follow Shabriri's directions to the Cathedral of the Forsaken beneath the Subterranean Shunning-Grounds, removing your armor to open the sealed door.",
+    "location": "Cathedral of the Forsaken, Subterranean Shunning-Grounds"
+   },
+   {
+    "title": "Embrace the Three Fingers",
+    "detail": "Descend to the Three Fingers and embrace the Frenzied Flame to become its vessel and unlock the Lord of the Frenzied Flame ending.",
+    "location": "Cathedral of the Forsaken, Subterranean Shunning-Grounds",
+    "warning": "This choice locks out all other endings unless reversed with Miquella's Needle at Dragonlord Placidusax's arena in Crumbling Farum Azula."
+   },
+   {
+    "title": "Claim the Ronin's Set",
+    "detail": "After embracing the Three Fingers, Shabriri vanishes and leaves the Ronin's Set where he stood; he can also be killed at Zamor Ruins for the same set.",
+    "location": "Zamor Ruins, Mountaintops of the Giants"
+   }
+  ]
+ },
+ {
+  "id": "boc-the-seamster",
+  "giver": "Boc the Seamster",
+  "wiki": "Boc the Seamster",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "Free a demi-human seamster trapped in a tree, recover his tailoring tools, and guide him through self-acceptance for free garment alterations.",
+  "reward": "Free garment alterations, \"My Lord\" gesture",
+  "steps": [
+   {
+    "title": "Free Boc from the tree",
+    "detail": "Attack the talking tree northwest of Murkwater Bridge (east of the telescope south of Agheel Lake North) to break the spell and free Boc, who asks you to wait while he retrieves his belongings.",
+    "location": "Northwest of Murkwater Bridge, Limgrave"
+   },
+   {
+    "title": "Recover his tools at Coastal Cave",
+    "detail": "Enter Coastal Cave and defeat the boss to recover Boc's tools, then return to him at the cave entrance and give him the items.",
+    "location": "Coastal Cave, Limgrave"
+   },
+   {
+    "title": "Meet Boc at the Lake-Facing Cliffs",
+    "detail": "Rest at the Lake-Facing Cliffs Site of Grace north of Stormveil Castle to summon Boc; free garment alterations become available here.",
+    "location": "Lake-Facing Cliffs, Liurnia of the Lakes"
+   },
+   {
+    "title": "Find Boc at East Raya Lucaria Gate",
+    "detail": "After accessing Raya Lucaria Academy, rest at the East Raya Lucaria Gate Site of Grace to find Boc; Melina also appears here and remarks on him.",
+    "location": "East Raya Lucaria Gate, Liurnia of the Lakes"
+   },
+   {
+    "title": "Find Boc at Altus Highway Junction",
+    "detail": "Rest at the Altus Highway Junction Site of Grace in the Altus Plateau to find Boc relocated there.",
+    "location": "Altus Highway Junction, Altus Plateau"
+   },
+   {
+    "title": "Find Boc at East Capital Rampart",
+    "detail": "Rest at the East Capital Rampart Site of Grace in Leyndell to find Boc; to progress further you must own the Gold Sewing Needle (from Church of Vows) and alterable legendary demigod armor from Finger Reader Enia at Roundtable Hold.",
+    "location": "East Capital Rampart, Leyndell Royal Capital",
+    "warning": "Only demigod armor counts as legendary and unlocks the Gold Sewing Needle upgrade option; other alterable armor won't trigger it. After burning the Erdtree and defeating Maliketh, Boc's map marker disappears but he remains here."
+   },
+   {
+    "title": "Reassure Boc with the Prattling Pate (recommended ending)",
+    "detail": "Use the \"You're beautiful\" Prattling Pate (from Hermit Village, Mt. Gelmir) in front of Boc, then answer \"yes\" when he asks if you think he's beautiful, completing the quest peacefully.",
+    "location": "East Capital Rampart, Leyndell Royal Capital",
+    "optional": true,
+    "warning": "Using the Prattling Pate removes the option to give a Larval Tear. Giving a Larval Tear instead leads to his death, and doing nothing causes him to relocate to the Raya Lucaria Grand Library and die."
+   }
+  ]
+ },
+ {
+  "id": "latenna",
+  "giver": "Latenna",
+  "wiki": "Latenna",
+  "region": "Liurnia of the Lakes",
+  "dlc": false,
+  "summary": "Guide a blind Albinauric markswoman toward her sister at the Haligtree by carrying her spirit and uniting the two halves of the Haligtree Secret Medallion.",
+  "reward": "Latenna the Albinauric (Spirit Ashes), Somber Ancient Dragon Smithing Stone",
+  "steps": [
+   {
+    "title": "Obtain the Right Medallion from Albus",
+    "detail": "Speak with Albus, hidden as a pot in the Village of the Albinaurics, to receive the right half of the Haligtree Secret Medallion.",
+    "location": "Village of the Albinaurics, Liurnia of the Lakes"
+   },
+   {
+    "title": "Show Latenna the Right Medallion",
+    "detail": "Clear the Lakeside Crystal Cave dungeon, then approach Latenna at the Slumbering Wolf's Shack and show her the Haligtree Secret Medallion (Right) to gain her trust and receive her as a spirit summon.",
+    "location": "Slumbering Wolf's Shack, Liurnia of the Lakes",
+    "flag": 400410,
+    "item": 204000,
+    "item_kind": "spirit",
+    "warning": "Obtaining the Haligtree Secret Medallion (Left) before showing her the Right Medallion will cause her to die, failing the quest."
+   },
+   {
+    "title": "Travel to the Mountaintops of the Giants",
+    "detail": "Carry Latenna's spirit to the area northeast of the Ancient Snow Valley Ruins near the frozen river; summoning her there triggers dialogue hinting at the Left Medallion's location in Castle Sol.",
+    "location": "Northeast of Ancient Snow Valley Ruins, Mountaintops of the Giants",
+    "warning": "Her dialogue may not trigger if Ranni's questline is already complete."
+   },
+   {
+    "title": "Reach the Apostate Derelict in the Consecrated Snowfield",
+    "detail": "Progress into the Consecrated Snowfield to the Apostate Derelict, interact with the giant Albinauric woman (Phillia), and summon Latenna there to complete the quest.",
+    "location": "Apostate Derelict, Consecrated Snowfield",
+    "flag": 400411
+   }
+  ]
+ },
+ {
+  "id": "white-mask-varre",
+  "giver": "White Mask Varré",
+  "wiki": "White Mask Varré",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "Join Mohg's blood cult by performing invasions and a blood-soaking ritual to be anointed a Knight of Blood and gain early access to Mohgwyn Palace.",
+  "reward": "Pureblood Knight's Medal, Bloody Finger",
+  "steps": [
+   {
+    "title": "Meet Varré at the First Step",
+    "detail": "Speak with White Mask Varré at the First Step Site of Grace at the very start of the game and exhaust his dialogue.",
+    "location": "The First Step, Limgrave"
+   },
+   {
+    "title": "Obtain a Great Rune and meet the Two Fingers",
+    "detail": "Defeat a shardbearer demigod to obtain a Great Rune, meet Enia at Roundtable Hold, then request an audience with the Two Fingers in the inner chamber to advance Varré's quest.",
+    "location": "Roundtable Hold",
+    "warning": "Touching the Two Fingers is what triggers Varré's relocation to Rose Church."
+   },
+   {
+    "title": "Find Varré at Rose Church",
+    "detail": "Travel to Rose Church on the southwest island of Liurnia, speak with Varré, and receive Festering Bloody Fingers to begin invading.",
+    "location": "Rose Church, Liurnia of the Lakes",
+    "flag": 400036
+   },
+   {
+    "title": "Complete invasions (or defeat Magnus the Beast Claw)",
+    "detail": "Invade three players using the Festering Bloody Finger, or instead defeat the field boss at Writheblood Ruins, then report back to Varré.",
+    "location": "Rose Church, Liurnia of the Lakes",
+    "warning": "Defeating the boss is an optional substitute; three successful invasions suffice."
+   },
+   {
+    "title": "Soak the Lord of Blood's Favor in maiden's blood",
+    "detail": "Receive the white oath-cloth from Varré and soak it in a dead maiden's blood at a corpse such as the Church of Inhibition, the Chapel of Anticipation (via the Four Belfries portal), or Irina's/Hyetta's body.",
+    "location": "Rose Church, Liurnia of the Lakes",
+    "flag": 400033,
+    "warning": "Using Hyetta's corpse kills her and prevents completing her questline."
+   },
+   {
+    "title": "Be anointed by Varré",
+    "detail": "Return the blood-soaked Lord of Blood's Favor to Varré at Rose Church; he pierces your finger to anoint you, turning your eyes blood-red and giving a reusable invasion finger.",
+    "location": "Rose Church, Liurnia of the Lakes",
+    "flag": 60270
+   },
+   {
+    "title": "Receive the Pureblood Knight's Medal",
+    "detail": "Speak with Varré again after the ceremony to receive the Pureblood Knight's Medal, which teleports you to Mohgwyn Palace without crossing the Consecrated Snowfield.",
+    "location": "Rose Church, Liurnia of the Lakes"
+   }
+  ]
+ },
+ {
+  "id": "gostoc",
+  "giver": "Gostoc",
+  "wiki": "Gostoc",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "A mistreated gatekeeper at Stormveil Castle who guides, robs, and traps you while quietly resenting Godrick's tyranny.",
+  "reward": "Grace Mimic, Ancient Dragon Smithing Stone, Gostoc's Bell Bearing",
+  "steps": [
+   {
+    "title": "Meet Gostoc at the castle gate",
+    "detail": "Speak with Gostoc at the Stormveil Castle entrance; he offers either the perilous main gate or the safer side path into the castle.",
+    "location": "Stormveil Castle entrance, Limgrave",
+    "warning": "Opening the main gate prevents some of his later stalking appearances."
+   },
+   {
+    "title": "Encounter Gostoc inside the castle",
+    "detail": "Progress through Stormveil and find Gostoc lurking at one of his spots (Ruined Watchtower behind Stormveil Cliffside grace, the rampart tower near the lift, or the chapel roof above Rogier); the first encounter yields the Grace Mimic.",
+    "location": "Stormveil Castle interior, Limgrave",
+    "warning": "His stalking spots are mutually exclusive; the Grace Mimic is obtained only at the first encounter."
+   },
+   {
+    "title": "Survive the Rusty Key trap room",
+    "detail": "Enter the dark room holding the Rusty Key; Gostoc shuts the door behind you, forcing a fight before you can claim the key.",
+    "location": "Stormveil Castle, Limgrave",
+    "warning": "Gostoc's laughter signals the trap; killing him beforehand prevents the door from locking."
+   },
+   {
+    "title": "Open Gostoc's shop",
+    "detail": "Obtain the Rusty Key (or defeat Godrick) and return to Gostoc at the main gate to open his merchant shop, after which he stops stealing your runes on death.",
+    "location": "Stormveil Castle main gate, Limgrave",
+    "warning": "Until the shop opens, Gostoc steals 30% of your dropped runes whenever you die within the castle."
+   },
+   {
+    "title": "Defeat Godrick the Grafted",
+    "detail": "Defeat Godrick in his throne room; Gostoc appears afterward to stomp on and berate Godrick's remains.",
+    "location": "Godrick's throne room, Stormveil Castle"
+   },
+   {
+    "title": "Promote Gostoc as Nepheli's attendant",
+    "detail": "Complete Nepheli Loux's and Kenneth Haight's quests and defeat Morgott so Nepheli takes Godrick's throne; Gostoc becomes her attendant and sells the Ancient Dragon Smithing Stone.",
+    "location": "Godrick's throne room, Stormveil Castle",
+    "optional": true,
+    "warning": "The Ancient Dragon Smithing Stone is only available if Gostoc is kept alive through this stage; killing him drops Gostoc's Bell Bearing instead."
+   }
+  ]
+ },
+ {
+  "id": "iron-fist-alexander",
+  "giver": "Iron Fist Alexander",
+  "wiki": "Iron Fist Alexander",
+  "region": "Limgrave",
+  "dlc": false,
+  "summary": "A living jar warrior who repeatedly gets stuck on his journey to become a champion, ending in a final duel that yields his power.",
+  "reward": "Shard of Alexander, Alexander's Innards",
+  "steps": [
+   {
+    "title": "Free Alexander in Stormhill",
+    "detail": "Find Alexander stuck headfirst in the ground in northern Stormhill (north of Agheel Lake North, west of the river), choose to help him, and strike his back repeatedly to free him.",
+    "location": "Stormhill, Limgrave"
+   },
+   {
+    "title": "Talk to Alexander at Gael Tunnel",
+    "detail": "Speak with Alexander beyond the door inside Gael Tunnel on the Caelid border and exhaust his dialogue about the Radahn Festival at Redmane Castle.",
+    "location": "Gael Tunnel, Caelid",
+    "optional": true,
+    "warning": "You may skip this location if the Radahn Festival has already been triggered via Blaidd's questline."
+   },
+   {
+    "title": "Meet Alexander at the Radahn Festival",
+    "detail": "Speak with Alexander among the festival participants at Redmane Castle; you can summon him as a cooperator for the Starscourge Radahn fight.",
+    "location": "Redmane Castle, Caelid"
+   },
+   {
+    "title": "Speak with Alexander at the Wailing Dunes",
+    "detail": "After defeating Radahn, find Alexander scavenging the fallen soldiers south of the Starscourge Radahn Site of Grace and exhaust his dialogue.",
+    "location": "Wailing Dunes, Caelid",
+    "warning": "Talk to him before leaving the area."
+   },
+   {
+    "title": "Free Alexander again in Liurnia",
+    "detail": "Find Alexander stuck in a hole south of the Carian Study Hall (follow the path from the Artist's Shack), pour an Oil Pot or Roped Oil Pot on him, then strike him to free him.",
+    "location": "South of Carian Study Hall, Liurnia of the Lakes",
+    "optional": true,
+    "warning": "This step can be skipped by progressing directly to Mt. Gelmir after the Radahn Festival."
+   },
+   {
+    "title": "Speak with Alexander in the Mt. Gelmir lava lake",
+    "detail": "Reach Alexander on the rock outcropping in the lava lake south of Fort Laiedd near the Seethewater Terminus, and exhaust his dialogue referencing the Forge of Giants.",
+    "location": "Seethewater Terminus, Mt. Gelmir",
+    "item": 1120000,
+    "item_kind": "armor",
+    "warning": "Exhaust all dialogue before progressing."
+   },
+   {
+    "title": "Summon Alexander against the Fire Giant",
+    "detail": "Summon Alexander's cooperator sign inside the Fire Giant arena, where he is immune to fire damage and deals heavy stance damage.",
+    "location": "Fire Giant arena, Mountaintops of the Giants",
+    "optional": true,
+    "warning": "Alexander won't appear at Farum Azula until the Fire Giant is defeated and the story has progressed."
+   },
+   {
+    "title": "Duel Alexander at Crumbling Farum Azula",
+    "detail": "Find Alexander on the flat arena past the Dragon Temple Lift, accept his duel, and defeat him to claim his power.",
+    "location": "Crumbling Farum Azula",
+    "flag": 400174,
+    "item": 1231,
+    "item_kind": "talisman",
+    "warning": "You can attack during his post-battle dialogue to skip it and still receive the rewards."
+   }
+  ]
+ },
+ {
+  "id": "irina",
+  "giver": "Irina",
+  "wiki": "Irina",
+  "region": "Weeping Peninsula",
+  "dlc": false,
+  "summary": "A blind maiden asks you to carry a letter to her father Edgar at Castle Morne, beginning a tragic quest that ends with confronting the grief-maddened Edgar the Revenger.",
+  "reward": "Banished Knight's Halberd, Shabriri Grape",
+  "steps": [
+   {
+    "title": "Meet Irina at the Bridge of Sacrifice",
+    "detail": "Speak with Irina sitting by the road at the Bridge of Sacrifice in the Weeping Peninsula to receive a letter for her father at Castle Morne.",
+    "location": "Bridge of Sacrifice, Weeping Peninsula"
+   },
+   {
+    "title": "Deliver the letter to Edgar",
+    "detail": "Travel to Castle Morne, find the commander Edgar inside, and give him Irina's Letter; he refuses to leave while protecting the castle from the rebellion.",
+    "location": "Castle Morne, Weeping Peninsula"
+   },
+   {
+    "title": "Defeat the Leonine Misbegotten",
+    "detail": "Fight through Castle Morne and defeat the Leonine Misbegotten boss on the cliff terrace to end the assault threatening Edgar.",
+    "location": "Castle Morne, Weeping Peninsula"
+   },
+   {
+    "title": "Speak with Edgar after the battle",
+    "detail": "Return to Edgar at Castle Morne; freed from his duty, he thanks you and resolves to return to Irina.",
+    "location": "Castle Morne, Weeping Peninsula",
+    "warning": "An Iron Cleaver can be found embedded in the ground near Irina's spot after this point."
+   },
+   {
+    "title": "Find Irina dead at the Bridge of Sacrifice",
+    "detail": "Return to the Bridge of Sacrifice to find Irina dead and Edgar grieving over her body, after which he vows revenge.",
+    "location": "Bridge of Sacrifice, Weeping Peninsula",
+    "warning": "Irina dies if you defeat the Leonine Misbegotten before delivering her letter, or take too long; killing Irina yourself prevents Hyetta from ever appearing."
+   },
+   {
+    "title": "Defeat Edgar the Revenger",
+    "detail": "Travel to the Revenger's Shack in western Liurnia, where Edgar invades as the hostile \"Edgar the Revenger\"; defeat him to end the questline.",
+    "location": "Revenger's Shack, Liurnia of the Lakes"
+   }
+  ]
+ },
+ {
+  "id": "jar-bairn",
+  "giver": "Jar Bairn",
+  "wiki": "Jar Bairn",
+  "region": "Liurnia of the Lakes",
+  "dlc": false,
+  "summary": "A young living jar in Jarburg searches for a worthy Potentate while dreaming of becoming a warrior like his Uncle Alexander, his fate entwined with Diallos.",
+  "reward": "Companion Jar Talisman",
+  "steps": [
+   {
+    "title": "Meet Jar Bairn in Jarburg",
+    "detail": "Speak with Jar Bairn on the stairs at the west end of Jarburg and offer to be his Potentate; he rejects you for your rough hands.",
+    "location": "Jarburg, Liurnia of the Lakes",
+    "warning": "Never destroy the living jars in Jarburg or the questline becomes inaccessible."
+   },
+   {
+    "title": "Exhaust Jar Bairn's early dialogue",
+    "detail": "Reload the area and talk to Jar Bairn repeatedly until you exhaust his dialogue about the village's rare flowers, his Uncle Alexander, and a warning about poachers.",
+    "location": "Jarburg, Liurnia of the Lakes",
+    "warning": "The poacher-warning dialogue is mandatory before the quest can progress."
+   },
+   {
+    "title": "Bring Diallos to Jarburg",
+    "detail": "Progress Diallos's Volcano Manor questline (or defeat Rykard, Lord of Blasphemy, then speak to him) so Diallos relocates to Jarburg, then exhaust both Diallos's and Jar Bairn's dialogue.",
+    "location": "Jarburg, Liurnia of the Lakes",
+    "optional": true
+   },
+   {
+    "title": "Defeat Radahn and exhaust Alexander's dialogue",
+    "detail": "Defeat Starscourge Radahn and exhaust Alexander's dialogue at the Wailing Dunes, then return to the Starscourge Radahn grace and fast-travel back to Jarburg to advance Jar Bairn's quest.",
+    "location": "Wailing Dunes, Caelid"
+   },
+   {
+    "title": "Witness the poacher attack on Jarburg",
+    "detail": "Return to find Jarburg raided, several jars destroyed, and Diallos mortally wounded in the village center; speak to the dying Diallos and then to Jar Bairn nearby.",
+    "location": "Jarburg, Liurnia of the Lakes",
+    "warning": "The attack may require a night cycle; rest at the grace to pass time until nightfall if it doesn't trigger. Diallos's Mask and Hoslow's Petal Whip appear in the village center."
+   },
+   {
+    "title": "Give Jar Bairn Alexander's Innards",
+    "detail": "After completing Iron Fist Alexander's questline, reload and talk to Jar Bairn until he announces his warrior's journey, then give him Alexander's Innards.",
+    "location": "Jarburg, Liurnia of the Lakes",
+    "warning": "Requires Alexander's Innards from completing Iron Fist Alexander's quest; killing Jar Bairn before giving it ends the quest permanently."
+   },
+   {
+    "title": "Collect the Companion Jar Talisman",
+    "detail": "Reload the area and return to Jar Bairn's original spot to find he has departed, leaving the Companion Jar Talisman behind.",
+    "location": "Jarburg, Liurnia of the Lakes"
+   }
+  ]
+ },
+ {
+  "id": "needle-knight-leda",
+  "giver": "Needle Knight Leda",
+  "wiki": "Needle Knight Leda",
+  "region": "Scadu Altus",
+  "dlc": true,
+  "summary": "A devoted follower of Miquella who rallies, then turns on, the band of Tarnished pursuing him, culminating in a final showdown at Enir-Ilim.",
+  "reward": "Leda's Set, Leda's Sword, Lacerating Crossed-Tree / Retaliatory Crossed-Tree talismans",
+  "steps": [
+   {
+    "title": "Meet Leda at Miquella's cocoon",
+    "detail": "After entering the Land of Shadow via the withered arm at the Cocoon of the Empyrean Grace in Mohgwyn Palace, find Leda beside the cocoon and exhaust her dialogue.",
+    "location": "Cocoon of the Empyrean Grace, Mohgwyn Palace",
+    "warning": "Requires defeating Mohg, Lord of Blood and reaching the cocoon in the base game."
+   },
+   {
+    "title": "Read the cross messages",
+    "detail": "Find the Tower of Shadow Message near Belurat, Tower Settlement and the Castle Cross Message at Miquella's Cross in Castle Ensis to learn the band is gathering at Highroad Cross.",
+    "location": "Belurat, Tower Settlement / Castle Ensis"
+   },
+   {
+    "title": "Gather at Highroad Cross",
+    "detail": "Travel to the Highroad Cross Site of Grace in Scadu Altus and exhaust Leda's dialogue alongside the other assembled Tarnished (Ansbach, Hornsent, Freyja, Dane).",
+    "location": "Highroad Cross, Scadu Altus",
+    "warning": "Rest at the grace repeatedly to cycle all members' dialogue."
+   },
+   {
+    "title": "Break Miquella's charm",
+    "detail": "Trigger the great-rune/charm-breaking event by approaching Shadow Keep or crossing the bridge east of Bonny Village, then return to Highroad Cross and exhaust everyone's new dialogue.",
+    "location": "Shadow Keep entrance / Bonny Village bridge",
+    "warning": "Speak to all band members at Highroad Cross before this event; some dialogue is missed once the charm breaks."
+   },
+   {
+    "title": "Hornsent confrontation in Shadow Keep",
+    "detail": "On the burning-boat battlements before the Storehouse elevator, Leda turns on Hornsent; answer Leda's red summon to kill Hornsent for her, or Hornsent's gold summon to defend him.",
+    "location": "Shadow Keep, Storehouse battlements",
+    "optional": true,
+    "warning": "Entering Messmer's arena from the Dark Chamber Entrance before resolving this locks the choice out."
+   },
+   {
+    "title": "Ansbach confrontation in Shadow Keep",
+    "detail": "In the Storehouse, First Floor, Leda turns on Ansbach; answer Leda's red summon to kill Ansbach (loot Ansbach's Set and Ansbach's Longbow) or his gold summon to defend him.",
+    "location": "Shadow Keep, Storehouse First Floor",
+    "optional": true,
+    "warning": "Ansbach must have received the Secret Rite Scroll for these summon signs to appear."
+   },
+   {
+    "title": "Confront Leda at Enir-Ilim",
+    "detail": "At the Cleansing Chamber Anteroom in Enir-Ilim, fight Leda and the surviving band in the Leda and Allies battle, then loot her gear from her corpse.",
+    "location": "Cleansing Chamber Anteroom, Enir-Ilim",
+    "item": 67510000,
+    "item_kind": "weapon",
+    "warning": "Allies you sided against earlier fight alongside Leda here; allies you saved can be summoned to help."
+   }
+  ]
+ },
+ {
+  "id": "sir-ansbach",
+  "giver": "Sir Ansbach",
+  "wiki": "Sir Ansbach",
+  "region": "Gravesite Plain",
+  "dlc": true,
+  "summary": "A Pureblood Knight of the Mohgwyn Dynasty who investigates Miquella's true intentions and, if befriended, fights at your side against the Promised Consort.",
+  "reward": "Ansbach's Set, Obsidian Lamina, Furious Blade of Ansbach",
+  "steps": [
+   {
+    "title": "Meet Ansbach at Belurat",
+    "detail": "Speak with Sir Ansbach at his camp just outside Belurat, Tower Settlement, at the Main Gate Cross Site of Grace, and exhaust his dialogue about Miquella's Crosses.",
+    "location": "Main Gate Cross, Gravesite Plain"
+   },
+   {
+    "title": "Find Miquella's Crosses",
+    "detail": "Interact with Miquella's Crosses (Belurat, then a second such as the Scaduview or Cerulean Coast cross) and report back to Ansbach for additional dialogue.",
+    "location": "Gravesite Plain / Scaduview / Cerulean Coast",
+    "optional": true,
+    "warning": "This bonus dialogue is lost once Miquella breaks Ansbach's great rune."
+   },
+   {
+    "title": "Reunite after the rune breaks",
+    "detail": "After the great-rune-breaking event, return to Ansbach at Main Gate Cross and exhaust his new dialogue, then meet him again inside Shadow Keep.",
+    "location": "Main Gate Cross, Gravesite Plain"
+   },
+   {
+    "title": "Hear Freyja's decision first",
+    "detail": "In the Storehouse, speak with Redmane Freyja (Seventh Floor) about her decision, then tell Ansbach (First Floor) about it before doing anything else.",
+    "location": "Shadow Keep, Storehouse",
+    "warning": "Must be done before giving Ansbach the Secret Rite Scroll, or Freyja's questline locks out."
+   },
+   {
+    "title": "Find and give the Secret Rite Scroll",
+    "detail": "Retrieve the Secret Rite Scroll from a desk behind the tall bookshelves in the Storehouse and hand it to Ansbach on the First Floor.",
+    "location": "Shadow Keep, Storehouse First Floor",
+    "warning": "If never given the scroll, Ansbach stays put, never yields the Letter for Freyja, and his questline stalls."
+   },
+   {
+    "title": "Deliver the Letter for Freyja",
+    "detail": "Rest at a grace and return to Ansbach to receive the Letter for Freyja, give it to Freyja on the Seventh Floor, then report back to Ansbach.",
+    "location": "Shadow Keep, Storehouse"
+   },
+   {
+    "title": "Side with Ansbach against Leda",
+    "detail": "When Leda turns on the band in the Storehouse, answer Ansbach's gold summon (not Leda's red) so he survives and remains summonable; doing nothing also keeps him alive.",
+    "location": "Shadow Keep, Storehouse First Floor",
+    "warning": "Killing Hornsent before completing the Shadow Keep steps can block Ansbach's summon; answering Leda's red summon kills Ansbach."
+   },
+   {
+    "title": "Summon Ansbach in the NPC battle",
+    "detail": "At the Cleansing Chamber Anteroom in Enir-Ilim, use Ansbach's gold summon sign for the Leda and Allies battle, then exhaust his dialogue at the top of the elevator.",
+    "location": "Cleansing Chamber Anteroom, Enir-Ilim",
+    "optional": true,
+    "warning": "If not summoned here, he cannot be summoned for the final boss."
+   },
+   {
+    "title": "Summon Ansbach against the Promised Consort",
+    "detail": "At the final arena in Enir-Ilim, summon Ansbach for the Promised Consort Radahn fight; after the battle his gear drops near the arena entrance.",
+    "location": "Enir-Ilim final arena",
+    "item": 19500000,
+    "item_kind": "weapon",
+    "optional": true,
+    "warning": "His items drop near the entrance regardless of whether he is summoned."
+   }
+  ]
+ },
+ {
+  "id": "thiollier",
+  "giver": "Thiollier",
+  "wiki": "Thiollier",
+  "region": "Gravesite Plain",
+  "dlc": true,
+  "summary": "A silent attendant devoted to St. Trina who seeks her across the Land of Shadow and, if his quest is completed, aids you against the Promised Consort.",
+  "reward": "St. Trina's Smile, Thiollier's Hidden Needle, Thiollier's Set",
+  "steps": [
+   {
+    "title": "Meet Thiollier in Gravesite Plain",
+    "detail": "Speak with Thiollier next to the Pillar Path Cross Site of Grace in Gravesite Plain and exhaust his dialogue.",
+    "location": "Pillar Path Cross, Gravesite Plain"
+   },
+   {
+    "title": "Get Thiollier's Concoction from Moore",
+    "detail": "After advancing the story, obtain the ingredients from Moore to receive Thiollier's Concoction and learn of St. Trina.",
+    "location": "Gravesite Plain",
+    "optional": true,
+    "warning": "Must be obtained before Thiollier leaves Gravesite Plain for the Garden of Deep Purple, or it becomes unavailable."
+   },
+   {
+    "title": "Find St. Trina and tell Thiollier",
+    "detail": "Discover St. Trina deep in the Stone Coffin Fissure's Garden of Deep Purple, then return to Thiollier at Pillar Path Cross and tell him her whereabouts.",
+    "location": "Garden of Deep Purple, Stone Coffin Fissure",
+    "warning": "Reaching St. Trina requires defeating Putrescent Knight in the Stone Coffin Fissure."
+   },
+   {
+    "title": "Imbibe St. Trina's nectar",
+    "detail": "Meet Thiollier at the Garden of Deep Purple, then repeatedly choose to imbibe St. Trina's nectar until you hear her voice on the death screen.",
+    "location": "Garden of Deep Purple",
+    "warning": "Takes roughly four imbibes; keep going until her voice is heard."
+   },
+   {
+    "title": "Pass on St. Trina's words",
+    "detail": "Speak to Thiollier and select to pass on St. Trina's words twice; he grows enraged, then rest at a grace (or imbibe again) to trigger his invasion.",
+    "location": "Garden of Deep Purple"
+   },
+   {
+    "title": "Defeat Thiollier's invasion",
+    "detail": "Survive and defeat Thiollier when he invades, then talk to him in St. Trina's room and exhaust his dialogue.",
+    "location": "Garden of Deep Purple",
+    "item": 8160,
+    "item_kind": "talisman",
+    "warning": "Must be done before fighting the NPC allies in Enir-Ilim, or he disappears."
+   },
+   {
+    "title": "Summon Thiollier at Enir-Ilim",
+    "detail": "After imbibing the nectar a couple more times to unlock his signs, summon Thiollier for the Leda and Allies battle and then for Promised Consort Radahn; collect his gear near the final arena entrance.",
+    "location": "Enir-Ilim",
+    "item": 21500000,
+    "item_kind": "weapon",
+    "optional": true,
+    "warning": "If not summoned for the NPC allies battle, he cannot be summoned for the final boss; his gear drops regardless."
+   }
+  ]
+ },
+ {
+  "id": "redmane-freyja",
+  "giver": "Redmane Freyja",
+  "wiki": "Redmane Freyja",
+  "region": "Gravesite Plain",
+  "dlc": true,
+  "summary": "A Redmane warrior and former Radahn follower now sworn to Miquella, whose questline runs through the Ansbach letter exchange before she joins the band against you at Enir-Ilim.",
+  "reward": "Golden Lion Shield, Freyja's Greatsword, Freyja's Set",
+  "steps": [
+   {
+    "title": "Meet Freyja in Gravesite Plain",
+    "detail": "Speak with Redmane Freyja at the Three-Path Cross in Gravesite Plain and exhaust her dialogue.",
+    "location": "Three-Path Cross, Gravesite Plain"
+   },
+   {
+    "title": "Summon Freyja against the Divine Beast",
+    "detail": "Use her summon sign for the Divine Beast Dancing Lion at Belurat, Tower Settlement, then return to Three-Path Cross to hear new dialogue.",
+    "location": "Belurat, Tower Settlement",
+    "optional": true
+   },
+   {
+    "title": "Follow Freyja to Shadow Keep",
+    "detail": "After the great rune breaks, return to Three-Path Cross and exhaust her dialogue so she relocates, then summon her against the Golden Hippopotamus at the Shadow Keep Main Gate.",
+    "location": "Shadow Keep Main Gate, Scadu Altus"
+   },
+   {
+    "title": "Hear Freyja's decision in the Storehouse",
+    "detail": "Find Freyja at the Storehouse, Seventh Floor Site of Grace struggling to read the scriptures and exhaust her dialogue about needing Ansbach's help.",
+    "location": "Shadow Keep, Storehouse Seventh Floor",
+    "warning": "Do not over-talk to her; you must then speak to Ansbach before giving him the Secret Rite Scroll."
+   },
+   {
+    "title": "Relay between Ansbach and the scroll",
+    "detail": "Tell Ansbach (First Floor) about Freyja and exhaust his dialogue, then pick up the Secret Rite Scroll from the Storehouse and give it to him.",
+    "location": "Shadow Keep, Storehouse",
+    "warning": "Giving Ansbach the scroll before telling him about Freyja makes him leave when you rest, locking out her quest."
+   },
+   {
+    "title": "Deliver the Letter for Freyja",
+    "detail": "Rest at a grace, take the Letter for Freyja from Ansbach, give it to Freyja on the Seventh Floor and exhaust her dialogue, then report back to Ansbach.",
+    "location": "Shadow Keep, Storehouse Seventh Floor",
+    "item": 31530000,
+    "item_kind": "shield",
+    "warning": "Withholding the letter removes her from the Enir-Ilim battle and she vanishes from the Storehouse."
+   },
+   {
+    "title": "Face Freyja at Enir-Ilim",
+    "detail": "If she received the letter, Freyja fights you in the Leda and Allies battle at the Cleansing Chamber Anteroom; loot her gear from her corpse afterward.",
+    "location": "Cleansing Chamber Anteroom, Enir-Ilim",
+    "item": 8510000,
+    "item_kind": "weapon"
+   }
+  ]
+ },
+ {
+  "id": "igon",
+  "giver": "Igon",
+  "wiki": "Igon",
+  "region": "Jagged Peak",
+  "dlc": true,
+  "summary": "A vengeance-driven drake warrior who guides you up Jagged Peak so he can finally confront his nemesis, the dragon Bayle the Dread.",
+  "reward": "Igon's Greatbow, Igon's Set, Igon's Bell Bearing",
+  "steps": [
+   {
+    "title": "Find Igon on the path to Jagged Peak",
+    "detail": "Head south past the Pillar Path Waypoint and speak with the wounded Igon, exhausting his dialogue until he repeats his line about the exquisite pain.",
+    "location": "Past Pillar Path Waypoint"
+   },
+   {
+    "title": "Descend through the Dragon's Pit",
+    "detail": "Travel the marble dragon-statue road into the cave, activate the Dragon's Pit Site of Grace, follow the lower tunnel to the ritual altar, and leap into the darkness.",
+    "location": "Dragon's Pit",
+    "warning": "Take the lower path, not the upper dragon arena; an NPC invasion is possible on the approach."
+   },
+   {
+    "title": "Defeat the Ancient Dragon-Man",
+    "detail": "Beat the Ancient Dragon-Man behind the golden fog door to claim his weapon and open the way onward.",
+    "location": "Dragon's Pit lower arena",
+    "item": 66510000,
+    "item_kind": "weapon"
+   },
+   {
+    "title": "Commune at the Grand Altar",
+    "detail": "Past a sleeping Jagged Peak Drake, reach the Grand Altar of Dragon Communion, exhaust the priestess's dialogue, and devour draconic essence.",
+    "location": "Grand Altar of Dragon Communion",
+    "warning": "Exhaust all of the Dragon Communion Priestess's dialogue here before finishing Igon's questline."
+   },
+   {
+    "title": "Clear the Foot of the Jagged Peak",
+    "detail": "Use the Spiritspring to reach the Foot of the Jagged Peak Site of Grace, cross the bridge and defeat the two Jagged Peak Drakes, then find Igon in the red-smoke area to the southeast.",
+    "location": "Foot of the Jagged Peak"
+   },
+   {
+    "title": "Optionally beat Ancient Dragon Senessax",
+    "detail": "Climb the mountain via the Spiritsprings behind Igon and, if desired, defeat Ancient Dragon Senessax in the side cave before reaching the summit arena.",
+    "location": "Jagged Peak mountainside",
+    "optional": true,
+    "warning": "Dodge the rolling boulders inside the cave."
+   },
+   {
+    "title": "Summon Igon against Bayle",
+    "detail": "At the Bayle the Dread arena, trigger the boss and use Igon's summon sign on the left side so he fights at your side, then defeat Bayle the Dread.",
+    "location": "Bayle the Dread arena, Jagged Peak",
+    "warning": "Igon's summon sign only appears after the boss is triggered; defeating Bayle leads to Igon's death."
+   },
+   {
+    "title": "Collect Igon's gear",
+    "detail": "Return to the Foot of the Jagged Peak Site of Grace where the two drakes were fought to pick up Igon's dropped equipment.",
+    "location": "Foot of the Jagged Peak",
+    "item": 42500000,
+    "item_kind": "weapon",
+    "warning": "His gear appears here whether or not he was summoned for Bayle."
+   }
+  ]
+ },
+ {
+  "id": "hornsent",
+  "giver": "Hornsent",
+  "wiki": "Hornsent",
+  "region": "Gravesite Plain",
+  "dlc": true,
+  "summary": "A vengeful survivor of the Hornsent race who hunts down Messmer and Marika's kin across the Land of Shadow, his fate decided by who you side with during Leda's betrayal.",
+  "reward": "Falx, Hornsent Set, Soiled Loincloth (plus Ash of War: Swift Slash or Lacerating Crossed-Tree depending on choices)",
+  "steps": [
+   {
+    "title": "Meet Hornsent at Three-Path Cross",
+    "detail": "Speak with Hornsent, who stands alongside Redmane Freyja, and exhaust his dialogue to receive a diagram of Miquella's Crosses.",
+    "location": "Three-Path Cross, Gravesite Plain"
+   },
+   {
+    "title": "Give Scorpion Stew to Hornsent Grandam",
+    "detail": "After defeating Divine Beast Dancing Lion, equip the Divine Beast Head and give Scorpion Stew to Hornsent Grandam in Belurat.",
+    "location": "Belurat, Tower Settlement",
+    "optional": true,
+    "warning": "Only one Scorpion Stew can be given; can still be done after Hornsent relocates to Scadu Altus."
+   },
+   {
+    "title": "Reunite at Highroad Cross",
+    "detail": "Upon first entering Scadu Altus, find Hornsent at the Highroad Cross grace and speak with him to receive an updated cross diagram.",
+    "location": "Highroad Cross, Scadu Altus"
+   },
+   {
+    "title": "Break Miquella's Great Rune",
+    "detail": "Progress through Bonny Village and eastern Scadu Altus to break Miquella's great rune; you will see the message that a great rune and a powerful charm have been broken.",
+    "location": "Scadu Altus / Shadow Keep"
+   },
+   {
+    "title": "Report back to Hornsent",
+    "detail": "Return to Hornsent at Highroad Cross after breaking the rune to advance his quest and trigger his move toward Shadow Keep.",
+    "location": "Highroad Cross, Scadu Altus"
+   },
+   {
+    "title": "Summon Hornsent for the Golden Hippopotamus",
+    "detail": "Use Hornsent's summon sign at the Shadow Keep Main Gate grace to help defeat the Golden Hippopotamus.",
+    "location": "Shadow Keep Main Gate",
+    "optional": true
+   },
+   {
+    "title": "Choose a side in Leda's betrayal",
+    "detail": "On the Shadow Keep battlements near the Storehouse First Floor elevator, two summon signs appear when Leda turns on Hornsent; help Leda (red), help Hornsent (gold), or help neither.",
+    "location": "Shadow Keep battlements",
+    "warning": "Helping Hornsent grants Ash of War: Swift Slash and Leda's Rune but locks the Lacerating Crossed-Tree; helping Leda grants the Falx, Hornsent Set and Lacerating Crossed-Tree but ends his quest and locks Swift Slash."
+   },
+   {
+    "title": "Summon Hornsent against Messmer the Impaler",
+    "detail": "Use Hornsent's summon sign for the Messmer the Impaler fight so he can swear vengeance on Marika's family, which unlocks his later invasion and eases the Enir-Ilim battle.",
+    "location": "Shadow Keep, near Dark Chamber grace",
+    "warning": "Must be done before entering Messmer's room from the Dark Chamber Site of Grace, or the summon signs vanish."
+   },
+   {
+    "title": "Defeat Hornsent's invasion in Rauh",
+    "detail": "If you summoned and exhausted his dialogue for Messmer, Hornsent invades atop the staircase near the Church of the Bud Main Entrance; defeat him to claim his gear.",
+    "location": "Ancient Ruins of Rauh",
+    "item": 7510000,
+    "item_kind": "weapon",
+    "optional": true,
+    "warning": "Only occurs if Hornsent was summoned for the Messmer fight."
+   },
+   {
+    "title": "Final battle at Enir-Ilim",
+    "detail": "In the climactic multi-NPC battle against Needle Knight Leda and Allies, Hornsent fights (as ally or foe by your path); loot his corpse for the remaining gear.",
+    "location": "Enir-Ilim",
+    "item": 5070300,
+    "item_kind": "armor"
+   }
+  ]
+ },
+ {
+  "id": "moore",
+  "giver": "Moore",
+  "wiki": "Moore",
+  "region": "Gravesite Plain",
+  "dlc": true,
+  "summary": "A melancholic merchant tending the Forager Brood outside Belurat who shares cookbooks and a delivery for Thiollier, but may spiral into despair after Miquella's charm breaks.",
+  "reward": "Forager Brood Cookbooks (1)-(7), Black Syrup, Moore's Bell Bearing, Verdigris Greatshield, Verdigris Set",
+  "steps": [
+   {
+    "title": "Meet Moore outside Belurat",
+    "detail": "Speak with Moore at his camp by the Main Gate Cross grace outside Belurat and buy any item to open his shop and unlock extra Ansbach dialogue.",
+    "location": "Main Gate Cross, outside Belurat"
+   },
+   {
+    "title": "Meet Thiollier first",
+    "detail": "Visit Thiollier at the Pillar Path Cross grace to unlock expanded Moore dialogue before either NPC relocates.",
+    "location": "Pillar Path Cross, Scadu Altus",
+    "optional": true,
+    "warning": "Do this before Moore or Thiollier leave their starting spots."
+   },
+   {
+    "title": "Receive Black Syrup for Thiollier",
+    "detail": "Return to Moore after meeting Thiollier and speak with him to receive the Black Syrup to deliver to Thiollier.",
+    "location": "Main Gate Cross, outside Belurat",
+    "warning": "Obtain before either NPC relocates or it becomes unobtainable this playthrough."
+   },
+   {
+    "title": "Collect the Forager Brood Cookbooks",
+    "detail": "Find the six Forager Brood members scattered across the Land of Shadow to gather their cookbooks; one near the Church of the Crusade must be warmed with a Warming Stone or Sunwarmth Stone.",
+    "location": "Various (Scadu Altus, Gravesite Plain, Cerulean Coast)",
+    "warning": "After warming the frozen member, return to Moore for the final cookbook."
+   },
+   {
+    "title": "Receive the final cookbook",
+    "detail": "Return to Moore's camp after helping the frozen Forager Brood member and speak with him to receive the last cookbook.",
+    "location": "Outside Belurat",
+    "warning": "Losing Moore before this locks the remaining cookbooks permanently."
+   },
+   {
+    "title": "Answer Moore after the charm breaks",
+    "detail": "After breaking Miquella's charm, Moore asks if you must be sad forever; reply 'put it behind you', 'remain sad forever', or 'I don't know'.",
+    "location": "Outside Belurat",
+    "warning": "Choose only after securing all cookbooks and Black Syrup; 'remain sad forever' makes him die after the next rest, dropping his gear outside the Church of the Crusade."
+   },
+   {
+    "title": "Defeat Moore's invasion",
+    "detail": "If you kill two friendly Forager Brood (Lesser Kindred of Rot), Moore invades; defeat him to claim his equipment.",
+    "location": "Varies",
+    "optional": true,
+    "warning": "If defeated his quest ends and any unobtained items are lost."
+   },
+   {
+    "title": "Confront Moore at Enir-Ilim",
+    "detail": "If you told him to 'put it behind you', Moore joins the hostile NPC battle past the Cleansing Chamber Anteroom; defeat the group and loot his corpse.",
+    "location": "Enir-Ilim",
+    "item": 32520000,
+    "item_kind": "shield"
+   }
+  ]
+ },
+ {
+  "id": "dryleaf-dane",
+  "giver": "Dryleaf Dane",
+  "wiki": "Dryleaf Dane",
+  "region": "Scadu Altus",
+  "dlc": true,
+  "summary": "A silent wandering monk who challenges the Tarnished to honorable unarmed duels, teaching his martial art before turning up as a foe in the final NPC battle.",
+  "reward": "Dryleaf Arts, Dane's Hat, Dane's Footwork",
+  "steps": [
+   {
+    "title": "Pick up the Monk's Missive",
+    "detail": "At the Highroad Cross grace collect the Monk's Missive and the 'May the Best Win' gesture, both needed to challenge Dane.",
+    "location": "Highroad Cross, Scadu Altus"
+   },
+   {
+    "title": "Travel to Dryleaf Dane",
+    "detail": "Go to the easternmost cross on the New Cross Map to find Dane standing at Moorth Ruins; he does not move.",
+    "location": "Moorth Ruins, Scadu Altus"
+   },
+   {
+    "title": "Duel Dryleaf Dane",
+    "detail": "Use the 'May the Best Win' gesture on Dane to start the mini-boss duel; defeat him to learn his arts.",
+    "location": "Moorth Ruins, Scadu Altus",
+    "item": 60500000,
+    "item_kind": "weapon",
+    "warning": "Breaking Miquella's charm does not affect this encounter."
+   },
+   {
+    "title": "Collect the Dryleaf armor set",
+    "detail": "Reach the Ruins of Unte via the Shadow Keep ladder and teleport coffin to find the Dryleaf Robe, Dryleaf Arm Wraps and Dryleaf Cuissardes.",
+    "location": "Ruins of Unte",
+    "item": 3000100,
+    "item_kind": "armor",
+    "optional": true
+   },
+   {
+    "title": "Final battle at Enir-Ilim",
+    "detail": "In the Cleansing Chamber Anteroom NPC battle Dane is always hostile; defeat him and loot his corpse for his footwork art.",
+    "location": "Enir-Ilim",
+    "item": 60510000,
+    "item_kind": "weapon",
+    "warning": "Dane always appears hostile here, so reconciliation is impossible."
+   }
+  ]
+ },
+ {
+  "id": "count-ymir",
+  "giver": "Count Ymir, Mother of Fingers",
+  "wiki": "Count Ymir",
+  "region": "Scadu Altus",
+  "dlc": true,
+  "summary": "The High Priest of the Fingers at the Cathedral of Manus Metyr sends you to ring three Finger Ruin bells, a pilgrimage that ends with him casting off the Greater Will and transforming into a horror.",
+  "reward": "Remembrance of the Mother of Fingers, Maternal Staff, Ymir's Bell Bearing, High Priest armor set",
+  "steps": [
+   {
+    "title": "Meet Count Ymir at the Cathedral",
+    "detail": "Speak with Count Ymir behind the closed doors of the Cathedral of Manus Metyr and exhaust his dialogue; he also sells sorceries.",
+    "location": "Cathedral of Manus Metyr"
+   },
+   {
+    "title": "Ring the bell at Finger Ruins of Rhia",
+    "detail": "Fast travel to the Finger Ruins of Rhia, pass the Fingercreepers and ring the bell, then return to Ymir for a new map and Beloved Stardust; Jolán now appears at a pillar.",
+    "location": "Finger Ruins of Rhia, Cerulean Coast",
+    "item": 7140,
+    "item_kind": "talisman"
+   },
+   {
+    "title": "Ring the bell at Finger Ruins of Dheo",
+    "detail": "From the Shadow Keep Back Gate, perform the O Mother gesture at the altar to open the way to Scaduview, pass the two Tree Sentinels (Jolán can be summoned), ring the bell, and report back to Ymir.",
+    "location": "Finger Ruins of Dheo, Scaduview",
+    "item": 7150,
+    "item_kind": "talisman",
+    "warning": "The hidden altar requires the O Mother gesture, which is not signposted in-game."
+   },
+   {
+    "title": "Descend to Finger Ruins of Miyr",
+    "detail": "Ask Ymir about the nature of the world, reload, and interact with his throne to reveal a rope ladder down to the Finger Ruins of Miyr.",
+    "location": "Cathedral of Manus Metyr throne room"
+   },
+   {
+    "title": "Survive Swordhand of Night Anna's invasion",
+    "detail": "In the underground ruins you are invaded by Swordhand of Night Anna; defeat her and grab the cookbook on the lower-left walkway.",
+    "location": "Finger Ruins of Miyr",
+    "item": 22500000,
+    "item_kind": "weapon"
+   },
+   {
+    "title": "Defeat Metyr, Mother of Fingers",
+    "detail": "Ring the hanging bell via the Summoning Pool to enter the arena and defeat Metyr, the true Mother of Fingers, for a Remembrance and a large rune reward.",
+    "location": "Finger Ruins of Miyr",
+    "flag": 25000800,
+    "warning": "Defeating Metyr removes Jolán's gold summon signs at the Messmer, Tree Sentinels and Ghostflame Dragon fights."
+   },
+   {
+    "title": "Defeat Count Ymir, Mother of Fingers",
+    "detail": "Return to the throne room and interact with the throne; after Swordhand of Night Jolán appears, Ymir transforms and must be defeated.",
+    "location": "Cathedral of Manus Metyr throne room",
+    "flag": 2051450800
+   },
+   {
+    "title": "Collect the High Priest gear and continue with Jolán",
+    "detail": "Take the High Priest armor set and Maternal Staff from the fight, grab the Cherishing Fingers in the western graveyard, then rest and speak with the slumped Jolán to continue her questline.",
+    "location": "Cathedral of Manus Metyr",
+    "item": 33520000,
+    "item_kind": "weapon"
+   }
+  ]
+ },
+ {
+  "id": "jolan",
+  "giver": "Jolán",
+  "wiki": "Jolan",
+  "region": "Scadu Altus",
+  "dlc": true,
+  "summary": "A Blade of Twinned Knights bound to Count Ymir, Jolán and her lost partner Anna shadow his pilgrimage, and after the final duel you decide her fate with one of two irises.",
+  "reward": "Swordhand of Night Jolán (Spirit Ash) or Sword of Night (Katana); optionally the Jolan and Anna combined Spirit Ash",
+  "steps": [
+   {
+    "title": "Meet Jolán at the Cathedral",
+    "detail": "After ringing the Finger Ruins of Rhia bell and reporting to Ymir, find Jolán leaning on a pillar in the Cathedral of Manus Metyr and speak with her.",
+    "location": "Cathedral of Manus Metyr",
+    "warning": "She appears against a pillar and is easy to miss."
+   },
+   {
+    "title": "Speak after the second bell",
+    "detail": "After ringing the Finger Ruins of Dheo bell and reporting to Ymir, talk to Jolán again and exhaust her dialogue, then rest at the grace.",
+    "location": "Cathedral of Manus Metyr"
+   },
+   {
+    "title": "Report Anna's invasion",
+    "detail": "Following Swordhand of Night Anna's invasion in the underground ruins, return and report the encounter to Jolán.",
+    "location": "Cathedral of Manus Metyr"
+   },
+   {
+    "title": "Survive the Metyr progression",
+    "detail": "Continue Ymir's quest through the underground; Metyr, Mother of Fingers must be defeated to advance Jolán's story.",
+    "location": "Finger Ruins of Miyr",
+    "flag": 25000800,
+    "warning": "Defeating Metyr removes Jolán's summon signs at the Messmer, Tree Sentinels and Ghostflame Dragon fights."
+   },
+   {
+    "title": "Fight Jolán alongside Count Ymir",
+    "detail": "Examine the empty throne after defeating Metyr; Swordhand of Night Jolán appears as part of the mandatory fight against the transformed Count Ymir.",
+    "location": "Cathedral of Manus Metyr throne room",
+    "flag": 2051450800,
+    "warning": "This fight is mandatory and cannot be avoided."
+   },
+   {
+    "title": "Choose an iris for Jolán",
+    "detail": "Rest, return, and approach Jolán sitting against the pillar; give her the Iris of Grace to receive her Spirit Ash, or the Iris of Occultation to receive the Sword of Night and end her life.",
+    "location": "Cathedral of Manus Metyr",
+    "item": 2219000,
+    "item_kind": "spirit",
+    "warning": "Only one iris can be given; Iris of Occultation kills Jolán and locks the Spirit Ash path."
+   },
+   {
+    "title": "Unite Jolán and Anna",
+    "detail": "If you chose the Iris of Grace, travel to Rabbath's Rise behind Shaman Village in the Hinterlands, examine Anna's puppet, and usher Anna into the Spirit Ash to merge the partners.",
+    "location": "Rabbath's Rise, Scaduview",
+    "item": 2220000,
+    "item_kind": "spirit",
+    "optional": true,
+    "warning": "Examine Anna's puppet before examining the throne to keep the full dialogue; this replaces the solo Jolán ash while keeping its level."
+   }
+  ]
+ }
+]

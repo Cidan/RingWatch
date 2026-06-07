@@ -30,11 +30,12 @@ const (
 	focusBosses  = 1
 )
 
-// Top-level sections, switched with 1/2. focusRegions/focusBosses double as
-// left/right pane focus within either section.
+// Top-level sections, switched with 1/2/3. focusRegions/focusBosses double as
+// left/right pane focus within any section.
 const (
 	sectionBosses = 0
 	sectionItems  = 1
+	sectionQuests = 2
 )
 
 // bossRow pairs a boss status with its region (region matters in search results).
@@ -77,6 +78,11 @@ type Model struct {
 	groupIdx   int
 	itemIdx    int
 	itemProg   tracker.ItemProgress
+
+	// quests section state (questIdx selects the giver/left pane; stepIdx the step/right pane)
+	questIdx  int
+	stepIdx   int
+	questProg tracker.QuestProgress
 
 	changes  <-chan struct{}
 	watching bool
@@ -122,6 +128,7 @@ func (m *Model) recompute() {
 		return m.saveFile.IsDefeated(slot, id)
 	})
 	m.recomputeItems()
+	m.recomputeQuests()
 }
 
 // Init implements tea.Model.
@@ -197,6 +204,7 @@ func (m Model) handleKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 				m.recompute()
 				m.regionIdx, m.bossIdx = 0, 0
 				m.groupIdx, m.itemIdx = 0, 0
+				m.questIdx, m.stepIdx = 0, 0
 			}
 			m.mode = modeBrowse
 		}
@@ -207,23 +215,29 @@ func (m Model) handleKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 		case "esc":
 			m.filter = ""
 			m.mode = modeBrowse
-			m.bossIdx, m.itemIdx = 0, 0
+			m.resetListIndices()
 		case "enter":
 			m.mode = modeBrowse
-			m.focus = focusBosses
-			m.bossIdx, m.itemIdx = 0, 0
+			// Quests search filters the giver list (left); other sections filter the
+			// right pane, so focus follows the results there.
+			if m.section == sectionQuests {
+				m.focus = focusRegions
+			} else {
+				m.focus = focusBosses
+			}
+			m.resetListIndices()
 		case "backspace":
 			if r := []rune(m.filter); len(r) > 0 {
 				m.filter = string(r[:len(r)-1])
-				m.bossIdx, m.itemIdx = 0, 0
+				m.resetListIndices()
 			}
 		case "ctrl+u":
 			m.filter = ""
-			m.bossIdx, m.itemIdx = 0, 0
+			m.resetListIndices()
 		default:
 			if utf8.RuneCountInString(k) == 1 {
 				m.filter += k
-				m.bossIdx, m.itemIdx = 0, 0
+				m.resetListIndices()
 			}
 		}
 		return m, nil
@@ -239,6 +253,9 @@ func (m Model) handleKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 	case "2":
 		m.section = sectionItems
 		return m, nil
+	case "3":
+		m.section = sectionQuests
+		return m, nil
 	case "tab":
 		m.focus = 1 - m.focus
 		return m, nil
@@ -250,18 +267,25 @@ func (m Model) handleKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 		return m, nil
 	case "/":
 		m.mode = modeTyping
-		m.focus = focusBosses
+		// Quests search filters the giver list (left); elsewhere it filters the
+		// right pane, so focus moves there.
+		if m.section == sectionQuests {
+			m.focus = focusRegions
+		} else {
+			m.focus = focusBosses
+		}
 		return m, nil
 	case "esc":
 		if m.filter != "" {
 			m.filter = ""
-			m.bossIdx, m.itemIdx = 0, 0
+			m.resetListIndices()
 		}
 		return m, nil
 	case "d":
 		m.showDLC = !m.showDLC
 		m.regionIdx, m.bossIdx = 0, 0
 		m.groupIdx, m.itemIdx = 0, 0
+		m.questIdx, m.stepIdx = 0, 0
 		return m, nil
 	case "c":
 		m.mode = modePickChar
@@ -269,10 +293,19 @@ func (m Model) handleKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 		return m, nil
 	}
 
-	if m.section == sectionItems {
+	switch m.section {
+	case sectionItems:
 		return m.handleItemsKey(k)
+	case sectionQuests:
+		return m.handleQuestsKey(k)
 	}
 	return m.handleBossesKey(k)
+}
+
+// resetListIndices zeroes the list cursors affected by a filter or content change:
+// the right-pane cursors plus the quest giver cursor (which the quest search narrows).
+func (m *Model) resetListIndices() {
+	m.bossIdx, m.itemIdx, m.stepIdx, m.questIdx = 0, 0, 0, 0
 }
 
 // handleBossesKey handles browse-mode navigation in the bosses section.
@@ -332,6 +365,33 @@ func (m Model) handleItemsKey(k string) (tea.Model, tea.Cmd) {
 		}
 	case "enter", "o":
 		m.openCurrentItem()
+	}
+	return m, nil
+}
+
+// handleQuestsKey handles browse-mode navigation in the quests section: the left
+// pane lists quest-givers, the right pane their steps.
+func (m Model) handleQuestsKey(k string) (tea.Model, tea.Cmd) {
+	switch k {
+	case "up", "k":
+		m.questMoveUp()
+	case "down", "j":
+		m.questMoveDown()
+	case "g", "home":
+		if m.onSteps() {
+			m.stepIdx = 0
+		} else {
+			m.questIdx, m.stepIdx = 0, 0
+		}
+	case "G", "end":
+		if m.onSteps() {
+			m.stepIdx = max0(len(m.visibleSteps()) - 1)
+		} else {
+			m.questIdx = max0(len(m.visibleQuests()) - 1)
+			m.stepIdx = 0
+		}
+	case "enter", "o":
+		m.openCurrentQuest()
 	}
 	return m, nil
 }

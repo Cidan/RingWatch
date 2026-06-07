@@ -59,6 +59,33 @@ func lineLR(left, right string, w int) string {
 	return left + strings.Repeat(" ", gap) + right
 }
 
+// wrapText word-wraps s to lines of at most w columns (by rune count), preserving
+// existing newlines. Used for multi-line quest-step instructions.
+func wrapText(s string, w int) []string {
+	if w <= 0 {
+		return []string{s}
+	}
+	var lines []string
+	for para := range strings.SplitSeq(s, "\n") {
+		words := strings.Fields(para)
+		if len(words) == 0 {
+			lines = append(lines, "")
+			continue
+		}
+		cur := words[0]
+		for _, word := range words[1:] {
+			if len([]rune(cur))+1+len([]rune(word)) <= w {
+				cur += " " + word
+			} else {
+				lines = append(lines, cur)
+				cur = word
+			}
+		}
+		lines = append(lines, cur)
+	}
+	return lines
+}
+
 // progressBar renders a fixed-width bar; it turns green once complete.
 func progressBar(done, total, width int) string {
 	if width <= 0 {

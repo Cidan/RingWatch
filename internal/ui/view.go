@@ -30,6 +30,8 @@ func (m Model) View() tea.View {
 		mid = m.charPickerView(m.width, midH)
 	case m.section == sectionItems:
 		mid = m.itemPanesView(m.width, midH)
+	case m.section == sectionQuests:
+		mid = m.questPanesView(m.width, midH)
 	default:
 		mid = m.panesView(m.width, midH)
 	}
@@ -58,15 +60,22 @@ func (m Model) headerView() string {
 	}
 
 	def, tot := m.prog.Totals()
-	if m.section == sectionItems {
+	switch m.section {
+	case sectionItems:
 		def, tot = m.itemProg.Totals()
+	case sectionQuests:
+		def, tot = m.questProg.Totals()
 	}
 	right := fmt.Sprintf("%s  %s  %s",
 		progressBar(def, tot, 22),
 		goldStyle.Render(fmt.Sprintf("%d/%d", def, tot)),
 		subtleStyle.Render(fmt.Sprintf("%d%%", pct(def, tot))))
-	if m.section == sectionItems {
+	switch m.section {
+	case sectionItems:
 		right = subtleStyle.Render(fmt.Sprintf("%s · %s   ", m.groupBy.Label(), m.filterLabel())) + right
+	case sectionQuests:
+		c, t := m.questProg.QuestsComplete()
+		right = subtleStyle.Render(fmt.Sprintf("%d/%d quests   ", c, t)) + right
 	}
 	line2 := lineLR("  "+who, right+"  ", w)
 
@@ -83,7 +92,9 @@ func (m Model) sectionTabs() string {
 		}
 		return s.Foreground(colText).Render(label)
 	}
-	return chip("Bosses", m.section == sectionBosses) + chip("Items", m.section == sectionItems)
+	return chip("Bosses", m.section == sectionBosses) +
+		chip("Items", m.section == sectionItems) +
+		chip("Quests", m.section == sectionQuests)
 }
 
 func (m Model) panesView(w, h int) string {
@@ -236,10 +247,13 @@ func (m Model) footerView() string {
 	case modePickChar:
 		keys = "↑/↓ choose  ·  enter select  ·  esc cancel"
 	default:
-		if m.section == sectionItems {
-			keys = "↑↓ move · tab pane · g group · f filter · / search · enter wiki · c char · d dlc · 1/2 tabs · q quit"
-		} else {
-			keys = "↑↓ move · tab pane · / search · enter wiki · c char · d dlc · 1/2 tabs · q quit"
+		switch m.section {
+		case sectionItems:
+			keys = "↑↓ move · tab pane · g group · f filter · / search · enter wiki · c char · d dlc · 1/2/3 tabs · q quit"
+		case sectionQuests:
+			keys = "↑↓ move · tab pane · / search NPC · enter wiki · c char · d dlc · 1/2/3 tabs · q quit"
+		default:
+			keys = "↑↓ move · tab pane · / search · enter wiki · c char · d dlc · 1/2/3 tabs · q quit"
 		}
 	}
 	return subtleStyle.Width(m.width).Render(truncate("  "+keys, m.width))
