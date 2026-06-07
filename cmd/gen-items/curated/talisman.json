@@ -1,0 +1,510 @@
+{
+  "Aged One's Exultation": {
+    "region": "Abyssal Woods",
+    "location": "Drops from a Winter Lantern enemy in the Abyssal Woods near the Abandoned Church; perform a parry/riposte."
+  },
+  "Ailment Talisman": {
+    "region": "Gravesite Plain",
+    "location": "On a corpse at the edge of the unfinished wooden bridge at the Abandoned Ailing Village."
+  },
+  "Ancestral Spirit's Horne": {
+    "region": "Nokron, Eternal City",
+    "location": "Trade the Remembrance of the Regal Ancestor (from the Regal Ancestor Spirit at Hallowhorn Grounds, Nokron) with Enia at Roundtable Hold."
+  },
+  "Arrow's Soaring Sting Talisman": {
+    "region": "Gravesite Plain",
+    "location": "Atop the tower at Fog Rift Fort, reached by climbing the stairs and ladders."
+  },
+  "Arsenal Charm": {
+    "region": "Stormveil Castle",
+    "location": "Given by Nepheli Loux near the Secluded Cell grace in Stormveil Castle (later at Roundtable Hold)."
+  },
+  "Arsenal Charm +1": {
+    "region": "Altus Plateau",
+    "location": "Inside the Altus Tunnel (Old Altus Tunnel) dungeon."
+  },
+  "Assassin's Crimson Dagger": {
+    "region": "Limgrave",
+    "location": "Dropped by the Black Knife Assassin boss in Deathtouched Catacombs (Stormhill)."
+  },
+  "Beloved Stardust": {
+    "region": "Scadu Altus",
+    "location": "Given by Count Ymir at the Cathedral of Manus Metyr after the first part of his quest."
+  },
+  "Blade of Mercy": {
+    "region": "Gravesite Plain",
+    "location": "In a chest at the top of the Scorched Ruins."
+  },
+  "Blessed Blue Dew Talisman": {
+    "region": "Gravesite Plain",
+    "location": "Inside the Church of Benediction (southwest Gravesite Plain); investigate the Marika statue."
+  },
+  "Blue Dancer Charm": {
+    "region": "Limgrave",
+    "location": "Dropped by the Guardian Golem boss in Highroad Cave."
+  },
+  "Blue-Feathered Branchsword": {
+    "region": "Limgrave",
+    "location": "Dropped by the Deathbird that spawns at night in Stormhill."
+  },
+  "Boltdrake Talisman": {
+    "region": "Stormveil Castle",
+    "location": "On a body at the top of the first set of stairs near the Limgrave Tower Bridge grace at Stormveil."
+  },
+  "Boltdrake Talisman +1": {
+    "region": "Altus Plateau",
+    "location": "In a storage shed inside the Old Altus Tunnel dungeon."
+  },
+  "Boltdrake Talisman +2": {
+    "region": "Crumbling Farum Azula",
+    "location": "On a corpse on a tower south of the Dragon Temple Rooftop grace."
+  },
+  "Boltdrake Talisman +3": {
+    "region": "Shadow Keep",
+    "location": "In the Shadow Keep Storehouse (First Floor), near the dining area."
+  },
+  "Carian Filigreed Crest": {
+    "region": "Liurnia of the Lakes",
+    "location": "Purchased from War Counselor Iji after progressing Ranni's/Blaidd's questline."
+  },
+  "Cerulean Amber Medallion": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by the Bloodhound Knight in Lakeside Crystal Cave."
+  },
+  "Cerulean Amber Medallion +1": {
+    "region": "Mountaintops of the Giants",
+    "location": "On a corpse hanging over the southern walls of Castle Sol."
+  },
+  "Cerulean Amber Medallion +2": {
+    "region": "Moonlight Altar",
+    "location": "In a chest in an underground room at Lunar Estate Ruins (1 Stonesword Key)."
+  },
+  "Cerulean Amber Medallion +3": {
+    "region": "Rauh Base",
+    "location": "Dropped by the Death Knight in Scorpion River Catacombs."
+  },
+  "Cerulean Seed Talisman": {
+    "region": "Liurnia of the Lakes",
+    "location": "In the rafters of the Carian Study Hall, next to a body."
+  },
+  "Cerulean Seed Talisman +1": {
+    "region": "Cerulean Coast",
+    "location": "Ring the hanging bell at the center of the Finger Ruins of Dheo."
+  },
+  "Clarifying Horn Charm": {
+    "region": "Nokron, Eternal City",
+    "location": "On a corpse at the lowest floor of a ruin in Nokron, Eternal City."
+  },
+  "Clarifying Horn Charm +1": {
+    "region": "Nokron, Eternal City",
+    "location": "On the ruins roofs reached by following the cliff edge southeast from the Ancestral Woods grace."
+  },
+  "Clarifying Horn Charm +2": {
+    "region": "Charo's Hidden Grave",
+    "location": "In Lamenter's Gaol, in the room after the defeated Inner Jar monster."
+  },
+  "Companion Jar": {
+    "region": "Liurnia of the Lakes",
+    "location": "Complete Jar Bairn's questline at Jarburg; the talisman is left where he sat."
+  },
+  "Concealing Veil": {
+    "region": "Altus Plateau",
+    "location": "Dropped by the Black Knife Assassin boss in Sage's Cave."
+  },
+  "Crepus's Vial": {
+    "region": "Mt. Gelmir",
+    "location": "Dropped by Rileigh the Idle during the second Volcano Manor assassination task."
+  },
+  "Crimson Amber Medallion": {
+    "region": "Weeping Peninsula",
+    "location": "Purchased from the Nomadic Merchant on the eastern side of Weeping Peninsula."
+  },
+  "Crimson Amber Medallion +1": {
+    "region": "Mt. Gelmir",
+    "location": "On a corpse past a fog gate from the Prison Town Church grace at Volcano Manor (1 Stonesword Key)."
+  },
+  "Crimson Amber Medallion +2": {
+    "region": "Leyndell, Ashen Capital",
+    "location": "Southwest of the Leyndell, Ashen Capital grace, down an open sewer grate to the beam below."
+  },
+  "Crimson Amber Medallion +3": {
+    "region": "Scadu Altus",
+    "location": "Dropped by the Death Knight at Fog Rift Catacombs."
+  },
+  "Crimson Seed Talisman": {
+    "region": "Altus Plateau",
+    "location": "In the first locked imp's room at the beginning of Sainted Hero's Grave."
+  },
+  "Crimson Seed Talisman +1": {
+    "region": "Cerulean Coast",
+    "location": "At the center of the Finger Ruins of Rhia (requires the Hole-Laden Necklace)."
+  },
+  "Crucible Feather Talisman": {
+    "region": "Capital Outskirts",
+    "location": "On a corpse by a statue in an Omen-guarded room inside Auriza Hero's Grave."
+  },
+  "Crucible Knot Talisman": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by the Omenkiller in the Village of the Albinaurics."
+  },
+  "Crucible Scale Talisman": {
+    "region": "Leyndell, Royal Capital",
+    "location": "On a corpse at the altar in Leyndell Catacombs, reached by riding the fire-breathing pillar up."
+  },
+  "Daedicar's Woe": {
+    "region": "Mt. Gelmir",
+    "location": "Received at the end of Rya's quest after the Volcano Manor questlines; dropped in the drawing room."
+  },
+  "Dragoncrest Shield Talisman +1": {
+    "region": "Altus Plateau",
+    "location": "In a locked imp's room in Sainted Hero's Grave (behind a Stonesword Key fog wall)."
+  },
+  "Dragoncrest Shield Talisman +2": {
+    "region": "Crumbling Farum Azula",
+    "location": "On a corpse on floating debris between the Dragon Temple Lift and Dragon Temple Rooftop."
+  },
+  "Dried Bouquet": {
+    "region": "Belurat, Tower Settlement",
+    "location": "In a secret storeroom behind a rubble pile in the Man-Fly area of Belurat."
+  },
+  "Enraged Divine Beast": {
+    "region": "Belurat, Tower Settlement",
+    "location": "Trade the Remembrance of the Dancing Lion (from Divine Beast Dancing Lion at Belurat) with Enia at Roundtable Hold."
+  },
+  "Erdtree's Favor": {
+    "region": "Limgrave",
+    "location": "In Fringefolk Hero's Grave; accessed using 2 Stonesword Keys near the Stranded Graveyard grace."
+  },
+  "Erdtree's Favor +1": {
+    "region": "Leyndell, Royal Capital",
+    "location": "In a chest in Mohg the Omen's boss chamber in the Subterranean Shunning-Grounds."
+  },
+  "Erdtree's Favor +2": {
+    "region": "Leyndell, Ashen Capital",
+    "location": "On a branch in a large courtyard, reached from the Forbidden Lands grace via the elevator back into the city."
+  },
+  "Faithful's Canvas Talisman": {
+    "region": "Caelid",
+    "location": "On a corpse guarded by two Lesser Kindred of Rot in Sellia Crystal Tunnel."
+  },
+  "Fine Crucible Feather Talisman": {
+    "region": "Ancient Ruins of Rauh",
+    "location": "Climb the tree branch and jump to the branch on the left from the Rauh Ancient Ruins, East grace."
+  },
+  "Flamedrake Talisman": {
+    "region": "Limgrave",
+    "location": "Dropped by the Beastman of Farum Azula boss in Groveside Cave."
+  },
+  "Flamedrake Talisman +1": {
+    "region": "Leyndell, Ashen Capital",
+    "location": "On the ground near a column by the elevator to the Grand Lift of Rold."
+  },
+  "Flamedrake Talisman +2": {
+    "region": "Dragonbarrow",
+    "location": "Dropped by the Beastman of Farum Azula boss in Dragonbarrow Cave."
+  },
+  "Flamedrake Talisman +3": {
+    "region": "Scadu Altus",
+    "location": "In a chest at Fort of Reprimand, reached by traversing over the cages."
+  },
+  "Flock's Canvas Talisman": {
+    "region": "Caelid",
+    "location": "Drops from Gowry after his death, if he is mourning Millicent."
+  },
+  "Furled Finger's Trick-Mirror": {
+    "region": "Roundtable Hold",
+    "location": "Purchased from the Twin Maiden Husks at Roundtable Hold for 5,000 Runes."
+  },
+  "Godfrey Icon": {
+    "region": "Limgrave",
+    "location": "Dropped by Godefroy the Grafted in the Golden Lineage Evergaol."
+  },
+  "Godskin Swaddling Cloth": {
+    "region": "Mountaintops of the Giants",
+    "location": "Dropped by the Spirit-Caller Snail after the Godskin Apostle & Noble fight in Spiritcaller Cave."
+  },
+  "Gold Scarab": {
+    "region": "Caelid",
+    "location": "Dropped by the dual Cleanrot Knight boss in the Abandoned Cave (east of Smoldering Wall)."
+  },
+  "Golden Braid": {
+    "region": "Scaduview",
+    "location": "Looted from a corpse inside a tree trunk in Scaduview."
+  },
+  "Greatshield Talisman": {
+    "region": "Limgrave",
+    "location": "In a carriage chest east of the Erdtree-Gazing Hill grace."
+  },
+  "Green Turtle Talisman": {
+    "region": "Limgrave",
+    "location": "In an underground area on the eastern outskirts of Summonwater Village (requires a Stonesword Key)."
+  },
+  "Haligdrake Talisman": {
+    "region": "Limgrave",
+    "location": "On a ledge above the tutorial start at the Stranded Graveyard."
+  },
+  "Haligdrake Talisman +1": {
+    "region": "Leyndell, Royal Capital",
+    "location": "On a corpse behind two illusory walls in Leyndell Catacombs."
+  },
+  "Haligdrake Talisman +2": {
+    "region": "Mohgwyn Dynasty Mausoleum",
+    "location": "On a corpse in a grave cluster near a giant crow in the Mohgwyn Palace blood swamp."
+  },
+  "Hammer Talisman": {
+    "region": "Limgrave",
+    "location": "Dropped by Recusant Henricus, north of Warmaster's Shack."
+  },
+  "Host's Trick-Mirror": {
+    "region": "Roundtable Hold",
+    "location": "Purchased from the Twin Maiden Husks at Roundtable Hold for 5,000 Runes."
+  },
+  "Immunizing Horn Charm": {
+    "region": "Ainsel River",
+    "location": "On a corpse in an ant nest in Ainsel River."
+  },
+  "Immunizing Horn Charm +1": {
+    "region": "Lake of Rot",
+    "location": "Guaranteed drop from an Ancestral Follower southeast of the Lake of Rot Shoreside grace."
+  },
+  "Immunizing Horn Charm +2": {
+    "region": "Belurat, Tower Settlement",
+    "location": "Dropped by a Lesser Ulcerated Tree Spirit in the Belurat sewers."
+  },
+  "Kindred of Rot's Exultation": {
+    "region": "Mt. Gelmir",
+    "location": "Dropped by the Kindred of Rot at the end of Seethewater Cave."
+  },
+  "Lacerating Crossed-Tree": {
+    "region": "Scadu Altus",
+    "location": "Reward from Needle Knight Leda at Highroad Cross for aiding her invasion to defeat Hornsent."
+  },
+  "Lance Talisman": {
+    "region": "Limgrave",
+    "location": "On remains atop a golem part in northeastern Stormhill, north of the Saintsbridge grace."
+  },
+  "Lightning Scorpion Charm": {
+    "region": "Altus Plateau",
+    "location": "In a room sealed by an Imp Statue (1 Stonesword Key) in Wyndham Catacombs."
+  },
+  "Longtail Cat Talisman": {
+    "region": "Liurnia of the Lakes",
+    "location": "On a corpse at the bottom of a rotating lift past the graveyard in Raya Lucaria Academy."
+  },
+  "Magic Scorpion Charm": {
+    "region": "Liurnia of the Lakes",
+    "location": "Given by Preceptor Seluvis after handing him the Amber Starlight (Seluvis's questline)."
+  },
+  "Marika's Scarseal": {
+    "region": "Siofra River",
+    "location": "On a corpse at the base of the waterfall on the highest level of Siofra River."
+  },
+  "Millicent's Prosthesis": {
+    "region": "Altus Plateau",
+    "location": "Obtained from Millicent at Windmill Heights (or later in her questline)."
+  },
+  "Moon of Nokstella": {
+    "region": "Ainsel River",
+    "location": "In a chest in the highest room of Nokstella, Eternal City, guarded by Silver Tears and a Nox warrior."
+  },
+  "Mottled Necklace": {
+    "region": "Nokron, Eternal City",
+    "location": "At the edge of the ruined bridge leading to Nokron, Eternal City."
+  },
+  "Mottled Necklace +1": {
+    "region": "Nokron, Eternal City",
+    "location": "On a corpse atop the ruined arches overlooking Hallowhorn Grounds."
+  },
+  "Mottled Necklace +2": {
+    "region": "Ancient Ruins of Rauh",
+    "location": "At the top of the stairs after unblocking the spirit spring in the Rauh Ancient Ruins."
+  },
+  "Outer God Heirloom": {
+    "region": "Gravesite Plain",
+    "location": "In a chest inside a small building atop Prospect Town (southwestern Gravesite Plain)."
+  },
+  "Pearl Shield Talisman": {
+    "region": "Scadu Altus",
+    "location": "In a chest in a Messmer soldiers' camp southwest of Taylew's Ruined Forge."
+  },
+  "Pearldrake Talisman": {
+    "region": "Liurnia of the Lakes",
+    "location": "In a floating chest reached via the Four Belfries waygate ('Crumbling Lands')."
+  },
+  "Pearldrake Talisman +1": {
+    "region": "Altus Plateau",
+    "location": "Behind a metal door in the sealed underground room at Wyndham Ruins (1 Stonesword Key)."
+  },
+  "Pearldrake Talisman +2": {
+    "region": "Miquella's Haligtree",
+    "location": "Near a statue reached by jumping a gap northwest of the Haligtree Town grace."
+  },
+  "Pearldrake Talisman +3": {
+    "region": "Shadow Keep",
+    "location": "In the Shadow Keep Specimen Storehouse (sixth floor, requires lever manipulation)."
+  },
+  "Perfumer's Talisman": {
+    "region": "Altus Plateau",
+    "location": "In a chest underground below the stairs in the Giant Poison Flower room at Perfumer's Ruins."
+  },
+  "Prince of Death's Cyst": {
+    "region": "Deeproot Depths",
+    "location": "Dropped by a Lesser Runebear in a cave behind a waterfall northeast of the Deeproot Depths grace."
+  },
+  "Prince of Death's Pustule": {
+    "region": "Stormveil Castle",
+    "location": "On a corpse at the pit of the castle's crypt, guarded by an Ulcerated Tree Spirit."
+  },
+  "Prosthesis-Wearer Heirloom": {
+    "region": "Caelid",
+    "location": "Reward from Millicent after completing Gowry's sidequest in Caelid."
+  },
+  "Radagon's Scarseal": {
+    "region": "Weeping Peninsula",
+    "location": "Dropped by the Ancient Hero of Zamor in the Weeping Evergaol (1 Stonesword Key)."
+  },
+  "Radagon's Soreseal": {
+    "region": "Caelid",
+    "location": "On a corpse along the wooden walkways inside Fort Faroth, reached by dropping from the roof."
+  },
+  "Red-Feathered Branchsword": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by a Deathbird that spawns at night northeast of the Scenic Isle grace."
+  },
+  "Rellana's Cameo": {
+    "region": "Gravesite Plain",
+    "location": "On an altar behind the hostile NPC Moonrithyll at Castle Ensis."
+  },
+  "Retaliatory Crossed-Tree": {
+    "region": "Scadu Altus",
+    "location": "Given by Needle Knight Leda at Highroad Cross after aiding her invasion of Ansbach."
+  },
+  "Ritual Sword Talisman": {
+    "region": "Liurnia of the Lakes",
+    "location": "In a chest after the Demi-Human Queen Gilika boss in Lux Ruins."
+  },
+  "Sacrificial Twig": {
+    "region": "Weeping Peninsula",
+    "location": "Sold by the Isolated Merchant at the Isolated Merchant's Shack for 3,000 Runes."
+  },
+  "Shabriri's Woe": {
+    "region": "Liurnia of the Lakes",
+    "location": "On a body on the south-facing steps of a building in the far northwest Frenzied Flame Village."
+  },
+  "Shard of Alexander": {
+    "region": "Crumbling Farum Azula",
+    "location": "Dropped by Iron Fist Alexander at the end of his questline in Crumbling Farum Azula."
+  },
+  "Sharpshot Talisman": {
+    "region": "Scaduview",
+    "location": "Inside the Albinauric's Shack in Scaduview."
+  },
+  "Shattered Stone Talisman": {
+    "region": "Scadu Altus",
+    "location": "On a ledge accessible from the first rooftop gap at Moorth Ruins."
+  },
+  "Silver Scarab": {
+    "region": "Consecrated Snowfield",
+    "location": "Behind an illusory wall in the large central room of the Hidden Path to the Haligtree (drop to an invisible platform)."
+  },
+  "Smithing Talisman": {
+    "region": "Scadu Altus",
+    "location": "On a corpse in the Fire Blob room on the upper level of the Ruined Forge of Starfall Past."
+  },
+  "Spear Talisman": {
+    "region": "Liurnia of the Lakes",
+    "location": "In a chest near a demi-human campfire inside Lakeside Crystal Cave."
+  },
+  "Spelldrake Talisman": {
+    "region": "Weeping Peninsula",
+    "location": "Dropped by the Runebear at the end of Earthbore Cave."
+  },
+  "Spelldrake Talisman +1": {
+    "region": "Caelid",
+    "location": "In a sealed chamber in Sellia, Town of Sorcery."
+  },
+  "Spelldrake Talisman +2": {
+    "region": "Consecrated Snowfield",
+    "location": "In the secret catacombs path within the Hidden Path to the Haligtree."
+  },
+  "Spelldrake Talisman +3": {
+    "region": "Gravesite Plain",
+    "location": "In a storeroom near Castle Ensis; drop off the cliff north of the Castle Front grace and head east."
+  },
+  "St. Trina's Smile": {
+    "region": "Cerulean Coast",
+    "location": "Dropped by Thiollier when he invades at the Garden of Deep Purple grace (Stone Coffin Fissure, southern Cerulean Coast)."
+  },
+  "Stalwart Horn Charm": {
+    "region": "Liurnia of the Lakes",
+    "location": "On a corpse at Uld Palace Ruins in northeast Liurnia, near a vertical rock formation."
+  },
+  "Stalwart Horn Charm +1": {
+    "region": "Consecrated Snowfield",
+    "location": "On a corpse over a log southeast of the Yelough Anix Tunnel entrance, in southwest Consecrated Snowfield."
+  },
+  "Stalwart Horn Charm +2": {
+    "region": "Scadu Altus",
+    "location": "In Bonny Gaol, in the room after the defeated Inner Jar monster."
+  },
+  "Starscourge Heirloom": {
+    "region": "Caelid",
+    "location": "In a chest under a canopy tent on the upper section outside the Fort Gael watchtower."
+  },
+  "Talisman of All Crucibles": {
+    "region": "Ancient Ruins of Rauh",
+    "location": "On floating platforms southwest of the elevator below the Ancient Ruins, Grand Stairway grace."
+  },
+  "Talisman of Lord's Bestowal": {
+    "region": "Shadow Keep",
+    "location": "Beside the large golden tree in Shadow Keep."
+  },
+  "Talisman of the Dread": {
+    "region": "Scadu Altus",
+    "location": "On a corpse inside Elder's Hovel, below the Fort of Reprimand overlooking the Abyssal Woods."
+  },
+  "Twinblade Talisman": {
+    "region": "Weeping Peninsula",
+    "location": "In a chest in the westernmost tower of Castle Morne, reached from the Behind the Castle grace."
+  },
+  "Two Fingers Heirloom": {
+    "region": "Liurnia of the Lakes",
+    "location": "In a chest in the basement of the Purified Ruins (entrance hidden under boards) in southeast Liurnia."
+  },
+  "Two-Handed Sword Talisman": {
+    "region": "Rauh Base",
+    "location": "In a chest in the highest structure at Temple Town Ruins, after the Horned Warrior fight."
+  },
+  "Two-Headed Turtle Talisman": {
+    "region": "Gravesite Plain",
+    "location": "In a cavern behind the waterfall at Rivermouth Cave (east of Ellac River Cave)."
+  },
+  "Verdigris Discus": {
+    "region": "Ancient Ruins of Rauh",
+    "location": "In front of a statue in the Ancient Ruins of Rauh."
+  },
+  "Viridian Amber Medallion": {
+    "region": "Weeping Peninsula",
+    "location": "Dropped by Miranda the Blighted Bloom in Tombsward Cave."
+  },
+  "Viridian Amber Medallion +1": {
+    "region": "Altus Plateau",
+    "location": "Dropped by Margit when he appears as a field boss south of the Outer Wall Battleground grace."
+  },
+  "Viridian Amber Medallion +2": {
+    "region": "Miquella's Haligtree",
+    "location": "In a chest guarded by scarlet rot zombies below the Haligtree Town Plaza."
+  },
+  "Viridian Amber Medallion +3": {
+    "region": "Scadu Altus",
+    "location": "In Darklight Catacombs, on a ledge to the right of the first cannon imp (south Scadu Altus)."
+  },
+  "Warrior Jar Shard": {
+    "region": "Limgrave",
+    "location": "Dropped by Iron Fist Alexander if killed at his initial Limgrave location without finishing his quest."
+  },
+  "Winged Sword Insignia": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by the Cleanrot Knight boss in Stillwater Cave."
+  }
+}

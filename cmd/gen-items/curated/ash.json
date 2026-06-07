@@ -1,0 +1,366 @@
+{
+  "Aspects of the Crucible: Wings": {
+    "region": "Scadu Altus",
+    "location": "Dropped by Black Knight Edredd at Fort of Reprimand (Scadu Altus, south of Moorth Highway)."
+  },
+  "Assassin's Gambit": {
+    "region": "Mt. Gelmir",
+    "location": "Sold by Knight Bernahl at Volcano Manor for 6,500 Runes after completing the first Volcano Manor contract."
+  },
+  "Beast's Roar": {
+    "region": "Dragonbarrow",
+    "location": "Reward from Gurranq, Beast Clergyman at the Bestial Sanctum (Dragonbarrow) after giving him the fourth Deathroot."
+  },
+  "Black Flame Tornado": {
+    "region": "Crumbling Farum Azula",
+    "location": "Dropped by the Godskin Duo boss in the Dragon Temple area of Crumbling Farum Azula."
+  },
+  "Blind Spot": {
+    "region": "Gravesite Plain",
+    "location": "Comes equipped on the Backhand Blades found beside a coffin in the Inquisitor enemy area of Gravesite Plain, near the first site of grace."
+  },
+  "Blinkbolt": {
+    "region": "Rauh Base",
+    "location": "Found in a chest in Fog Rift Catacombs (southeast Rauh region); reach it via the third spike-trap room, drop and ride the alcove notch up."
+  },
+  "Blood Blade": {
+    "region": "Altus Plateau",
+    "location": "Dropped by a Teardrop Scarab in Altus Plateau, northeast of Erdtree-Gazing Hill, flying above a pond."
+  },
+  "Bloody Slash": {
+    "region": "Limgrave",
+    "location": "Dropped by a Godrick Knight fought atop the ramparts of Fort Haight in Limgrave."
+  },
+  "Braggart's Roar": {
+    "region": "Leyndell, Royal Capital",
+    "location": "Dropped by Blackguard Big Boggart, or obtained after completing the Dung Eater questline."
+  },
+  "Buckler Parry": {
+    "region": "Stormveil Castle",
+    "location": "Default skill of the Buckler shield, bought from Gatekeeper Gostoc in Stormveil Castle (1,500 Runes) after defeating Godrick; skill is bound to the Buckler."
+  },
+  "Carian Grandeur": {
+    "region": "Liurnia of the Lakes",
+    "location": "Found on a corpse atop an archway in the graveyard area of Caria Manor (Liurnia of the Lakes), below the Manor Upper Level grace."
+  },
+  "Carian Greatsword": {
+    "region": "Roundtable Hold",
+    "location": "Bought from Sorcerer Rogier (at Stormveil Castle or Roundtable Hold) for 2,500 Runes, or from the Twin Maiden Husks after turning in Rogier's Bell Bearing."
+  },
+  "Carian Sovereignty": {
+    "region": "Scadu Altus",
+    "location": "Dropped by a Teardrop Scarab clinging to the ceiling of a cave southwest of the Cathedral of Manus Metyr (Church District, Scadu Altus)."
+  },
+  "Charge Forth": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by a Teardrop Scarab on the underside of a broken bridge west-northwest of the Academy Gate Town grace in Liurnia."
+  },
+  "Chilling Mist": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by a Teardrop Scarab in the ruins south of Renna's Rise (Three Sisters, Liurnia), accessible after defeating Royal Knight Loretta in Caria Manor."
+  },
+  "Determination": {
+    "region": "Limgrave",
+    "location": "Dropped by a Teardrop Scarab on the path at the bridge north of Agheel Lake in Limgrave."
+  },
+  "Double Slash": {
+    "region": "Caelid",
+    "location": "Dropped by a Teardrop Scarab at Sellia, Town of Sorcery in Caelid."
+  },
+  "Dryleaf Whirlwind": {
+    "region": "Ancient Ruins of Rauh",
+    "location": "Found northeast of the Rauh Ancient Ruins, East site of grace, on an edge beside a column near a waterfall."
+  },
+  "Earthshaker": {
+    "region": "Altus Plateau",
+    "location": "Dropped by an invisible Teardrop Scarab near the Grand Lift of Dectus on the Altus Plateau; only appears at night."
+  },
+  "Enchanted Shot": {
+    "region": "Nokron, Eternal City",
+    "location": "Dropped by a Teardrop Scarab hiding behind a rock near a brazier, north of the Ancestral Woods grace in Nokron, Eternal City."
+  },
+  "Endure": {
+    "region": "Limgrave",
+    "location": "Sold by Knight Bernahl at the Warmaster's Shack (Limgrave) for 600 Runes."
+  },
+  "Eruption": {
+    "region": "Mt. Gelmir",
+    "location": "Sold by Knight Bernahl at Volcano Manor for 8,000 Runes."
+  },
+  "Firebreather": {
+    "region": "Weeping Peninsula",
+    "location": "Default skill of the Steel-Wire Torch found in the upper levels of Castle Morne (Weeping Peninsula)."
+  },
+  "Flame Skewer": {
+    "region": "Scadu Altus",
+    "location": "Dropped by NPC invader Fire Knight Queelign on the second encounter, at the Church of the Crusade in Scadu Altus."
+  },
+  "Flame Spear": {
+    "region": "Shadow Keep",
+    "location": "Dropped by a Fire Knight at the end of the bridge on the sixth floor of Shadow Keep."
+  },
+  "Flame of the Redmanes": {
+    "region": "Caelid",
+    "location": "Dropped by an invisible Teardrop Scarab in front of the Fort Gael North site of grace in Caelid."
+  },
+  "Flaming Strike": {
+    "region": "Caelid",
+    "location": "Dropped by a Teardrop Scarab in the graveyard on the south cliffside behind Redmane Castle (Caelid)."
+  },
+  "Ghostflame Call": {
+    "region": "Charo's Hidden Grave",
+    "location": "Dropped by the Death Rite Bird in the partly-sunken graveyard reached from the Charo's Hidden Grave site of grace."
+  },
+  "Giant Hunt": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by the Night's Cavalry in northern Liurnia between Bellum Church and East Raya Lucaria Gate; appears only at night."
+  },
+  "Glintblade Phalanx": {
+    "region": "Roundtable Hold",
+    "location": "Comes attached to Rogier's Rapier, received from Sorcerer Rogier at the Roundtable Hold after defeating Godrick; extract the skill at a grace."
+  },
+  "Golden Land": {
+    "region": "Deeproot Depths",
+    "location": "Dropped by a scarab south of the Great Waterfall Crest grace in Deeproot Depths, behind the Erdtree Avatar."
+  },
+  "Golden Slam": {
+    "region": "Altus Plateau",
+    "location": "Dropped by a Teardrop Scarab inside a building of the Woodfolk Ruins, next to the Minor Erdtree on the Altus Plateau."
+  },
+  "Gravitas": {
+    "region": "Limgrave",
+    "location": "Dropped by a Lesser Alabaster Lord roaming the beach by the stone arch near the Seaside Ruins grace in south Limgrave."
+  },
+  "Ground Slam": {
+    "region": "Limgrave",
+    "location": "Dropped by a Teardrop Scarab west of the Minor Erdtree in the Mistwood, Limgrave."
+  },
+  "Hoarah Loux's Earthshaker": {
+    "region": "Roundtable Hold",
+    "location": "Trade the Remembrance of Hoarah Loux with Enia at the Roundtable Hold."
+  },
+  "Hoarfrost Stomp": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by an invisible Teardrop Scarab in the shallow water southeast of Caria Manor (Liurnia); track its glowing footprints."
+  },
+  "Holy Ground": {
+    "region": "Leyndell, Royal Capital",
+    "location": "Obtained by destroying the three Chariots in Auriza Hero's Grave (drops with the Tree Sentinel armor set)."
+  },
+  "Igon's Drake Hunt": {
+    "region": "Jagged Peak",
+    "location": "Comes on Igon's Greatbow; looted from Igon's body southeast of the Foot of the Jagged Peak grace after summoning him for the Bayle fight."
+  },
+  "Impaling Thrust": {
+    "region": "Limgrave",
+    "location": "Sold by Knight Bernahl at the Warmaster's Shack (Limgrave) for 1,200 Runes."
+  },
+  "Kick": {
+    "region": "Limgrave",
+    "location": "Sold by Knight Bernahl at the Warmaster's Shack (Limgrave) for 800 Runes."
+  },
+  "Lightning Ram": {
+    "region": "Altus Plateau",
+    "location": "Dropped by a Teardrop Scarab just south of the Sainted Hero's Grave on the Altus Plateau."
+  },
+  "Lion's Claw": {
+    "region": "Caelid",
+    "location": "Dropped by the Lion Guardian boss at Fort Gael in Caelid."
+  },
+  "Loretta's Slash": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by the Royal Knight Loretta boss in Caria Manor (Liurnia of the Lakes)."
+  },
+  "No Skill": {
+    "region": "Limgrave",
+    "location": "Sold by Knight Bernahl at the Warmaster's Shack (Limgrave) for 600 Runes, or from the Twin Maiden Husks after his Bell Bearing."
+  },
+  "Overhead Stance": {
+    "region": "Gravesite Plain",
+    "location": "Comes equipped on the Great Katana found beside the sleeping Ghostflame Dragon on the lake west of the Ellac Greatbridge (Abandoned Ailing Village area)."
+  },
+  "Palm Blast": {
+    "region": "Scadu Altus",
+    "location": "Won by defeating Dryleaf Dane at Moorth Ruins (Scadu Altus) using the 'May the Best Win' gesture."
+  },
+  "Parry": {
+    "region": "Limgrave",
+    "location": "Sold by Knight Bernahl at the Warmaster's Shack (Limgrave) for 600 Runes, or from the Twin Maiden Husks after his Bell Bearing."
+  },
+  "Piercing Fang": {
+    "region": "Limgrave",
+    "location": "Comes on the Nagakiba received during Bloody Finger Hunter Yura's questline, or by killing Yura (first found at Murkwater, Limgrave)."
+  },
+  "Piercing Throw": {
+    "region": "Scadu Altus",
+    "location": "Found on a scarab guarded by Misbegotten just east of the Ruined Forge of Starfall Past grace (Scadu Altus)."
+  },
+  "Prayerful Strike": {
+    "region": "Leyndell, Royal Capital",
+    "location": "Dropped by an invisible Teardrop Scarab under the short rocky tunnel on the lake by the western entrance to Leyndell, Royal Capital."
+  },
+  "Prelate's Charge": {
+    "region": "Mountaintops of the Giants",
+    "location": "Dropped by a scarab hanging on a tree in a Fire Monk campsite south of the Whiteridge Road grace in the Mountaintops of the Giants."
+  },
+  "Quickstep": {
+    "region": "Limgrave",
+    "location": "Sold by Knight Bernahl at the Warmaster's Shack (Limgrave) for 800 Runes."
+  },
+  "Raging Beast": {
+    "region": "Scadu Altus",
+    "location": "Dropped by a teleporting Teardrop Scarab in the trees north of the Bridge Leading to the Village grace (Bonny Village area, Scadu Altus)."
+  },
+  "Raptor of the Mists": {
+    "region": "Academy of Raya Lucaria",
+    "location": "Received after aiding Bloody Finger Hunter Yura in defeating his target at Raya Lucaria."
+  },
+  "Repeating Thrust": {
+    "region": "Limgrave",
+    "location": "Dropped by the Night's Cavalry at the Agheel Lake North bridge in Limgrave (appears at night)."
+  },
+  "Rolling Sparks": {
+    "region": "Scadu Altus",
+    "location": "Looted from a flying scarab on the eastern side of the large camp south of Shadow Keep, atop the hill past the perfumers (Scadu Altus)."
+  },
+  "Royal Knight's Resolve": {
+    "region": "Mt. Gelmir",
+    "location": "Found in a lower room past the imp-locked door in Volcano Manor, reached from the Temple of Eiglay grace."
+  },
+  "Sacred Blade": {
+    "region": "Limgrave",
+    "location": "Dropped by a Teardrop Scarab next to a Spiritspring north of the Third Church of Marika in Limgrave."
+  },
+  "Sacred Ring of Light": {
+    "region": "Caelid",
+    "location": "Dropped by a Teardrop Scarab in the Aeonian Swamp east of the Heart of Aeonia grace in Caelid."
+  },
+  "Savage Lion's Claw": {
+    "region": "Gravesite Plain",
+    "location": "Found in a small camp by following the left wall north from the Three-Path Cross grace in Gravesite Plain."
+  },
+  "Scattershot Throw": {
+    "region": "Scadu Altus",
+    "location": "On a scarab hanging high on a pillar with Misbegotten beneath, just south of Taylew's Ruined Forge near a bridge (Scadu Altus)."
+  },
+  "Seppuku": {
+    "region": "Mountaintops of the Giants",
+    "location": "Dropped by an invisible scarab on the frozen lake east of the Freezing Lake grace in the Mountaintops of the Giants."
+  },
+  "Shared Order": {
+    "region": "Altus Plateau",
+    "location": "Dropped by the Night's Cavalry next to the Altus Highway Junction grace on the Altus Plateau."
+  },
+  "Shield Bash": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by a Teardrop Scarab on an island beneath the broken bridge between Raya Lucaria Academy and the East Raya Lucaria Gate (Liurnia)."
+  },
+  "Shield Crash": {
+    "region": "Altus Plateau",
+    "location": "Dropped by a Teardrop Scarab in a structure behind the upper Lux Ruins on the Altus Plateau."
+  },
+  "Shield Strike": {
+    "region": "Shadow Keep",
+    "location": "Comes pre-equipped on the Dueling Shield found in the Storehouse at Shadow Keep."
+  },
+  "Shriek of Sorrow": {
+    "region": "Belurat, Tower Settlement",
+    "location": "Found behind the great tree in the central Main Plaza of Belurat, Tower Settlement (where Fire Knight Queelign invades)."
+  },
+  "Sky Shot": {
+    "region": "Dragonbarrow",
+    "location": "Dropped by a Teardrop Scarab on the cliffs northwest of the Isolated Merchant's Shack in Dragonbarrow."
+  },
+  "Spectral Lance": {
+    "region": "Academy of Raya Lucaria",
+    "location": "Dropped by a Teardrop Scarab past the wooden bridge in the graveyard east of the Church of the Cuckoo grace."
+  },
+  "Spinning Gravity Thrust": {
+    "region": "Roundtable Hold",
+    "location": "Comes equipped on the Sword Lance, a reward for trading the Remembrance of the Wild Boar Rider with Enia at the Roundtable Hold."
+  },
+  "Spinning Slash": {
+    "region": "Limgrave",
+    "location": "Sold by Knight Bernahl at the Warmaster's Shack (Limgrave) for 1,200 Runes."
+  },
+  "Spinning Strikes": {
+    "region": "Weeping Peninsula",
+    "location": "Comes on the Banished Knight's Halberd dropped by Edgar when killed at Castle Morne (or when he invades at Revenger's Shack)."
+  },
+  "Stamp (Sweep)": {
+    "region": "Limgrave",
+    "location": "Dropped by an invisible Teardrop Scarab on the western Limgrave beaches."
+  },
+  "Stamp (Upward Cut)": {
+    "region": "Limgrave",
+    "location": "Sold by Knight Bernahl at the Warmaster's Shack (Limgrave) for 1,500 Runes."
+  },
+  "Storm Assault": {
+    "region": "Stormveil Castle",
+    "location": "Dropped by a Teardrop Scarab within Stormveil Castle."
+  },
+  "Storm Blade": {
+    "region": "Limgrave",
+    "location": "Sold by Knight Bernahl at the Warmaster's Shack (Limgrave) for 1,800 Runes."
+  },
+  "Storm Stomp": {
+    "region": "Limgrave",
+    "location": "Found in a chest in the underground room in the southeastern area of Gatefront Ruins, Limgrave (with the Whetstone Knife)."
+  },
+  "Storm Wall": {
+    "region": "Limgrave",
+    "location": "Dropped by a Teardrop Scarab on an outcropping west of the collapsed bridge, north of Stormhill Shack (Stormhill, Limgrave)."
+  },
+  "Swift Slash": {
+    "region": "Shadow Keep",
+    "location": "Reward for siding with Hornsent against Leda during his fight at Shadow Keep."
+  },
+  "Thops's Barrier": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by a Teardrop Scarab at the Church of Irith (Liurnia) after delivering the Academy Glintstone Key to Thops (or after lighting the Forge of the Giants)."
+  },
+  "Through and Through": {
+    "region": "Altus Plateau",
+    "location": "Dropped by an invisible Teardrop Scarab patrolling a loop just outside Volcano Manor on the Altus Plateau."
+  },
+  "Torch Attack": {
+    "region": "",
+    "location": "Default skill found on torch armaments (e.g. the basic Torch); not acquired as a standalone Ash of War."
+  },
+  "Unsheathe": {
+    "region": "Limgrave",
+    "location": "Dropped by a Teardrop Scarab standing in the water at Agheel Lake, Limgrave."
+  },
+  "Vacuum Slice": {
+    "region": "Deeproot Depths",
+    "location": "On a corpse inside the waterfall-surrounded ruined temple at the bottom level, southwest of the Across the Roots grace in Deeproot Depths."
+  },
+  "Vow of the Indomitable": {
+    "region": "Liurnia of the Lakes",
+    "location": "Dropped by a Teardrop Scarab on an island in the poison swamp of southeastern Liurnia, south of the Folly on the Lake grace."
+  },
+  "Wall of Sparks": {
+    "region": "Shadow Keep",
+    "location": "On a corpse sitting on the rails in the first-floor Storehouse of Shadow Keep (take the left lift down)."
+  },
+  "War Cry": {
+    "region": "Limgrave",
+    "location": "Sold by Knight Bernahl at the Warmaster's Shack (Limgrave) for 800 Runes."
+  },
+  "Waves of Darkness": {
+    "region": "Roundtable Hold",
+    "location": "Trade the Remembrance of the Naturalborn (Starscourge Radahn) with Enia at the Roundtable Hold."
+  },
+  "White Shadow's Lure": {
+    "region": "Consecrated Snowfield",
+    "location": "Dropped by an invisible Teardrop Scarab (chased by wolves) northwest of the Inner Consecrated Snowfield grace, toward Ordina."
+  },
+  "Wild Strikes": {
+    "region": "Stormveil Castle",
+    "location": "Dropped by a Teardrop Scarab on the path leading up to Stormveil Castle."
+  },
+  "Wing Stance": {
+    "region": "Gravesite Plain",
+    "location": "In a chest in a tower below the Castle Lord's Chamber grace at Castle Ensis; drop off the edge and follow the cliffside down."
+  }
+}

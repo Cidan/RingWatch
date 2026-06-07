@@ -27,7 +27,8 @@ type Character struct {
 	Seconds int // seconds played
 	Active  bool
 
-	eventFlags []byte // populated for active slots; nil otherwise
+	eventFlags []byte      // populated for active slots; nil otherwise
+	ownedItems *OwnedItems // populated for active slots; nil otherwise
 }
 
 // Playtime renders seconds played as a compact "Xh Ym" string.
@@ -72,11 +73,12 @@ func Parse(path string, data []byte) (*Save, error) {
 		if bodyStart+slotBody > len(data) {
 			return nil, fmt.Errorf("save: slot %d body out of range", chars[i].Slot)
 		}
-		ef, err := extractEventFlags(data[bodyStart : bodyStart+slotBody])
+		sd, err := parseSlot(data[bodyStart : bodyStart+slotBody])
 		if err != nil {
 			return nil, fmt.Errorf("slot %d (%q): %w", chars[i].Slot, chars[i].Name, err)
 		}
-		chars[i].eventFlags = ef
+		chars[i].eventFlags = sd.eventFlags
+		chars[i].ownedItems = sd.owned
 	}
 	return &Save{Path: path, Characters: chars}, nil
 }
@@ -120,6 +122,16 @@ func (s *Save) EventFlags(slot int) ([]byte, bool) {
 		return nil, false
 	}
 	return c.eventFlags, true
+}
+
+// OwnedItems returns a slot's parsed owned-item sets, or ok=false if the slot is
+// inactive or was not parsed.
+func (s *Save) OwnedItems(slot int) (*OwnedItems, bool) {
+	c := s.Character(slot)
+	if c == nil || c.ownedItems == nil {
+		return nil, false
+	}
+	return c.ownedItems, true
 }
 
 // FlagSet reports whether an event flag is set in a raw event-flags blob.

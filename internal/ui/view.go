@@ -25,9 +25,12 @@ func (m Model) View() tea.View {
 	footer := m.footerView()
 
 	var mid string
-	if m.mode == modePickChar {
+	switch {
+	case m.mode == modePickChar:
 		mid = m.charPickerView(m.width, midH)
-	} else {
+	case m.section == sectionItems:
+		mid = m.itemPanesView(m.width, midH)
+	default:
 		mid = m.panesView(m.width, midH)
 	}
 	v := tea.NewView(strings.Join([]string{header, mid, footer}, "\n"))
@@ -43,7 +46,7 @@ func (m Model) headerView() string {
 	if m.watching {
 		watch = doneStyle.Render("● watching")
 	}
-	line1 := lineLR("  "+title, watch+"  ", w)
+	line1 := lineLR("  "+title+"   "+m.sectionTabs(), watch+"  ", w)
 
 	var who string
 	if c, ok := m.currentChar(); ok {
@@ -53,15 +56,34 @@ func (m Model) headerView() string {
 	} else {
 		who = subtleStyle.Render("no character")
 	}
+
 	def, tot := m.prog.Totals()
+	if m.section == sectionItems {
+		def, tot = m.itemProg.Totals()
+	}
 	right := fmt.Sprintf("%s  %s  %s",
 		progressBar(def, tot, 22),
 		goldStyle.Render(fmt.Sprintf("%d/%d", def, tot)),
 		subtleStyle.Render(fmt.Sprintf("%d%%", pct(def, tot))))
+	if m.section == sectionItems {
+		right = subtleStyle.Render(fmt.Sprintf("%s · %s   ", m.groupBy.Label(), m.filterLabel())) + right
+	}
 	line2 := lineLR("  "+who, right+"  ", w)
 
 	line3 := ruleStyle.Render(strings.Repeat("─", w))
 	return line1 + "\n" + line2 + "\n" + line3
+}
+
+// sectionTabs renders the Bosses/Items top-level tab chips.
+func (m Model) sectionTabs() string {
+	chip := func(label string, active bool) string {
+		s := lipgloss.NewStyle().Padding(0, 1)
+		if active {
+			return s.Background(colSelBg).Foreground(colGoldBright).Bold(true).Render(label)
+		}
+		return s.Foreground(colText).Render(label)
+	}
+	return chip("Bosses", m.section == sectionBosses) + chip("Items", m.section == sectionItems)
 }
 
 func (m Model) panesView(w, h int) string {
@@ -205,7 +227,7 @@ func (m Model) bossRowStyled(br bossRow, selected bool, w int) string {
 
 func (m Model) footerView() string {
 	if m.toast != "" {
-		return lipgloss.NewStyle().Foreground(colEmber).Bold(true).Width(m.width).Render("  " + m.toast)
+		return lipgloss.NewStyle().Foreground(colEmber).Bold(true).Width(m.width).Render(truncate("  "+m.toast, m.width))
 	}
 	var keys string
 	switch m.mode {
@@ -214,9 +236,13 @@ func (m Model) footerView() string {
 	case modePickChar:
 		keys = "↑/↓ choose  ·  enter select  ·  esc cancel"
 	default:
-		keys = "↑↓ move  ·  tab switch pane  ·  / search  ·  enter open wiki  ·  c character  ·  d dlc  ·  q quit"
+		if m.section == sectionItems {
+			keys = "↑↓ move · tab pane · g group · f filter · / search · enter wiki · c char · d dlc · 1/2 tabs · q quit"
+		} else {
+			keys = "↑↓ move · tab pane · / search · enter wiki · c char · d dlc · 1/2 tabs · q quit"
+		}
 	}
-	return subtleStyle.Width(m.width).Render("  " + keys)
+	return subtleStyle.Width(m.width).Render(truncate("  "+keys, m.width))
 }
 
 func (m Model) charPickerView(w, h int) string {

@@ -30,6 +30,13 @@ const (
 	focusBosses  = 1
 )
 
+// Top-level sections, switched with 1/2. focusRegions/focusBosses double as
+// left/right pane focus within either section.
+const (
+	sectionBosses = 0
+	sectionItems  = 1
+)
+
 // bossRow pairs a boss status with its region (region matters in search results).
 type bossRow struct {
 	St     tracker.BossStatus
@@ -54,6 +61,8 @@ type Model struct {
 	prog     tracker.Progress
 	loadErr  error
 
+	section int
+
 	mode      mode
 	focus     int
 	regionIdx int
@@ -61,6 +70,13 @@ type Model struct {
 	pickIdx   int
 	filter    string
 	showDLC   bool
+
+	// items section state
+	groupBy    tracker.GroupBy
+	kindFilter tracker.ItemKind
+	groupIdx   int
+	itemIdx    int
+	itemProg   tracker.ItemProgress
 
 	changes  <-chan struct{}
 	watching bool
@@ -105,6 +121,7 @@ func (m *Model) recompute() {
 	m.prog = tracker.Compute(func(id uint32) (bool, bool) {
 		return m.saveFile.IsDefeated(slot, id)
 	})
+	m.recomputeItems()
 }
 
 // Init implements tea.Model.
@@ -179,6 +196,7 @@ func (m Model) handleKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 				m.slot = m.chars[m.pickIdx].Slot
 				m.recompute()
 				m.regionIdx, m.bossIdx = 0, 0
+				m.groupIdx, m.itemIdx = 0, 0
 			}
 			m.mode = modeBrowse
 		}
@@ -189,52 +207,77 @@ func (m Model) handleKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 		case "esc":
 			m.filter = ""
 			m.mode = modeBrowse
-			m.bossIdx = 0
+			m.bossIdx, m.itemIdx = 0, 0
 		case "enter":
 			m.mode = modeBrowse
 			m.focus = focusBosses
-			m.bossIdx = 0
+			m.bossIdx, m.itemIdx = 0, 0
 		case "backspace":
 			if r := []rune(m.filter); len(r) > 0 {
 				m.filter = string(r[:len(r)-1])
-				m.bossIdx = 0
+				m.bossIdx, m.itemIdx = 0, 0
 			}
 		case "ctrl+u":
 			m.filter = ""
-			m.bossIdx = 0
+			m.bossIdx, m.itemIdx = 0, 0
 		default:
 			if utf8.RuneCountInString(k) == 1 {
 				m.filter += k
-				m.bossIdx = 0
+				m.bossIdx, m.itemIdx = 0, 0
 			}
 		}
 		return m, nil
 	}
 
-	// modeBrowse
+	// modeBrowse: shared keys first, then section-specific navigation.
 	switch k {
 	case "q":
 		return m, tea.Quit
+	case "1":
+		m.section = sectionBosses
+		return m, nil
+	case "2":
+		m.section = sectionItems
+		return m, nil
+	case "tab":
+		m.focus = 1 - m.focus
+		return m, nil
+	case "left", "h":
+		m.focus = focusRegions
+		return m, nil
+	case "right", "l":
+		m.focus = focusBosses
+		return m, nil
 	case "/":
 		m.mode = modeTyping
 		m.focus = focusBosses
+		return m, nil
 	case "esc":
 		if m.filter != "" {
 			m.filter = ""
-			m.bossIdx = 0
+			m.bossIdx, m.itemIdx = 0, 0
 		}
-	case "tab":
-		m.focus = 1 - m.focus
-	case "left", "h":
-		m.focus = focusRegions
-	case "right", "l":
-		m.focus = focusBosses
+		return m, nil
 	case "d":
 		m.showDLC = !m.showDLC
 		m.regionIdx, m.bossIdx = 0, 0
+		m.groupIdx, m.itemIdx = 0, 0
+		return m, nil
 	case "c":
 		m.mode = modePickChar
 		m.pickIdx = m.charIndex(m.slot)
+		return m, nil
+	}
+
+	if m.section == sectionItems {
+		return m.handleItemsKey(k)
+	}
+	return m.handleBossesKey(k)
+}
+
+// handleBossesKey handles browse-mode navigation in the bosses section.
+func (m Model) handleBossesKey(k string) (tea.Model, tea.Cmd) {
+	switch k {
 	case "up", "k":
 		m.moveUp()
 	case "down", "j":
@@ -243,8 +286,7 @@ func (m Model) handleKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 		if m.onBosses() {
 			m.bossIdx = 0
 		} else {
-			m.regionIdx = 0
-			m.bossIdx = 0
+			m.regionIdx, m.bossIdx = 0, 0
 		}
 	case "G", "end":
 		if m.onBosses() {
@@ -255,6 +297,41 @@ func (m Model) handleKey(msg tea.KeyPressMsg) (tea.Model, tea.Cmd) {
 		}
 	case "enter", "o":
 		m.openCurrentBoss()
+	}
+	return m, nil
+}
+
+// handleItemsKey handles browse-mode navigation in the items section. g/f cycle
+// the grouping and category filter (shift-G / shift-F reverse).
+func (m Model) handleItemsKey(k string) (tea.Model, tea.Cmd) {
+	switch k {
+	case "g":
+		m.cycleGroupBy(1)
+	case "G":
+		m.cycleGroupBy(-1)
+	case "f":
+		m.cycleFilter(1)
+	case "F":
+		m.cycleFilter(-1)
+	case "up", "k":
+		m.itemMoveUp()
+	case "down", "j":
+		m.itemMoveDown()
+	case "home":
+		if m.onItems() {
+			m.itemIdx = 0
+		} else {
+			m.groupIdx, m.itemIdx = 0, 0
+		}
+	case "end":
+		if m.onItems() {
+			m.itemIdx = max0(len(m.visibleItems()) - 1)
+		} else {
+			m.groupIdx = max0(len(m.visibleGroups()) - 1)
+			m.itemIdx = 0
+		}
+	case "enter", "o":
+		m.openCurrentItem()
 	}
 	return m, nil
 }

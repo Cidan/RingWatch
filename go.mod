@@ -6,6 +6,7 @@ require (
 	charm.land/bubbletea/v2 v2.0.7
 	charm.land/lipgloss/v2 v2.0.3
 	github.com/fsnotify/fsnotify v1.10.1
+	github.com/klauspost/compress v1.18.6
 )
 
 require (

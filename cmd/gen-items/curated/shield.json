@@ -1,0 +1,262 @@
+{
+  "Albinauric Shield": {
+    "region": "Liurnia of the Lakes",
+    "location": "Drops from Albinaurics wielding it, found atop the church northwest of the Academy Gate Town Site of Grace."
+  },
+  "Ant's Skull Plate": {
+    "region": "Ainsel River",
+    "location": "In a chest in Nokstella, Eternal City; head west from the Eternal City grace, up the stairs, into the room with a Nox Swordstress."
+  },
+  "Banished Knight's Shield": {
+    "region": "Caelid",
+    "location": "Drops from Banished Knights; can be farmed from one near the Cathedral of Dragon Communion Site of Grace."
+  },
+  "Beast Crest Heater Shield": {
+    "region": "Limgrave",
+    "location": "Inside a chest at a camp along the road west of the Saintsbridge Site of Grace in east Stormhill."
+  },
+  "Beastman's Jar-Shield": {
+    "region": "Crumbling Farum Azula",
+    "location": "Drops from an Azula Beastman in the room near the Crumbling Beast Grave Depths Site of Grace."
+  },
+  "Black Leather Shield": {
+    "region": "Liurnia of the Lakes",
+    "location": "Sold by Pidia, Carian Servant at Caria Manor for 2,500 Runes."
+  },
+  "Black Steel Greatshield": {
+    "region": "Gravesite Plain",
+    "location": "Dropped by Black Knight Garrew at Fog Rift Fort (near Castle Ensis)."
+  },
+  "Blue Crest Heater Shield": {
+    "region": "Liurnia of the Lakes",
+    "location": "Sold by the Nomadic Merchant near Bellum Church in northwest Liurnia for 1,500 Runes; Confessor starting gear."
+  },
+  "Blue-White Wooden Shield": {
+    "region": "Liurnia of the Lakes",
+    "location": "On the outskirts of a building heading south from the South Raya Lucaria Gate Site of Grace."
+  },
+  "Briar Greatshield": {
+    "region": "Altus Plateau",
+    "location": "Dropped by Elemer of the Briar (Bell Bearing Hunter) at The Shaded Castle."
+  },
+  "Buckler": {
+    "region": "Limgrave",
+    "location": "Bandit class starting equipment; also sold by Gatekeeper Gostoc at Stormveil and Twin Maiden Husks at Roundtable Hold."
+  },
+  "Candletree Wooden Shield": {
+    "region": "Altus Plateau",
+    "location": "In a chest behind an illusory wall inside Sage's Cave."
+  },
+  "Crucible Hornshield": {
+    "region": "Siofra River",
+    "location": "Guaranteed drop from the Crucible Knight patrolling the bridges in the Siofra Aqueduct."
+  },
+  "Cuckoo Greatshield": {
+    "region": "Liurnia of the Lakes",
+    "location": "Drops from Cuckoo Knights of Raya Lucaria; farmable around Bellum Church / East Raya Lucaria Gate."
+  },
+  "Distinguished Greatshield": {
+    "region": "Altus Plateau",
+    "location": "Purchased from the Hermit Merchant at Hermit Merchant's Shack for 5,500 Runes."
+  },
+  "Dragon Towershield": {
+    "region": "Crumbling Farum Azula",
+    "location": "In a chest guarded by a Banished Knight, reached by dropping down from the Dragon Temple Rooftop Site of Grace."
+  },
+  "Dragonclaw Shield": {
+    "region": "Capital Outskirts",
+    "location": "Dropped by the Draconic Tree Sentinel fought at Capital Outskirts."
+  },
+  "Dueling Shield": {
+    "region": "Shadow Keep",
+    "location": "In Shadow Keep; from the Storehouse First Floor grace, go north around the specimen pillar to the stairs."
+  },
+  "Eclipse Crest Heater Shield": {
+    "region": "Weeping Peninsula",
+    "location": "On a stone platform on the cliffside southwest of Tombsward Catacombs, northwest of the minor Erdtree."
+  },
+  "Erdtree Greatshield": {
+    "region": "Capital Outskirts",
+    "location": "Dropped by the Tree Sentinel Duo guarding the gate at the Outer Wall Phantom Tree Site of Grace."
+  },
+  "Fingerprint Stone Shield": {
+    "region": "Leyndell, Royal Capital",
+    "location": "In the Subterranean Shunning-Grounds; behind the chest after Mohg the Omen in the Cathedral of the Forsaken, move the altar to reveal the path."
+  },
+  "Flame Crest Wooden Shield": {
+    "region": "Weeping Peninsula",
+    "location": "On a corpse inside a small shack on the north side of Ailing Village."
+  },
+  "Gilded Greatshield": {
+    "region": "Limgrave",
+    "location": "Drops from Godrick Knights; one is found at Gatefront Ruins."
+  },
+  "Gilded Iron Shield": {
+    "region": "Weeping Peninsula",
+    "location": "On a corpse on a grave west of the Church of Pilgrimage."
+  },
+  "Golden Beast Crest Shield": {
+    "region": "Limgrave",
+    "location": "Dropped by the Grafted Scion in the Chapel of Anticipation (can be revisited later)."
+  },
+  "Golden Lion Shield": {
+    "region": "Shadow Keep",
+    "location": "Given by Redmane Freyja after handing over the Letter for Freyja received from Sir Ansbach."
+  },
+  "Hawk Crest Wooden Shield": {
+    "region": "Stormveil Castle",
+    "location": "Looted off a corpse in the large armory room next to the room with the Grafted Scion."
+  },
+  "Heater Shield": {
+    "region": "Roundtable Hold",
+    "location": "Vagabond class starting equipment; purchased from the Twin Maiden Husks at Roundtable Hold for 1,500 Runes."
+  },
+  "Horse Crest Wooden Shield": {
+    "region": "Limgrave",
+    "location": "Purchased from Patches at Murkwater Cave for 1,000 Runes."
+  },
+  "Ice Crest Shield": {
+    "region": "Liurnia of the Lakes",
+    "location": "On a corpse on a ledge behind the gardens at Caria Manor."
+  },
+  "Icon Shield": {
+    "region": "Altus Plateau",
+    "location": "Inside a crumbling building at Woodfolk Ruins."
+  },
+  "Inverted Hawk Heater Shield": {
+    "region": "Siofra River",
+    "location": "On a body southeast of the Siofra River Bank Site of Grace, up a hill near the stairs to Hallowhorn Grounds."
+  },
+  "Inverted Hawk Towershield": {
+    "region": "Nokron, Eternal City",
+    "location": "Drops from Fallen Hawks Soldiers found just outside the Nokron, Eternal City grace."
+  },
+  "Iron Roundshield": {
+    "region": "Limgrave",
+    "location": "Purchased from the Nomadic Merchant southeast of Coastal Cave."
+  },
+  "Large Leather Shield": {
+    "region": "Limgrave",
+    "location": "Purchased from Merchant Kale at the Church of Elleh for 600 Runes."
+  },
+  "Lordsworn's Shield": {
+    "region": "Limgrave",
+    "location": "Drops from Godrick Soldiers; several at Gatefront Ruins and on the path to Castleward Tunnel."
+  },
+  "Man-Serpent's Shield": {
+    "region": "Mt. Gelmir",
+    "location": "Uncommon drop from shield-wielding Man-Serpents in Volcano Manor; farm near the Guest Hall grace."
+  },
+  "Marred Leather Shield": {
+    "region": "Stormveil Castle",
+    "location": "On a corpse along the wooden path up a slope from the Stormveil Cliffside grace (Gostoc's back route)."
+  },
+  "Marred Wooden Shield": {
+    "region": "Stormveil Castle",
+    "location": "From the Rampart Tower grace, drop down to a ledge after the walkway with explosive barrels and War Hawks."
+  },
+  "Perfumer's Shield": {
+    "region": "Altus Plateau",
+    "location": "Drops from Perfumer enemies; found at Perfumer's Grotto and the Shaded Castle inner gate."
+  },
+  "Pillory Shield": {
+    "region": "Caelid",
+    "location": "Inside Gaol Cave (northeast of Fort Gael); requires 2 Stonesword Keys to access."
+  },
+  "Red Crest Heater Shield": {
+    "region": "Altus Plateau",
+    "location": "Sold by the Nomadic Merchant near the Forest-Spanning Greatbridge Site of Grace for 2,500 Runes."
+  },
+  "Red Thorn Roundshield": {
+    "region": "Weeping Peninsula",
+    "location": "Samurai class starting equipment; sold by a merchant on the eastern side of Weeping Peninsula for 600 Runes."
+  },
+  "Rickety Shield": {
+    "region": "Weeping Peninsula",
+    "location": "Drops from a group of Demi-Humans north of the South of the Lookout Tower Site of Grace."
+  },
+  "Rift Shield": {
+    "region": "Liurnia of the Lakes",
+    "location": "Purchased from a Nomadic Merchant for 1,800 Runes; Prisoner class starting equipment."
+  },
+  "Riveted Wooden Shield": {
+    "region": "Limgrave",
+    "location": "Bought from the Nomadic Merchant in East Limgrave for 600 Runes; Warrior class starting equipment."
+  },
+  "Round Shield": {
+    "region": "Weeping Peninsula",
+    "location": "Bought from the Nomadic Merchant on the eastern side of Weeping Peninsula for 1,000 Runes."
+  },
+  "Scripture Wooden Shield": {
+    "region": "Limgrave",
+    "location": "Drops from skeletons near the start of Deathtouched Catacombs; Astrologer class starting equipment."
+  },
+  "Serpent Crest Shield": {
+    "region": "Gravesite Plain",
+    "location": "Reward for solving the Incursion Painting; the ghost appears west of the Greatbridge North grace near the dragon lake."
+  },
+  "Shield of Night": {
+    "region": "Scadu Altus",
+    "location": "On a ledge behind a corpse atop a table in Bonny Gaol; reach the top level via the jar lift near the bridge."
+  },
+  "Shield of the Guilty": {
+    "region": "Weeping Peninsula",
+    "location": "In the cellar of the Demi-Human Forest Ruins, before the Demi-Human Queen mini-boss."
+  },
+  "Silver Mirrorshield": {
+    "region": "Consecrated Snowfield",
+    "location": "Inside the Apostate Derelict (destroyed church) in the northern area of Consecrated Snowfield."
+  },
+  "Smithscript Shield": {
+    "region": "Scadu Altus",
+    "location": "At Taylew's Ruined Forge; defeat the Golem Smiths and reach the upper platform at the end of the hallway."
+  },
+  "Smoldering Shield": {
+    "region": "Mt. Gelmir",
+    "location": "On a corpse in the graveyard reached from the Prison Town Church grace at Volcano Manor."
+  },
+  "Spiked Palisade Shield": {
+    "region": "Caelid",
+    "location": "On a dead body under a Golem, west of the Deep Siofra Well."
+  },
+  "Spiralhorn Shield": {
+    "region": "Liurnia of the Lakes",
+    "location": "On a corpse at Uld Palace Ruins in northeast Liurnia, near the Walking Mausoleum from the Ruined Labyrinth grace."
+  },
+  "Sun Realm Shield": {
+    "region": "Altus Plateau",
+    "location": "Drops from a Sword & Shield Skeleton that crawls out southeast of Hermit Merchant's Shack."
+  },
+  "Twinbird Kite Shield": {
+    "region": "Leyndell, Royal Capital",
+    "location": "Dropped by the Deathbird that spawns at night east of the Hermit Merchant's Shack grace in Leyndell."
+  },
+  "Verdigris Greatshield": {
+    "region": "Scadu Altus",
+    "location": "Dropped by NPC Moore when defeated; he invades near the Church of the Crusade / after the Forager Brood Pest."
+  },
+  "Visage Shield": {
+    "region": "Caelid",
+    "location": "In a chest in an underground area east of Caelem Ruins, after the Mad Pumpkin Head duo."
+  },
+  "Wolf Crest Shield": {
+    "region": "Gravesite Plain",
+    "location": "In a chest in a storeroom at Castle Ensis, reached through a gap in the northwest corner of Moonrithyll's courtyard."
+  },
+  "Wooden Greatshield": {
+    "region": "Stormveil Castle",
+    "location": "Looted off a corpse on the guardhouse of the heavily guarded courtyard, near the Liftside Chamber grace."
+  },
+  "[NPC] Golden Lion Shield": {
+    "region": "Shadow Keep",
+    "location": "Given by Redmane Freyja after delivering the Letter for Freyja from Sir Ansbach."
+  },
+  "[NPC] Shield of Night": {
+    "region": "Scadu Altus",
+    "location": "Found in Bonny Gaol in Scadu Altus, on a ledge behind a corpse on a table."
+  },
+  "[NPC] Verdigris Greatshield": {
+    "region": "Scadu Altus",
+    "location": "Dropped by NPC Moore when defeated near the Church of the Crusade / Cerulean Coast questline."
+  }
+}

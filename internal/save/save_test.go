@@ -38,6 +38,14 @@ func TestParseFixture(t *testing.T) {
 
 	// Spot-check well-known boss flags on the first active (endgame) character.
 	slot := active[0].Slot
+
+	// Owned-item sets should parse for the active character (a second check that
+	// the inventory walk stayed aligned).
+	if owned, ok := s.OwnedItems(slot); ok {
+		t.Logf("slot %d owned: weapons=%d protectors=%d talismans=%d goods=%d ashes=%d total=%d",
+			slot, len(owned.Weapons), len(owned.Protectors), len(owned.Accessories),
+			len(owned.Goods), len(owned.Gems), owned.Total())
+	}
 	for _, b := range []struct {
 		name string
 		id   uint32
@@ -75,5 +83,38 @@ func TestParseLiveSave(t *testing.T) {
 	}
 	for _, c := range act {
 		t.Logf("slot %d: %q  level %d  playtime %s", c.Slot, c.Name, c.Level, c.Playtime())
+	}
+}
+
+// TestOwnedItemsLiveSave parses the auto-detected real save and reports the owned
+// item counts per active character. The played save should own at least some items
+// across the categories, which validates the inventory resolution end to end.
+func TestOwnedItemsLiveSave(t *testing.T) {
+	saves := config.DetectSaves()
+	if len(saves) == 0 {
+		t.Skip("no live save detected")
+	}
+	s, err := Open(saves[0].Path)
+	if err != nil {
+		t.Fatalf("Open live save: %v", err)
+	}
+	act := s.ActiveCharacters()
+	if len(act) == 0 {
+		t.Skip("no active characters in live save")
+	}
+	total := 0
+	for _, c := range act {
+		owned, ok := s.OwnedItems(c.Slot)
+		if !ok {
+			t.Errorf("slot %d: no owned items parsed", c.Slot)
+			continue
+		}
+		t.Logf("slot %d %-16q weapons=%d protectors=%d talismans=%d goods=%d ashes=%d total=%d",
+			c.Slot, c.Name, len(owned.Weapons), len(owned.Protectors),
+			len(owned.Accessories), len(owned.Goods), len(owned.Gems), owned.Total())
+		total += owned.Total()
+	}
+	if total == 0 {
+		t.Error("expected the live save to own at least some items")
 	}
 }
