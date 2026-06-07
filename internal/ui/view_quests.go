@@ -3,7 +3,6 @@ package ui
 import (
 	"fmt"
 	"image/color"
-	"strconv"
 	"strings"
 
 	"charm.land/lipgloss/v2"
@@ -13,7 +12,7 @@ import (
 )
 
 // questPanesView renders the quests section: quest-givers on the left (grouped by
-// game phase), the selected giver's steps on the right.
+// game phase), the selected giver's walkthrough on the right.
 func (m Model) questPanesView(w, h int) string {
 	leftOuter := max(min(38, w/2), 22)
 	rightOuter := w - leftOuter
@@ -53,28 +52,23 @@ func (m Model) giversPane(w, h int) string {
 	return fitBlock(windowLines(lines, selLine, h), w, h)
 }
 
+// questGiverRow shows the coarse state: ✓ complete, ○ not complete, ◇ untracked guide.
 func (m Model) questGiverRow(q tracker.QuestStatus, selected bool, w int) string {
-	icon := "○"
+	icon, right := "○", ""
 	switch {
 	case !q.Trackable:
-		icon = "◇" // reference only — no save-derived progress for this quest
-	case q.Complete():
-		icon = "✓"
-	case q.Started():
-		icon = "◐"
+		icon, right = "◇", "guide"
+	case q.Complete:
+		icon, right = "✓", "done"
 	}
-	counts := fmt.Sprintf("%d/%d", q.Done(), q.Total())
-	if !q.Trackable {
-		counts = fmt.Sprintf("%d", q.Total()) // a step count, not progress
-	}
-	name := truncate(q.Giver, w-len([]rune(counts))-4)
-	plain := lineLR(fmt.Sprintf(" %s %s", icon, name), counts+" ", w)
+	name := truncate(q.Giver, w-len([]rune(right))-4)
+	plain := lineLR(fmt.Sprintf(" %s %s", icon, name), right+" ", w)
 
 	st := lipgloss.NewStyle().Width(w)
 	switch {
 	case selected:
 		st = st.Background(colSelBg).Foreground(colGoldBright).Bold(true)
-	case q.Complete():
+	case q.Complete:
 		st = st.Foreground(colDone)
 	case !q.Trackable:
 		st = st.Foreground(colMuted)
@@ -90,14 +84,18 @@ func (m Model) stepsPane(w, h int) string {
 		return fitBlock([]string{subtleStyle.Render("  (no quests here)")}, w, h)
 	}
 
-	// Header: giver (links to the questline wiki page) + progress, or a "guide"
-	// badge when the quest has no save-derived anchor.
-	right := subtleStyle.Render(fmt.Sprintf("%d/%d ", q.Done(), q.Total()))
-	if !q.Trackable {
-		right = subtleStyle.Render("guide ")
+	// Header: giver (links to the questline wiki page) + coarse state badge.
+	var badge string
+	switch {
+	case !q.Trackable:
+		badge = subtleStyle.Render("guide ")
+	case q.Complete:
+		badge = doneStyle.Bold(true).Render("✓ complete ")
+	default:
+		badge = subtleStyle.Render("not complete ")
 	}
-	giver := locations.Hyperlink(locations.Fextralife(q.PageTitle()), truncate(q.Giver, max(w-14, 6)))
-	head := lineLR(goldStyle.Bold(true).Render(" "+giver), right, w)
+	giver := locations.Hyperlink(locations.Fextralife(q.PageTitle()), truncate(q.Giver, max(w-16, 6)))
+	head := lineLR(goldStyle.Bold(true).Render(" "+giver), badge, w)
 	rule := ruleStyle.Render(strings.Repeat("─", w))
 
 	var body []string
@@ -110,6 +108,9 @@ func (m Model) stepsPane(w, h int) string {
 		for _, ln := range wrapText("Reward: "+q.Reward, w-2) {
 			body = append(body, goldStyle.Width(w).Render(" "+ln))
 		}
+	}
+	if !q.Trackable {
+		body = append(body, subtleStyle.Width(w).Render(" Progress isn't save-tracked for this quest — steps are a guide."))
 	}
 	if len(body) > 0 {
 		body = append(body, "")
@@ -136,26 +137,29 @@ func (m Model) stepsPane(w, h int) string {
 	return fitBlock(append([]string{head, rule}, body...), w, h)
 }
 
-// stepBlock renders one step as a styled multi-line block: a title line (icon +
-// number + title, with the location right-aligned and clickable) followed by the
-// wrapped instruction text and any missable warning.
-func (m Model) stepBlock(idx int, s tracker.QuestStepStatus, selected bool, w int) []string {
-	glyph, _ := stepGlyph(s)
-
+// stepBlock renders one walkthrough step: a numbered title line (location right-
+// aligned and clickable) plus the wrapped instructions and any missable warning.
+// The selected step is highlighted for reading; there is no per-step completion mark.
+func (m Model) stepBlock(idx int, s tracker.QuestStep, selected bool, w int) []string {
 	right := ""
 	if loc := stepLocationName(s.Location); loc != "" {
 		right = locations.Hyperlink(locations.Fextralife(loc), truncate(loc, 22))
 	}
-	title := fmt.Sprintf(" %s %s %s", glyph, strconv.Itoa(idx+1)+".", s.Title)
+	title := fmt.Sprintf(" %2d. %s", idx+1, s.Title)
 	if s.Optional {
 		title += " (optional)"
 	}
 	title = truncate(title, max(w-lipgloss.Width(right)-1, 4))
 
+	titleFg, detailFg := colText, colMuted
+	if selected {
+		titleFg, detailFg = colGoldBright, colText
+	}
+
 	var lines []string
-	lines = append(lines, renderQuestLine(lineLR(title, right+" ", w), w, stepTitleFg(s, selected), selected, s.Current || selected))
+	lines = append(lines, renderQuestLine(lineLR(title, right+" ", w), w, titleFg, selected, selected))
 	for _, dl := range wrapText(s.Detail, w-6) {
-		lines = append(lines, renderQuestLine("     "+dl, w, stepDetailFg(selected), selected, false))
+		lines = append(lines, renderQuestLine("     "+dl, w, detailFg, selected, false))
 	}
 	if s.Warning != "" {
 		for _, wl := range wrapText("⚠ "+s.Warning, w-6) {
@@ -163,35 +167,6 @@ func (m Model) stepBlock(idx int, s tracker.QuestStepStatus, selected bool, w in
 		}
 	}
 	return lines
-}
-
-// stepGlyph maps a step's state to its bullet and base colour.
-func stepGlyph(s tracker.QuestStepStatus) (string, color.Color) {
-	switch {
-	case s.Done:
-		return "✓", colDone
-	case s.Current:
-		return "▶", colGoldBright
-	case s.Optional:
-		return "◌", colMuted
-	default:
-		return "○", colText
-	}
-}
-
-func stepTitleFg(s tracker.QuestStepStatus, selected bool) color.Color {
-	if selected {
-		return colGoldBright
-	}
-	_, c := stepGlyph(s)
-	return c
-}
-
-func stepDetailFg(selected bool) color.Color {
-	if selected {
-		return colText
-	}
-	return colMuted
 }
 
 // renderQuestLine pads text to width w, applying the foreground (and a selection

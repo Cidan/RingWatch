@@ -4,11 +4,12 @@ import (
 	"strings"
 
 	"github.com/Cidan/RingWatch/internal/locations"
+	"github.com/Cidan/RingWatch/internal/save"
 	"github.com/Cidan/RingWatch/internal/tracker"
 )
 
-// recomputeQuests rebuilds quest progress from the current character's NPC
-// quest-progression event flags (read like boss-defeat flags).
+// recomputeQuests rebuilds quest completion from the current character: an event-flag
+// reader (as the boss view uses) and an item-ownership reader (as the items view uses).
 func (m *Model) recomputeQuests() {
 	slot := m.slot
 	flagReader := func(id uint32) (bool, bool) {
@@ -17,7 +18,11 @@ func (m *Model) recomputeQuests() {
 		}
 		return m.saveFile.IsDefeated(slot, id)
 	}
-	m.questProg = tracker.ComputeQuests(flagReader)
+	var owned *save.OwnedItems
+	if m.saveFile != nil {
+		owned, _ = m.saveFile.OwnedItems(slot)
+	}
+	m.questProg = tracker.ComputeQuests(flagReader, ownerFor(owned))
 }
 
 // onSteps reports whether navigation currently targets the steps (right) pane. The
@@ -51,8 +56,9 @@ func (m Model) currentQuest() (tracker.QuestStatus, bool) {
 	return qs[clamp(m.questIdx, 0, len(qs)-1)], true
 }
 
-// visibleSteps returns the steps of the selected quest-giver (the right pane).
-func (m Model) visibleSteps() []tracker.QuestStepStatus {
+// visibleSteps returns the walkthrough steps of the selected quest-giver (the right
+// pane). Steps are guide text only — no per-step save state.
+func (m Model) visibleSteps() []tracker.QuestStep {
 	if q, ok := m.currentQuest(); ok {
 		return q.Steps
 	}

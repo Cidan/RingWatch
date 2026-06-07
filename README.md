@@ -3,8 +3,9 @@
 A fast, beautiful terminal UI that reads your **Elden Ring** save file and shows,
 at a glance, what you still have left to do — which **bosses** to fell, which
 **items** (weapons, armor, spells, talismans, ashes of war, spirit ashes) you have
-yet to collect, and where you stand in every **NPC questline** — across the base
-game and *Shadow of the Erdtree*. It watches your save and updates live as you play.
+yet to collect, and which **NPC questlines** you've finished (with a walkthrough for
+each) — across the base game and *Shadow of the Erdtree*. It watches your save and
+updates live as you play.
 
 Pure Go, Linux-first. Built with [Bubble Tea v2](https://charm.land) and
 [Lip Gloss v2](https://charm.land).
@@ -27,16 +28,16 @@ Pure Go, Linux-first. Built with [Bubble Tea v2](https://charm.land) and
   **category**, by **weapon type**, or by **primary stat**, with a per-kind filter.
   Item data is generated from the game's own `regulation.bin` (see below).
 - **Every NPC questline** — the **Quests** tab breaks each quest down by quest-giver
-  on the left and ordered steps on the right, each step with concrete *what to do /
-  where to go* instructions and missable-step warnings. Your position in each quest
-  is read **from the save**: steps are anchored to the game's own NPC
-  quest-progression event flags, rolled up so the first incomplete step is always
-  your accurate next objective. The flags are validated against real saves so a
-  quest only reads as far as you've actually gotten — no false completions. 43
-  questlines spanning the base game and *Shadow of the Erdtree* (Ranni, Millicent,
-  the Volcano Manor assassins, Fia, the Frenzied Flame, Leda's band, Count Ymir, and
-  more); base-game questlines track per step, the DLC questlines render as reference
-  guides for now (see *How it works*).
+  on the left and an ordered walkthrough on the right: each step with concrete *what
+  to do / where to go* instructions, missable-step warnings, and clickable wiki
+  links. Completion is read **from the save** — a quest is marked done only when a
+  high-confidence signal (its end-reward flag, or ownership of its unique end-reward
+  gear) is present, so a quest is never falsely reported complete. (Intermediate
+  "step N of M" position is deliberately *not* claimed — Elden Ring's mid-quest flags
+  are too noisy to read reliably; see *How it works*.) 43 questlines spanning the base
+  game and *Shadow of the Erdtree* (Ranni, Millicent, the Volcano Manor assassins,
+  Fia, the Frenzied Flame, Leda's band, Count Ymir, and more); quests without a
+  reliable completion signal render as reference guides (`◇`).
 - **Live updates** — watches the save file and shows a toast the moment a boss
   falls; no need to restart.
 - **Multiple characters** — pick any of your save slots.
@@ -99,23 +100,24 @@ box) from the same slot, resolving owned weapons/armor/talismans/spells/ashes vi
 the in-save GaItem table, and matches them against an embedded item dataset
 generated from the game's `regulation.bin` (see *Regenerating the item dataset*).
 
-For **quests**, each questline is an ordered list of steps in an embedded dataset,
-and each step is anchored to a single **NPC quest-progression event flag** (same id
-space as boss-defeat flags) that the game sets when you reach that beat. Completion
-**rolls up monotonically** — a step counts as done if its own flag *or* any later
-step's flag is set — so the first incomplete step is always an accurate "what to do
-next", even where an intermediate beat ("talk to X") has no dedicated flag.
+For **quests**, completion tracking is deliberately **coarse but correct**. Each
+questline carries a single high-confidence completion signal — a "received the end
+reward" event flag (same id space as boss-defeat flags) or ownership of its unique
+end-reward gear — and a quest reads as ✓ complete only when that signal is present.
 
-The hard part is that the game's flags are noisy: many are *transient* (set then
-cleared as you progress) or generic (shared/incidental). RingWatch picks reliable
-flags by **validating every candidate against a spread of real save files** — a flag
-is only trusted if it stays set on a character who has completed the quest and its
-set/unset pattern narrows monotonically with progress. This is why a quest only ever
-reads as far as you've actually gotten. Base-game flags come from empirical
-save-diffs ([oisis/EldenRing-SaveForge](https://github.com/oisis/EldenRing-SaveForge));
-the *Shadow of the Erdtree* questlines have no such dataset yet, so they're shown as
-reference guides (marked `◇`) — steps and links, but no save-derived progress —
-rather than faked as unstarted.
+Why not per-step "you are at step N"? Because Elden Ring doesn't expose that
+reliably. The save signals you *can* trust are boss kills, item receipts, and unique-
+item ownership; the intermediate "talk to NPC at X" beats are tracked (if at all) by
+flags that are generic, location-shared, or cleared as you progress. Earlier attempts
+to map those to per-step position were validated against a spread of real saves and
+*still* mislabeled position more often than not (a world-pickup or a common location
+flag would mark a quest partway done that you'd never touched). So RingWatch asserts
+only what it can stand behind — completion — and presents the steps as a walkthrough.
+Completion signals are likewise validated against real saves (set on a character who
+finished the quest, absent on one who didn't). Quests with no reliable completion
+signal — and, for now, all the *Shadow of the Erdtree* questlines (no save-diffed DLC
+flag data exists yet) — are shown as reference guides (`◇`): steps and links, no
+save-derived state.
 
 ## Layout
 
@@ -123,7 +125,7 @@ rather than faked as unstarted.
 cmd/ringwatch      entry point + flags
 cmd/gen-items      regulation.bin → items.generated.json dataset generator (dev tool)
 internal/save      BND4 parsing, profiles, event flags, inventory
-internal/tracker   boss + item + quest datasets (embedded) + progress / grouping / roll-up
+internal/tracker   boss + item + quest datasets (embedded) + progress / grouping / completion
 internal/config    Steam save-path auto-detection
 internal/watcher   fsnotify-based live watcher
 internal/locations Fextralife links + OSC 8 hyperlinks
@@ -161,10 +163,9 @@ dataset. Re-run it after a game patch to refresh the items.
   [Mjolniar build planner](https://github.com/Mjolniar/elden-ring-index-build-planner)
   dataset plus curated wiki research.
 - Quest step text is sourced from the [Elden Ring Fextralife wiki](https://eldenring.wiki.fextralife.com);
-  per-step quest-progression event flags come from the empirical save-diffs in
-  [oisis/EldenRing-SaveForge](https://github.com/oisis/EldenRing-SaveForge), cross-checked
-  against decompiled EMEVD/TALK scripts and the item-event data in
-  [thefifthmatt/SoulsRandomizers](https://github.com/thefifthmatt/SoulsRandomizers),
+  quest completion signals (end-reward flags / unique-reward items) are drawn from the
+  item-event data in [thefifthmatt/SoulsRandomizers](https://github.com/thefifthmatt/SoulsRandomizers)
+  and the empirical save-diffs in [oisis/EldenRing-SaveForge](https://github.com/oisis/EldenRing-SaveForge),
   then validated against real save files.
 - Boss, item, and quest links to the [Elden Ring Fextralife wiki](https://eldenring.wiki.fextralife.com).
 
@@ -172,11 +173,11 @@ dataset. Re-run it after a game patch to refresh the items.
 
 - Deeper location coverage for the long tail (generic armor pieces, spirit-ash variants).
 - Location overrides for any mismatched wiki links.
-- **DLC questline tracking.** The base-game questlines track per step from real
-  progression flags; the *Shadow of the Erdtree* questlines currently render as
-  reference guides (`◇`) because no save-diffed DLC flag dataset exists yet. Getting
-  there needs either our own DLC save-diff (from a DLC-completed character) or mining
-  the decompiled DLC TALK scripts — and the branchy Leda-band quests will need
-  per-branch handling.
+- **DLC questline completion + finer progress.** Base-game quests detect completion;
+  the *Shadow of the Erdtree* questlines currently render as reference guides (`◇`)
+  because no save-diffed DLC flag dataset exists yet (needs our own DLC save-diff or
+  mined DLC TALK scripts; the branchy Leda-band quests will need per-branch handling).
+  Reliable per-step (not just completion) progress is a longer-term goal pending
+  better flag data.
 
 Not affiliated with FromSoftware or Bandai Namco.

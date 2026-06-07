@@ -74,8 +74,8 @@ func (m Model) headerView() string {
 	case sectionItems:
 		right = subtleStyle.Render(fmt.Sprintf("%s · %s   ", m.groupBy.Label(), m.filterLabel())) + right
 	case sectionQuests:
-		c, t := m.questProg.QuestsComplete()
-		right = subtleStyle.Render(fmt.Sprintf("%d/%d quests   ", c, t)) + right
+		_, _, total := m.questProg.Counts()
+		right = subtleStyle.Render(fmt.Sprintf("%d quests · %d tracked   ", total, tot)) + right
 	}
 	line2 := lineLR("  "+who, right+"  ", w)
 

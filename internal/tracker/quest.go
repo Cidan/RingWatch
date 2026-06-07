@@ -7,44 +7,51 @@ import (
 	"sort"
 )
 
-// quests.generated.json is a hand-authored dataset of NPC questlines: each quest
-// is a quest-giver with an ordered list of steps. Step text (what to do / where to
-// go) is sourced from the Fextralife wiki; each step's completion is keyed to an
-// Elden Ring event flag in the same id space as boss-defeat flags — quest-item
-// receipts (from the item-randomizer's reverse-engineered EMEVD), boss defeats, and
-// known progression flags. Steps without a clean dedicated flag carry Flag == 0 and
-// resolve by roll-up (see questprogress.go). Schema is one flat array, mirroring
+// quests.generated.json is a hand-authored dataset of NPC questlines: each quest is
+// a quest-giver with an ordered list of walkthrough steps (text sourced from the
+// Fextralife wiki) plus an optional `complete` signal — a single high-confidence
+// save condition (a "received the end reward" event flag, or ownership of the unique
+// end-reward gear) that marks the quest complete. Schema is one flat array, mirroring
 // bosses.generated.json.
 //
 //go:embed data/quests.generated.json
 var questsJSON []byte
 
 // Quest is one NPC questline.
+//
+// Progress is intentionally COARSE: a quest is reported complete only via Complete,
+// a single high-confidence save signal (a "received the quest's end reward" event
+// flag, or ownership of its unique end-reward gear). We deliberately do NOT claim
+// per-step position — Elden Ring's intermediate "talk to X" beats are tracked (if at
+// all) by flags that are generic, location-shared, or cleared as you progress, which
+// no amount of validation against a handful of saves can reliably disambiguate.
+// Claiming "you're on step 4 of 22" was wrong far more often than right, so the steps
+// are presented as a walkthrough guide and only completion is asserted. Quests with
+// no reliable completion signal (Complete == nil) are pure guides.
 type Quest struct {
-	ID      string      `json:"id"`                // kebab-case slug, also the link key
-	Giver   string      `json:"giver"`             // display name, e.g. "Ranni the Witch"
-	Wiki    string      `json:"wiki,omitempty"`    // Fextralife page title; defaults to Giver
-	Region  string      `json:"region"`            // region the quest begins in (drives ordering)
-	DLC     bool        `json:"dlc"`               // Shadow of the Erdtree questline
-	Summary string      `json:"summary,omitempty"` // one-line what + payoff
-	Reward  string      `json:"reward,omitempty"`  // headline reward(s)
-	Steps   []QuestStep `json:"steps"`
+	ID           string       `json:"id"`                 // kebab-case slug, also the link key
+	Giver        string       `json:"giver"`              // display name, e.g. "Ranni the Witch"
+	Wiki         string       `json:"wiki,omitempty"`     // Fextralife page title; defaults to Giver
+	Region       string       `json:"region"`             // region the quest begins in (drives ordering)
+	DLC          bool         `json:"dlc"`                // Shadow of the Erdtree questline
+	Summary      string       `json:"summary,omitempty"`  // one-line what + payoff
+	Reward       string       `json:"reward,omitempty"`   // headline reward(s)
+	CompleteWhen *QuestSignal `json:"complete,omitempty"` // completion detector; nil = untracked guide
+	Steps        []QuestStep  `json:"steps"`
 }
 
-// QuestStep is one ordered beat of a questline.
-//
-// Completion is detected from the save by Flag: an NPC quest-progression event flag
-// that the game sets when the step is reached/completed, in the same id space as
-// boss-defeat flags. These are sourced from empirical save-diffs and validated so
-// that they are durable (stay set) and monotonic across known progress — see
-// questprogress.go. Flag == 0 means the step has no dedicated reliable signal and is
-// resolved by roll-up from a later anchored step.
-//
-// (Earlier versions also anchored on inventory ownership of a reward item and on
-// boss defeats; both were dropped because owning an item or killing a boss is not
-// gated by the quest — e.g. a world-pickup reward would falsely complete the quest.)
+// QuestSignal is a save-derived condition: an event flag set, or ownership of a
+// specific item. Used to detect quest completion.
+type QuestSignal struct {
+	Flag     uint32   `json:"flag,omitempty"`
+	Item     uint32   `json:"item,omitempty"`
+	ItemKind ItemKind `json:"item_kind,omitempty"`
+}
+
+// QuestStep is one ordered beat of a questline — walkthrough text (what to do /
+// where to go) shown as a guide. Steps carry no per-step save state by design (see
+// Quest); only quest-level completion is asserted.
 type QuestStep struct {
-	Flag     uint32 `json:"flag,omitempty"`
 	Title    string `json:"title"`
 	Detail   string `json:"detail,omitempty"`   // what to do / where to go
 	Location string `json:"location,omitempty"` // place name (annotation + link)

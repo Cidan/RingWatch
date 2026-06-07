@@ -68,15 +68,14 @@ func TestQuestProgressLiveSave(t *testing.T) {
 	}
 	slot := act[0].Slot
 	flagReader := func(id uint32) (bool, bool) { return s.IsDefeated(slot, id) }
+	owned, _ := s.OwnedItems(slot)
 
-	p := tracker.ComputeQuests(flagReader)
-	started := 0
+	p := tracker.ComputeQuests(flagReader, ownerFor(owned))
 	for _, q := range p.Quests {
-		if q.Started() {
-			started++
-			t.Logf("%-28s %d/%d%s", q.Giver, q.Done(), q.Total(), map[bool]string{true: "", false: "  (guide)"}[q.Trackable])
+		if q.Complete {
+			t.Logf("✓ %s", q.Giver)
 		}
 	}
-	done, total := p.Totals()
-	t.Logf("TOTAL %d/%d steps across %d quests (%d started)", done, total, len(p.Quests), started)
+	complete, trackable, total := p.Counts()
+	t.Logf("TOTAL %d/%d quests complete (%d tracked, %d total incl. guides)", complete, trackable, trackable, total)
 }
