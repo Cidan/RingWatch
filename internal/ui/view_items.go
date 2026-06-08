@@ -135,6 +135,15 @@ func (m Model) itemRowStyled(r itemRow, selected bool, w int) string {
 // itemAnnotation picks a useful right-hand descriptor that is NOT the current
 // grouping dimension (so it adds information rather than repeating the group).
 func (m Model) itemAnnotation(it tracker.Item) string {
+	if it.Kind == tracker.KindFlask {
+		// Flask upgrades share one name ("Golden Seed"/"Sacred Tear"); the locating
+		// info is what distinguishes rows. Show the region everywhere except the
+		// Location grouping, where the region is already the group heading.
+		if m.groupBy == tracker.GroupRegion {
+			return flaskLocator(it)
+		}
+		return it.Region
+	}
 	switch m.groupBy {
 	case tracker.GroupWeaponType, tracker.GroupKind:
 		if it.Region != "" {
@@ -165,6 +174,18 @@ func itemKindDetail(it tracker.Item) string {
 		return "Ash of War"
 	case tracker.KindSpirit:
 		return "Spirit Ash"
+	case tracker.KindFlask:
+		return "Flask Upgrade"
 	}
 	return ""
+}
+
+// flaskLocator condenses a flask upgrade's location prose for the right-hand
+// annotation, dropping the repetitive "Under a/the Golden Seed tree" lead-in so the
+// distinguishing part of the spot leads (rows otherwise share name + prefix).
+func flaskLocator(it tracker.Item) string {
+	if _, after, ok := strings.Cut(it.Location, "Seed tree "); ok {
+		return strings.TrimSpace(after)
+	}
+	return it.Location
 }

@@ -59,8 +59,9 @@ func TestItemOwnershipLiveSave(t *testing.T) {
 		}
 	}
 	owned, _ := s.OwnedItems(best)
+	flags, _ := s.EventFlags(best)
 
-	prog := tracker.ComputeItems(ownerFor(owned), "", tracker.GroupKind)
+	prog := tracker.ComputeItems(ownerFor(owned, flags), "", tracker.GroupKind)
 	for _, g := range prog.Groups {
 		t.Logf("%-14s %3d/%d owned", g.Name, g.Owned(), g.Total())
 	}
@@ -68,5 +69,12 @@ func TestItemOwnershipLiveSave(t *testing.T) {
 	t.Logf("TOTAL %d/%d owned", o, total)
 	if o == 0 {
 		t.Fatal("no items resolved as owned — matching is broken")
+	}
+	// Flask upgrades are tracked by pickup event flag, not inventory; a played save
+	// should resolve at least one Golden Seed / Sacred Tear through that path.
+	for _, g := range prog.Groups {
+		if g.Name == "Flask Upgrades" && g.Owned() == 0 {
+			t.Error("no flask upgrades resolved as collected — flag-based ownership is broken")
+		}
 	}
 }

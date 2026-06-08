@@ -27,6 +27,10 @@ Pure Go, Linux-first. Built with [Bubble Tea v2](https://charm.land) and
   inventory. The **Items** tab regroups on the fly: by **location**, by
   **category**, by **weapon type**, or by **primary stat**, with a per-kind filter.
   Item data is generated from the game's own `regulation.bin` (see below).
+- **Golden Seeds & Sacred Tears** — collected in a **Flask Upgrades** category.
+  They're consumed on use, so they can't be found in your inventory; instead each
+  individual pickup is tracked by the world event flag it sets (the same mechanism
+  as boss defeats), and rolls into the Location grouping by region like everything else.
 - **Every NPC questline** — the **Quests** tab breaks each quest down by quest-giver
   on the left and an ordered walkthrough on the right: each step with concrete *what
   to do / where to go* instructions, missable-step warnings, and clickable wiki

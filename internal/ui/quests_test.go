@@ -69,8 +69,9 @@ func TestQuestProgressLiveSave(t *testing.T) {
 	slot := act[0].Slot
 	flagReader := func(id uint32) (bool, bool) { return s.IsDefeated(slot, id) }
 	owned, _ := s.OwnedItems(slot)
+	flags, _ := s.EventFlags(slot)
 
-	p := tracker.ComputeQuests(flagReader, ownerFor(owned))
+	p := tracker.ComputeQuests(flagReader, ownerFor(owned, flags))
 	for _, q := range p.Quests {
 		if q.Complete {
 			t.Logf("✓ %s", q.Giver)

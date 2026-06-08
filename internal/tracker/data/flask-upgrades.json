@@ -1,0 +1,434 @@
+[
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Stormveil Castle",
+    "location": "Under a Golden Seed tree on the way to Godrick the Grafted",
+    "flag": 10007730,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Leyndell, Royal Capital",
+    "location": "Under the Golden Seed tree down the hall from West Capital Rampart, up the giant dragon's wing",
+    "flag": 11007990,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Ainsel River",
+    "location": "Under a Golden Seed tree on a cliffside overlooking the elevator down to Nokstella Waterfall Basin",
+    "flag": 12017100,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Siofra River",
+    "location": "Under a Golden Seed tree across a narrow stone bridge, shortly before the elevator up to Caelid at the end of Siofra River",
+    "flag": 12027040,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Mohgwyn Dynasty Mausoleum",
+    "location": "Under a Golden Seed tree in the lake of blood, visible from the first Site of Grace",
+    "flag": 12057010,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Crumbling Farum Azula",
+    "location": "Under a Golden Seed tree guarded by four eagles. From Dragon Temple Rooftop, descend to the platform with the low-health AOE-spamming dragon, and double back along the left edge until you see a thatched red rooftop. Jump the gap to it and jump up again to find the tree.",
+    "flag": 13007980,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Crumbling Farum Azula",
+    "location": "After using a Stonesword Key and ascending Dragon Temple Lift, past a plaza fountain",
+    "flag": 13007990,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Academy of Raya Lucaria",
+    "location": "Under a Golden Seed tree in the courtyard after Debate Parlor, along a cliffside in the back right",
+    "flag": 14007990,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Limgrave",
+    "location": "Dropped by the Ulcerated Tree Spirit in Fringefolk Hero’s Grave",
+    "flag": 18000800,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Dragonbarrow",
+    "location": "Dropped by the Putrid Tree Spirit in War-Dead Catacombs",
+    "flag": 30160800,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Mountaintops of the Giants",
+    "location": "Dropped by the Ulcerated Tree Spirit in Giants’ Mountaintop Catacombs",
+    "flag": 30180800,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Liurnia of the Lakes",
+    "location": "Under a Golden Seed tree on a bridge to north of the Main Academy Gate",
+    "flag": 1035467100,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Liurnia of the Lakes",
+    "location": "Under a Golden Seed tree after Manor Upper Level in Caria Manor",
+    "flag": 1035507300,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Liurnia of the Lakes",
+    "location": "Under a Golden Seed tree to the west of the bottom of the heavily guarded stairway up to South Raya Lucaria Gate",
+    "flag": 1036447300,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Mt. Gelmir",
+    "location": "Under a Golden Seed tree before the Road of Iniquity Site of Grace",
+    "flag": 1036547400,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Liurnia of the Lakes",
+    "location": "Under a Golden Seed tree near the Ravine-Veiled Village before Ruin-Strewn Precipice",
+    "flag": 1037507100,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Mt. Gelmir",
+    "location": "Under a Golden Tree found following Seethwater River north",
+    "flag": 1037537400,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Altus Plateau",
+    "location": "Under a Golden Seed tree next to the Erdtree-Gazing Hill Site of Grace",
+    "flag": 1038517400,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Altus Plateau",
+    "location": "Under a Golden Seed tree, found north of the Altus Highway Junction Site of Grace",
+    "flag": 1039517400,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Limgrave",
+    "location": "Under a Golden Seed tree along the road from Gatefront to Stormhill Shack",
+    "flag": 1041387100,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Altus Plateau",
+    "location": "Under a Golden Seed tree, found north of the Altus Plateau Minor Erdtree",
+    "flag": 1041547400,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Capital Outskirts",
+    "location": "Under the Golden Seed tree at Outer Wall Phantom Tree",
+    "flag": 1042517400,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Capital Outskirts",
+    "location": "Under the Golden Seed tree at Outer Wall Phantom Tree",
+    "flag": 1042517410,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Altus Plateau",
+    "location": "Under a Golden Seed tree down the southeast road from Windmill Village",
+    "flag": 1042547400,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Capital Outskirts",
+    "location": "Under a Golden Seed tree found up the stairs from Outer Wall Phantom Tree",
+    "flag": 1043527400,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Capital Outskirts",
+    "location": "Under a Golden Seed tree found up the stairs from Outer Wall Phantom Tree",
+    "flag": 1043527410,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Weeping Peninsula",
+    "location": "Under the Golden Seed tree straight north of Castle Morne, leaning right when approaching from Castle Morne Rampart",
+    "flag": 1044327020,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Limgrave",
+    "location": "Under a Golden Seed tree in front of Fort Haight",
+    "flag": 1046367100,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Consecrated Snowfield",
+    "location": "Under a Golden Seed tree in Ordina, Liturgical Town",
+    "flag": 1048577800,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Caelid",
+    "location": "Under a Golden Seed tree on the road from Southern Aeonia Swamp Bank to Impassable Greatbridge",
+    "flag": 1049377020,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Forbidden Lands",
+    "location": "Under a Golden Seed tree in Forbidden Lands before the stairs to the Grand Lift of Rold",
+    "flag": 1049527800,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Consecrated Snowfield",
+    "location": "Under a Golden Seed tree in the foggy area northeast of the Consecrated Snowfield Site of Grace",
+    "flag": 1049557800,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Caelid",
+    "location": "Under a Golden Seed tree up the stairs at the north end of Sellia",
+    "flag": 1050397100,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Dragonbarrow",
+    "location": "Under a Golden Seed tree on the road from Farum Greatbridge from Bestial Sanctum",
+    "flag": 1051437020,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Mountaintops of the Giants",
+    "location": "North of Foot of the Forge Site of Grace",
+    "flag": 1052537800,
+    "dlc": false
+  },
+  {
+    "id": 10010,
+    "name": "Golden Seed",
+    "kind": "flask",
+    "region": "Mountaintops of the Giants",
+    "location": "Under a Golden Seed tree overlooking a chasm along the right wall of the ascent from Ancient Snow Value Ruins, straight south from the Freezing Lake Site of Grace",
+    "flag": 1052577800,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Liurnia of the Lakes",
+    "location": "At the interesting statue in Bellum Church",
+    "flag": 1036497000,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Liurnia of the Lakes",
+    "location": "At the statue in Church of Inhibition",
+    "flag": 1037497100,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Liurnia of the Lakes",
+    "location": "At the statue in Church of Irith, south of Lake-Facing Cliffs Site of Grace",
+    "flag": 1039397000,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Altus Plateau",
+    "location": "At the statue in the Second Church of Marika (blood dog haunts)",
+    "flag": 1039527400,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Altus Plateau",
+    "location": "At the interesting statue in Stormcaller Church, south of Sainted Hero's Grave",
+    "flag": 1040517400,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Weeping Peninsula",
+    "location": "At the statue in the Fourth Church of Marika, near the peninsula's west coast",
+    "flag": 1041337200,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Weeping Peninsula",
+    "location": "At the interesting statue in the Church of Pilgrimage on the Weeping Peninsula north coast",
+    "flag": 1043357100,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Weeping Peninsula",
+    "location": "At the statue in Callu Baptismal Church, south of Ailing Village",
+    "flag": 1044337100,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Limgrave",
+    "location": "At the statue in the Third Church of Marika, northeast of the Mistwood",
+    "flag": 1046387100,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Caelid",
+    "location": "At the statue in Church of the Plague",
+    "flag": 1050387020,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Mountaintops of the Giants",
+    "location": "At the statue in Church of Repose, in southwest Flame Peak",
+    "flag": 1051537800,
+    "dlc": false
+  },
+  {
+    "id": 10020,
+    "name": "Sacred Tear",
+    "kind": "flask",
+    "region": "Mountaintops of the Giants",
+    "location": "At a statue in the First Church of Marika at the southmost end of Freezing Lake",
+    "flag": 1054557800,
+    "dlc": false
+  }
+]

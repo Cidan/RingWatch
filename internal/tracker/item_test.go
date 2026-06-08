@@ -107,6 +107,67 @@ func TestComputeItemsByPrimaryStat(t *testing.T) {
 	}
 }
 
+func TestComputeItemsFlask(t *testing.T) {
+	items := []Item{
+		{ID: 1010000, Name: "Longsword", Kind: KindWeapon, WeaponType: "Straight Sword", Region: "Limgrave"},
+		{ID: 10010, Name: "Golden Seed", Kind: KindFlask, Region: "Limgrave", Flag: 18000800},
+		{ID: 10020, Name: "Sacred Tear", Kind: KindFlask, Region: "Liurnia of the Lakes", Flag: 1036497000},
+	}
+
+	// Category: both seed and tear collapse into one "Flask Upgrades" group, last.
+	byKind := computeItemsFrom(items, nil, "", GroupKind)
+	names := groupNames(byKind)
+	if names[len(names)-1] != "Flask Upgrades" {
+		t.Errorf("expected Flask Upgrades last in Category, got %v", names)
+	}
+	if i := indexOf(names, "Flask Upgrades"); i < 0 || byKind.Groups[i].Total() != 2 {
+		t.Errorf("Flask Upgrades group should hold 2 items, groups=%v", names)
+	}
+
+	// Location: each flask item sorts into its own region (no Flask bucket), so
+	// Limgrave holds the Longsword + the Golden Seed.
+	byRegion := computeItemsFrom(items, nil, "", GroupRegion)
+	for _, g := range byRegion.Groups {
+		if g.Name == "Limgrave" && g.Total() != 2 {
+			t.Errorf("Limgrave total = %d, want 2 (Longsword + Golden Seed)", g.Total())
+		}
+		if g.Name == "Flask Upgrades" {
+			t.Error("Location grouping must not produce a Flask Upgrades bucket")
+		}
+	}
+
+	// The category filter isolates flask upgrades.
+	only := computeItemsFrom(items, nil, KindFlask, GroupRegion)
+	if _, total := only.Totals(); total != 2 {
+		t.Errorf("flask-filtered total = %d, want 2", total)
+	}
+}
+
+// TestFlaskDatasetIntegrity guards the embedded flask-upgrades.json: every flask
+// item must carry a non-zero pickup flag and a region (it is tracked by flag, not
+// inventory, so a missing flag would silently never resolve as owned).
+func TestFlaskDatasetIntegrity(t *testing.T) {
+	n := 0
+	for _, it := range allItems {
+		if it.Kind != KindFlask {
+			continue
+		}
+		n++
+		if it.Flag == 0 {
+			t.Errorf("flask item %q (%s) has no pickup flag", it.Name, it.Region)
+		}
+		if it.Region == "" {
+			t.Errorf("flask item %q (flag %d) has no region", it.Name, it.Flag)
+		}
+		if it.Name != "Golden Seed" && it.Name != "Sacred Tear" {
+			t.Errorf("unexpected flask item name %q", it.Name)
+		}
+	}
+	if n < 45 {
+		t.Errorf("expected the full flask dataset (>=45 seeds+tears), got %d", n)
+	}
+}
+
 func TestComputeItemsFilter(t *testing.T) {
 	p := computeItemsFrom(sampleItems(), nil, KindWeapon, GroupKind)
 	if _, total := p.Totals(); total != 3 {

@@ -19,10 +19,12 @@ func (m *Model) recomputeQuests() {
 		return m.saveFile.IsDefeated(slot, id)
 	}
 	var owned *save.OwnedItems
+	var flags []byte
 	if m.saveFile != nil {
 		owned, _ = m.saveFile.OwnedItems(slot)
+		flags, _ = m.saveFile.EventFlags(slot)
 	}
-	m.questProg = tracker.ComputeQuests(flagReader, ownerFor(owned))
+	m.questProg = tracker.ComputeQuests(flagReader, ownerFor(owned, flags))
 }
 
 // onSteps reports whether navigation currently targets the steps (right) pane. The

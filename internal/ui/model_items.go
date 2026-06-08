@@ -8,12 +8,20 @@ import (
 	"github.com/Cidan/RingWatch/internal/tracker"
 )
 
-// ownerFor builds a tracker.Owner from a character's parsed owned-item sets,
-// mapping each item kind to the inventory category that backs it. Shields live in
-// the weapon set; sorceries/incantations/spirit ashes are all goods; ashes of war
-// are gems.
-func ownerFor(owned *save.OwnedItems) tracker.Owner {
+// ownerFor builds a tracker.Owner from a character's parsed owned-item sets and
+// event-flags blob, mapping each item kind to the inventory category that backs it.
+// Shields live in the weapon set; sorceries/incantations/spirit ashes are all goods;
+// ashes of war are gems. Flask upgrades (Golden Seeds / Sacred Tears) are consumed on
+// use, so they are tracked by their per-pickup event flag rather than inventory.
+func ownerFor(owned *save.OwnedItems, flags []byte) tracker.Owner {
 	return func(it tracker.Item) bool {
+		if it.Kind == tracker.KindFlask {
+			if it.Flag == 0 || flags == nil {
+				return false
+			}
+			set, _ := save.FlagSet(flags, it.Flag)
+			return set
+		}
 		if owned == nil {
 			return false
 		}
@@ -46,10 +54,12 @@ func ownerFor(owned *save.OwnedItems) tracker.Owner {
 // without re-reading the save (called when only the grouping/filter changes).
 func (m *Model) recomputeItems() {
 	var owned *save.OwnedItems
+	var flags []byte
 	if m.saveFile != nil {
 		owned, _ = m.saveFile.OwnedItems(m.slot)
+		flags, _ = m.saveFile.EventFlags(m.slot)
 	}
-	m.itemProg = tracker.ComputeItems(ownerFor(owned), m.kindFilter, m.groupBy)
+	m.itemProg = tracker.ComputeItems(ownerFor(owned, flags), m.kindFilter, m.groupBy)
 }
 
 // kindFilterOrder is the cycle of category filters in the items view ("" = All).
